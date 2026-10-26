@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vintage Blue — Poster heroes</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet" />
+    <style>
+      :root { --c: #2c4f8c; --sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif; --script: "Mrs Saint Delafield", cursive; }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; height: 100%; background: #e9e3d8; }
+      body { font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+      main { height: 100vh; overflow-y: auto; scroll-snap-type: y mandatory; }
+      a { color: inherit; text-decoration: none; cursor: pointer; }
+
+      .p { position: relative; height: 100vh; overflow: hidden; scroll-snap-align: start; color: var(--c); }
+
+      /* The big word: same weight and tracking as the reference poster */
+      .word { position: absolute; z-index: 1; margin: 0; font-weight: 700; line-height: 0.74; letter-spacing: -0.035em; white-space: nowrap; color: var(--c); }
+
+      /* Small poster type */
+      .top { position: absolute; z-index: 3; left: 3.2%; right: 3.2%; top: 5%; display: flex; justify-content: space-between; align-items: flex-start; font-size: max(9px, 0.62cqw); font-weight: 700; line-height: 1.05; letter-spacing: -0.01em; text-transform: uppercase; }
+      .top span { width: 9em; }
+      .top span:nth-child(3) { text-align: left; }
+      .top i { font-style: normal; font-weight: 500; }
+      .label { position: absolute; z-index: 3; margin: 0; line-height: 0.8; }
+      .label em { display: block; margin-left: 0.1em; font-family: var(--script); font-style: normal; font-weight: 400; font-size: 2.15em; line-height: 0.6; transform: rotate(-4deg); transform-origin: left; }
+      .label b { display: block; font-weight: 700; letter-spacing: -0.03em; }
+      .mini { position: absolute; z-index: 3; font-size: max(9px, 0.62cqw); font-weight: 700; letter-spacing: -0.01em; }
+      .shop { position: absolute; z-index: 3; display: grid; gap: 0.35em; font-size: max(9px, 0.62cqw); font-weight: 700; line-height: 1; text-transform: uppercase; }
+      .shop .sq { width: 0.8em; height: 0.8em; background: currentColor; }
+      .shop .bar { width: 7em; height: 1.1em; background: repeating-linear-gradient(90deg, currentColor 0 1px, transparent 1px 3px, currentColor 3px 5px, transparent 5px 6px, currentColor 6px 7px, transparent 7px 10px); }
+      .shop:hover .bar { opacity: 0.6; }
+
+      /* ---------- Your studio photo: a frame locked to the photo's proportions ---------- */
+      .frame { position: absolute; left: 50%; top: 50%; width: max(100vw, calc(100vh * 1671 / 941)); aspect-ratio: 1671 / 941; transform: translate(-50%, -50%); container-type: inline-size; }
+      .frame > img { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+      .fg { z-index: 2; pointer-events: none; }
+      .studio { background: #e7e0d4; }
+      /* keep the small type inside the visible screen even when the frame is wider */
+      .studio .safe { position: absolute; inset: 0; z-index: 3; container-type: inline-size; pointer-events: none; }
+      .studio .safe > * { pointer-events: auto; }
+
+      /* 1 · DENIM */
+      .s1 .word { left: 50%; transform: translateX(-50.5%); top: 18.2%; font-size: 21cqw; }
+      .s1 .label { left: 19.5%; top: 52%; font-size: 1.85cqw; color: #f1e7d8; }
+      .s1 .mini { left: 61%; top: 74%; color: #f1e7d8; }
+
+      /* 2 · VINTAGE BLUE */
+      .s2 .word { left: 50%; transform: translateX(-50%); top: 21.2%; font-size: 12.2cqw; }
+      .s2 .label { left: 19.5%; top: 52%; font-size: 1.85cqw; color: #f1e7d8; }
+
+      /* ---------- Your other photos, set side by side ---------- */
+      .panels { position: absolute; inset: 0; display: flex; }
+      .panels img { flex: 1 1 0; min-width: 0; height: 100%; object-fit: cover; display: block; }
+      .panels.fgs { z-index: 2; pointer-events: none; }
+      .multi { container-type: inline-size; }
+
+      /* 3 · Two looks · DENIM */
+      .s3 { --c: #b9d3ee; }
+      .s3 .word { left: 50%; transform: translateX(-50.5%); top: 9vh; font-size: 22vw; }
+      .s3 .label { left: 4%; top: 64%; font-size: 2.1cqw; color: #f1e7d8; }
+      .s3 .label.r { left: auto; right: 4%; top: 76%; text-align: right; }
+      .s3 .label.r em { margin-left: 0; transform-origin: right; }
+
+      /* 4 · Three looks · VINTAGE BLUE */
+      .s4 { --c: #f1e7d8; }
+      .s4 .word { z-index: 3; left: 50%; transform: translateX(-50%); bottom: 9vh; font-size: 14.2vw; }
+      .s4 .caps { position: absolute; z-index: 3; left: 0; right: 0; bottom: 5%; display: flex; font-size: max(9px, 0.62cqw); font-weight: 700; text-transform: uppercase; }
+      .s4 .caps span { flex: 1; padding-left: 2.2%; }
+
+      /* 5 · One look, full height, the poster at its own size */
+      .s5 { background: #ece6db; container-type: inline-size; }
+      .s5 .sheet { position: absolute; top: 0; bottom: 0; left: 50%; transform: translateX(-50%); aspect-ratio: 736 / 920; }
+      .s5 .sheet img { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+      .s5 .word { left: 50%; transform: translateX(-50.5%); top: 25vh; font-size: 19vw; }
+      .s5 .side { position: absolute; z-index: 3; bottom: 7%; width: 15vw; font-size: max(10px, 0.7cqw); font-weight: 700; line-height: 1.25; text-transform: uppercase; }
+      .s5 .side.l { left: 4%; }
+      .s5 .side.r { right: 4%; text-align: right; }
+      .s5 .side p { margin: 0 0 1.4em; }
+      .s5 .side i { font-style: normal; font-weight: 500; opacity: 0.7; }
+
+      /* corner tag + colour swatches (options only) */
+      #count { position: fixed; z-index: 10; left: 50%; transform: translateX(-50%); bottom: 12px; display: flex; align-items: center; gap: 10px; padding: 7px 10px; border-radius: 99px; background: rgba(20, 20, 20, 0.55); color: #fff; font: 600 10px/1 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; backdrop-filter: blur(8px); }
+      #count button { width: 14px; height: 14px; padding: 0; border: 1.5px solid rgba(255, 255, 255, 0.85); border-radius: 50%; cursor: pointer; }
+
+      @media (max-width: 760px) {
+        .frame { width: calc(100vh * 1671 / 941); }
+        .panels img:nth-child(n + 2) { display: none; }
+        .s3 .word, .s5 .word { font-size: 58vw; }
+        .s4 .word { font-size: 27vw; }
+        .s5 .side { display: none; }
+        .s4 .caps span:nth-child(n + 2), .s3 .label.r { display: none; }
+        .top { font-size: 8px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main id="deck">
+      <!-- 1 · DENIM on your photo -->
+      <section class="p studio s1" data-name="Denim">
+        <div class="frame">
+          <img src="/assets/ref/studio.jpg" alt="Model in a denim jacket and jeans leaning on the open door of a brown vintage car" />
+          <p class="word" aria-hidden="true">DENIM</p>
+          <img class="fg" src="/assets/ref/studio-fg.png" alt="" aria-hidden="true" />
+          <p class="label"><em>washed</em><b>TRUCKER</b></p>
+          <span class="mini">&gt; 26</span>
+        </div>
+        <div class="safe">
+          <div class="top"><span>Denim that<br />takes its time</span><i>/</i><span>Winter<br />2026</span><i>/</i><span>Cut &amp; sewn<br />in Delhi</span></div>
+          <a class="shop" style="right: 3.4%; bottom: 6%"><span class="sq"></span>Shop<br />now<span class="bar"></span></a>
+        </div>
+      </section>
+
+      <!-- 2 · VINTAGE BLUE on your photo -->
+      <section class="p studio s2" data-name="Vintage Blue">
+        <div class="frame">
+          <img src="/assets/ref/studio.jpg" alt="Model in a denim jacket and jeans leaning on the open door of a brown vintage car" />
+          <p class="word" aria-hidden="true">VINTAGE BLUE</p>
+          <img class="fg" src="/assets/ref/studio-fg.png" alt="" aria-hidden="true" />
+          <p class="label"><em>double</em><b>DENIM</b></p>
+        </div>
+        <div class="safe">
+          <div class="top"><span>Est.<br />2006</span><i>/</i><span>The Winter<br />Edit</span><i>/</i><span>Gets better<br />with wear</span></div>
+          <span class="mini" style="left: 3.4%; bottom: 6%">VB — 26</span>
+          <a class="shop" style="right: 3.4%; bottom: 6%"><span class="sq"></span>Shop the<br />look<span class="bar"></span></a>
+        </div>
+      </section>
+
+      <!-- 3 · Two looks -->
+      <section class="p multi s3" data-name="Two looks">
+        <div class="panels"><img src="/assets/ref/leather.jpg" alt="Model in a leather jacket and washed cargo jeans on a vintage car" style="object-position: 50% 20%" /><img src="/assets/ref/garage.jpg" alt="Model in a double-denim look leaning on a black car" style="object-position: 50% 0%" /></div>
+        <p class="word" aria-hidden="true">DENIM</p>
+        <div class="panels fgs"><img src="/assets/ref/leather-fg.png" alt="" style="object-position: 50% 20%" /><img src="/assets/ref/garage-fg.png" alt="" style="object-position: 50% 0%" /></div>
+        <div class="top"><span>Two ways<br />to wear it</span><i>/</i><span>Winter<br />2026</span><i>/</i><span>Cut &amp; sewn<br />in Delhi</span></div>
+        <p class="label"><em>washed</em><b>CARGO</b></p>
+        <p class="label r"><em>double</em><b>DENIM</b></p>
+        <a class="shop" style="left: 50%; transform: translateX(-50%); bottom: 6%; justify-items: center; text-align: center; color: #f1e7d8"><span class="sq"></span>Shop both<br />looks<span class="bar"></span></a>
+      </section>
+
+      <!-- 4 · Three looks -->
+      <section class="p multi s4" data-name="Three looks">
+        <div class="panels"><img src="/assets/ref/leather.jpg" alt="Leather jacket and cargo jeans" style="object-position: 55% 18%" /><img src="/assets/ref/field.jpg" alt="Black tee and light baggy jeans in a field" style="object-position: 38% 0%" /><img src="/assets/ref/garage.jpg" alt="Double denim by a black car" style="object-position: 50% 0%" /></div>
+        <p class="word" aria-hidden="true">VINTAGE BLUE</p>
+        <div class="panels fgs"><img src="/assets/ref/leather-fg.png" alt="" style="object-position: 55% 18%" /><img src="/assets/ref/field-fg.png" alt="" style="object-position: 38% 0%" /><img src="/assets/ref/garage-fg.png" alt="" style="object-position: 50% 0%" /></div>
+        <div class="top"><span>Three fits,<br />one indigo</span><i>/</i><span>Winter<br />2026</span><i>/</i><span>Shop<br />the looks</span></div>
+        <div class="caps"><span>01 — Washed cargo</span><span>02 — Light baggy</span><span>03 — Double denim</span></div>
+      </section>
+
+      <!-- 5 · One look, poster size -->
+      <section class="p s5" data-name="The poster">
+        <div class="sheet"><img src="/assets/ref/garage.jpg" alt="Model in a double-denim look leaning on a black car" /></div>
+        <p class="word" aria-hidden="true">DENIM</p>
+        <div class="sheet" style="z-index: 2; pointer-events: none"><img src="/assets/ref/garage-fg.png" alt="" /></div>
+        <div class="top"><span>Denim that<br />takes its time</span><i>/</i><span>Winter<br />2026</span><i>/</i><span>Cut &amp; sewn<br />in Delhi</span></div>
+        <div class="side l"><p>The trucker<br /><i>Light wash · ₹3,299</i></p><p>The straight jean<br /><i>Light wash · ₹2,199</i></p></div>
+        <div class="side r"><p>Look 03<br /><i>Double denim</i></p><a class="shop" style="position: static; justify-items: end"><span class="sq"></span>Shop<br />now<span class="bar"></span></a></div>
+      </section>
+    </main>
+
+    <div id="count"><span id="num">1 / 5</span><span id="sw"></span></div>
+
+    <script>
+      const deck = document.getElementById("deck");
+      const slides = [...document.querySelectorAll(".p")];
+      const num = document.getElementById("num");
+      const sw = document.getElementById("sw");
+      const colours = ["#2c4f8c", "#1c2b4a", "#8fb4dc", "#4a2e1f", "#141414"];
+      sw.style.cssText = "display:flex;gap:6px";
+      colours.forEach((c) => {
+        const b = document.createElement("button");
+        b.style.background = c;
+        b.title = "Try this colour for the big word";
+        b.onclick = () => cur().style.setProperty("--c", c);
+        sw.appendChild(b);
+      });
+      const cur = () => slides[Math.round(deck.scrollTop / innerHeight)] || slides[0];
+      const update = () => { const i = slides.indexOf(cur()); num.textContent = `${i + 1} / ${slides.length} · ${slides[i].dataset.name}`; };
+      deck.addEventListener("scroll", update, { passive: true });
+      update();
+      addEventListener("keydown", (e) => {
+        const i = slides.indexOf(cur());
+        if (e.key === "ArrowDown" || e.key === "ArrowRight") slides[Math.min(i + 1, slides.length - 1)].scrollIntoView({ behavior: "smooth" });
+        if (e.key === "ArrowUp" || e.key === "ArrowLeft") slides[Math.max(i - 1, 0)].scrollIntoView({ behavior: "smooth" });
+      });
+    </script>
+  </body>
+</html>

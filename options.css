@@ -1,0 +1,120 @@
+/* ---------- Deck shell ---------- */
+.deck-body { overflow: hidden; height: 100vh; }
+.deck-bar { position: fixed; inset: 0 0 auto 0; z-index: 10; height: 56px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding: 0 24px; background: #f3f1ec; border-bottom: 1px solid rgba(20, 20, 20, 0.1); }
+.deck-mark { font-family: var(--serif); font-size: 18px; }
+.deck-mark em { font-style: normal; font-family: var(--sans); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-soft); }
+.deck-label { font-size: 11px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; }
+.deck-nav { justify-self: end; display: flex; align-items: center; gap: 14px; font-size: 12px; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+.deck-nav button { width: 38px; height: 38px; border: 1px solid rgba(20, 20, 20, 0.15); border-radius: 50%; font-size: 15px; transition: background 0.2s, color 0.2s; }
+.deck-nav button:hover { background: #141414; color: #f3f1ec; }
+.deck { position: fixed; inset: 56px 0 0 0; }
+.slide { position: absolute; inset: 0; overflow: hidden; opacity: 0; visibility: hidden; transition: opacity 0.45s var(--ease), visibility 0.45s; }
+.slide.active { opacity: 1; visibility: visible; }
+.slide a { cursor: pointer; }
+
+/* ---------- Shared: tight grotesk system ---------- */
+.x { --t: "Inter Tight", "Helvetica Neue", Arial, sans-serif; --red: #e2231a; --blue: #1d3f8f; --off: #f3f1ec; --ink: #141414; background: var(--off); color: var(--ink); font-family: var(--t); }
+.x h1 { margin: 0; font-family: var(--t); font-weight: 900; letter-spacing: -0.055em; line-height: 0.84; text-transform: uppercase; }
+.x-full { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.x-kick { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+.x-btn { display: inline-flex; align-items: center; gap: 10px; padding: 15px 26px; background: var(--ink); color: var(--off); font-size: 12px; font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; }
+.x-btn-light { background: var(--off); color: var(--ink); }
+.x-line { display: inline-flex; padding-bottom: 3px; border-bottom: 2px solid currentColor; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.02em; }
+
+/* A · Campaign poster (car) */
+.xa .x-full { object-position: 50% 16%; }
+.xa-top { position: absolute; z-index: 2; left: 4vw; right: 4vw; top: 4.5%; display: flex; justify-content: space-between; font-size: 11px; font-weight: 800; letter-spacing: -0.01em; text-transform: uppercase; color: var(--red); }
+.xa-top i { font-style: normal; }
+.xa-word { position: absolute; z-index: 1; left: 2vw; top: auto; bottom: 1vh; margin: 0; font-family: var(--t); font-weight: 900; font-size: 22vw; line-height: 0.8; letter-spacing: -0.075em; color: var(--red); mix-blend-mode: multiply; }
+.xa-script { position: absolute; z-index: 2; left: 5vw; bottom: 36%; margin: 0; font-family: "Mrs Saint Delafield", cursive; font-size: clamp(44px, 5vw, 80px); color: var(--red); transform: rotate(-6deg); }
+.xa-order { position: absolute; z-index: 2; right: 5vw; top: 12%; bottom: auto; display: grid; gap: 4px; font-size: 12px; font-weight: 800; line-height: 1; text-transform: uppercase; color: var(--red); }
+.xa-sq { width: 10px; height: 10px; background: var(--red); }
+.xa-bar { width: 72px; height: 10px; background: repeating-linear-gradient(90deg, var(--red) 0 2px, transparent 2px 4px, var(--red) 4px 5px, transparent 5px 8px); }
+.xa-no { position: absolute; z-index: 2; right: 5vw; left: auto; top: 22%; bottom: auto; font-size: 12px; font-weight: 800; color: var(--red); }
+
+/* B · Stacked split */
+.xb { display: grid; grid-template-columns: 1fr 1fr; }
+.xb-copy { align-self: end; padding: 0 4vw 7vh; }
+.xb h1 { font-size: clamp(90px, 13vw, 230px); margin: 14px 0 28px; }
+.xb h1 span { color: var(--blue); }
+.xb-copy p { margin: 0 0 30px; max-width: 360px; font-size: 15px; line-height: 1.5; font-weight: 500; color: rgba(20, 20, 20, 0.7); }
+.xb-row { display: flex; align-items: center; gap: 26px; }
+.xb-img { position: relative; overflow: hidden; }
+.xb-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 40%; }
+.xb-tags { position: absolute; right: 2vw; top: 3vh; display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; z-index: 1; }
+.xb-tags li { padding: 7px 12px; background: var(--off); font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: -0.01em; text-align: right; }
+
+/* C · Worn in */
+.xc { color: var(--off); }
+.xc::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent 50%); }
+.xc-title { position: absolute; z-index: 1; left: 3vw; bottom: 4vh; font-size: clamp(120px, 21vw, 360px) !important; }
+.xc-side { position: absolute; z-index: 1; right: 4vw; bottom: 6vh; max-width: 300px; text-align: right; }
+.xc-side p { margin: 0 0 20px; font-size: 15px; font-weight: 500; line-height: 1.45; }
+.xc-cap { position: absolute; z-index: 1; left: 4vw; top: 4vh; font-size: 11px; font-weight: 800; text-transform: uppercase; }
+
+/* D · Three ways */
+.xd { background: var(--ink); color: var(--off); }
+.xd-cols { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 3px; }
+.xd figure { position: relative; margin: 0; overflow: hidden; }
+.xd figure img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 45%; }
+.xd figcaption { position: absolute; left: 16px; top: 14px; font-size: 12px; font-weight: 800; text-transform: uppercase; color: var(--off); text-shadow: 0 1px 12px rgba(0, 0, 0, 0.4); }
+.xd::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(0, 0, 0, 0.55), transparent 45%); pointer-events: none; }
+.xd-title { position: absolute; z-index: 1; left: 2vw; right: 2vw; bottom: 13vh; text-align: center; font-size: 8.6vw !important; }
+.xd-btn { position: absolute; z-index: 1; left: 50%; bottom: 5vh; transform: translateX(-50%); }
+
+/* E · Colour block */
+.xe { background: var(--off); }
+.xe-block { position: absolute; left: 0; top: 0; bottom: 0; width: 58%; background: var(--blue); }
+.xe-img { position: absolute; right: 8%; top: 6%; bottom: 6%; width: 38%; object-fit: cover; object-position: 50% 40%; box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25); }
+.xe-title { position: absolute; left: 4vw; top: 50%; transform: translateY(-50%); color: var(--off); font-size: clamp(100px, 14vw, 250px) !important; }
+.xe-foot { position: absolute; left: 4vw; right: 50%; bottom: 5vh; display: flex; justify-content: space-between; align-items: center; color: var(--off); font-size: 12px; font-weight: 800; text-transform: uppercase; }
+
+/* F · Cinematic wide */
+.xf .x-full { filter: saturate(0.85) contrast(1.05); }
+.xf-band { position: absolute; left: 0; right: 0; bottom: 0; display: flex; justify-content: space-between; align-items: end; gap: 40px; padding: 5vh 4vw; background: linear-gradient(to top, rgba(10, 12, 18, 0.85), transparent); color: var(--off); }
+.xf h1 { font-size: clamp(64px, 8vw, 140px); }
+.xf-band p { margin: 0 0 18px; max-width: 280px; font-size: 14px; font-weight: 500; line-height: 1.45; }
+
+/* G · The big number */
+.xg { background: #ebe7df; }
+.xg-num { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -54%); margin: 0; font-family: var(--t); font-weight: 900; font-size: 64vw; line-height: 0.75; letter-spacing: -0.09em; color: var(--blue); }
+.xg-img { position: absolute; left: 50%; top: 7%; bottom: 7%; width: 30%; transform: translateX(-50%); object-fit: cover; object-position: 50% 55%; box-shadow: 0 40px 70px rgba(0, 0, 0, 0.3); }
+.xg-l { position: absolute; left: 4vw; bottom: 7vh; }
+.xg-l h1 { font-size: clamp(54px, 6vw, 100px); margin-top: 10px; }
+.xg-r { position: absolute; right: 4vw; bottom: 7vh; max-width: 260px; text-align: right; }
+.xg-r p { margin: 0 0 18px; font-size: 14px; font-weight: 500; line-height: 1.45; }
+
+/* H · Minimal studio */
+.xh { display: grid; grid-template-columns: 1.2fr 1fr; background: #e9ecef; }
+.xh-img { position: relative; overflow: hidden; }
+.xh-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 35%; }
+.xh-copy { align-self: center; padding: 0 5vw; }
+.xh h1 { font-weight: 800; text-transform: none; letter-spacing: -0.05em; font-size: clamp(64px, 7vw, 120px); line-height: 0.92; margin-bottom: 24px; }
+.xh h1 em { font-style: italic; font-weight: 800; color: var(--blue); }
+.xh-copy p { margin: 0 0 32px; max-width: 340px; font-size: 15px; line-height: 1.5; color: rgba(20, 20, 20, 0.65); }
+.xh-mark { position: absolute; right: 4vw; top: 4vh; font-weight: 900; font-size: 22px; letter-spacing: -0.06em; }
+
+@media (max-width: 860px) {
+  .deck-bar { grid-template-columns: 1fr auto; padding: 0 14px; }
+  .deck-label { display: none; }
+  .xb, .xh { grid-template-columns: 1fr; grid-template-rows: 1fr auto; }
+  .xb-img, .xh-img { grid-row: 1; }
+  .xd-title { font-size: 11vw !important; }
+  .xe-block { width: 100%; height: 52%; bottom: auto; }
+  .xe-img { left: 8%; right: 8%; width: auto; top: 30%; }
+  .xf-band { flex-direction: column; align-items: start; }
+}
+
+/* A · Vintage Blue poster on your own photo: word sits between backdrop and cut-out */
+.xv { background: #ece3d5; display: grid; place-items: center; }
+.xv-frame { position: relative; width: min(100%, calc((100vh - 56px) * 1672 / 941)); aspect-ratio: 1672 / 941; container-type: inline-size; }
+.xv-bg, .xv-fg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.xv-fg { z-index: 2; pointer-events: none; }
+.xv-word { position: absolute; z-index: 1; left: 0; right: 0; top: 13%; margin: 0; text-align: center; font-family: var(--t); font-weight: 900; font-size: 13.8cqw; line-height: 0.8; letter-spacing: -0.07em; color: var(--blue); white-space: nowrap; }
+.xv-top { position: absolute; z-index: 3; left: 4%; right: 4%; top: 4%; display: flex; justify-content: space-between; font-size: max(10px, 0.78cqw); font-weight: 800; text-transform: uppercase; letter-spacing: -0.01em; color: var(--blue); }
+.xv-top i { font-style: normal; opacity: 0.6; }
+.xv-script { position: absolute; z-index: 3; left: 5%; bottom: 30%; margin: 0; font-family: "Mrs Saint Delafield", cursive; font-size: 4.2cqw; line-height: 1; color: var(--blue); transform: rotate(-6deg); }
+.xv-shop { position: absolute; z-index: 3; right: 4.5%; bottom: 7%; display: grid; gap: 5px; font-size: max(11px, 0.85cqw); font-weight: 800; line-height: 1; text-transform: uppercase; color: var(--blue); }
+.xv-sq { width: 0.7cqw; height: 0.7cqw; min-width: 9px; min-height: 9px; background: var(--blue); }
+.xv-bar { width: 5cqw; height: 0.7cqw; min-height: 9px; background: repeating-linear-gradient(90deg, var(--blue) 0 2px, transparent 2px 4px, var(--blue) 4px 5px, transparent 5px 8px); }
+.xv-no { position: absolute; z-index: 3; left: 4.5%; bottom: 7%; font-size: max(11px, 0.85cqw); font-weight: 800; color: var(--blue); }

@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vintage Blue — Hero options</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <style>
+      :root { --sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; height: 100%; background: #ebe5da; }
+      body { font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+      main { height: 100vh; overflow-y: auto; scroll-snap-type: y mandatory; }
+      a { color: inherit; text-decoration: none; cursor: pointer; }
+
+      .p { position: relative; height: 100vh; overflow: hidden; scroll-snap-align: start; background: var(--page, #ebe5da); color: var(--ink, var(--c)); container-type: inline-size; }
+
+      /* Poster / split: the photo as a tall sheet on a plain page */
+      .sheet { position: absolute; top: 0; bottom: 0; left: var(--sx, 50%); transform: translateX(-50%); aspect-ratio: var(--ar, 4 / 5); }
+      .sheet.right { left: auto; right: 0; transform: none; }
+      .sheet.left { left: 0; transform: none; }
+      .sheet img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: var(--ox, 50%) 50%; display: block; }
+      .sheet.fg { z-index: 2; pointer-events: none; }
+
+      /* Full bleed: photo covers the screen, text locked to the photo */
+      .frame { position: absolute; left: 50%; top: 50%; width: max(100vw, calc(100vh * var(--r))); aspect-ratio: var(--r); transform: translate(-50%, -50%); container-type: inline-size; }
+      .frame > img { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+      .frame .fg { z-index: 2; pointer-events: none; }
+      .safe { position: absolute; inset: 0; z-index: 3; container-type: inline-size; }
+
+      .word { position: absolute; z-index: 1; margin: 0; font-weight: 700; line-height: 0.74; letter-spacing: -0.035em; white-space: nowrap; color: var(--c); }
+      .word.mid { left: 50%; transform: translateX(-50.5%); }
+      .word.stack { line-height: 0.8; }
+
+      .t { position: absolute; z-index: 3; margin: 0; font-size: max(9px, 0.66cqw); font-weight: 700; line-height: 1.25; text-transform: uppercase; }
+      .t i { font-style: normal; font-weight: 500; opacity: 0.72; }
+      .t p { margin: 0 0 1.4em; }
+      .row { left: 3.2%; right: 3.2%; top: 5.5%; display: flex; justify-content: space-between; }
+      .row span { width: 12em; }
+      .row span:nth-child(2) { text-align: center; }
+      .row span:nth-child(3) { text-align: right; }
+      .shop { display: grid; gap: 0.35em; line-height: 1; }
+      .shop.r { justify-items: end; text-align: right; }
+      .shop .sq { width: 0.8em; height: 0.8em; background: currentColor; }
+      .shop .bar { width: 7em; height: 1.1em; background: repeating-linear-gradient(90deg, currentColor 0 1px, transparent 1px 3px, currentColor 3px 5px, transparent 5px 6px, currentColor 6px 7px, transparent 7px 10px); }
+      .rule { position: absolute; z-index: 3; height: 1px; background: currentColor; opacity: 0.4; }
+      .group { position: absolute; z-index: 9; left: 3.2%; top: 50%; transform: translateY(-50%); }
+
+      #count { position: fixed; z-index: 10; left: 50%; transform: translateX(-50%); bottom: 12px; display: flex; align-items: center; gap: 10px; padding: 7px 10px; border-radius: 99px; background: rgba(20, 20, 20, 0.55); color: #fff; font: 600 10px/1 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; backdrop-filter: blur(8px); }
+      #count button { width: 14px; height: 14px; padding: 0; border: 1.5px solid rgba(255, 255, 255, 0.85); border-radius: 50%; cursor: pointer; }
+
+      @media (max-width: 760px) {
+        .sheet { left: 0; right: 0; transform: none; aspect-ratio: auto; }
+        .t { font-size: 8px; }
+        .row span { width: auto; }
+      }
+    </style>
+  </head>
+  <body>
+    <main id="deck">
+      <!-- ============ A · REWIND poster on near-black ============ -->
+      <section class="p" data-name="A1 · Rewind · black" style="--page:#121212; --c:#b9d3ee; --ink:#f1e7d8; --ar:4/5; --ox:64%">
+        <div class="sheet"><img src="/assets/ref/brick.jpg" alt="Model in a dark denim jacket and washed cargo jeans sitting on the hood of a black vintage car" /></div>
+        <p class="word mid" aria-hidden="true" style="top: 23vh; font-size: 17vw">REWIND</p>
+        <div class="sheet fg"><img src="/assets/ref/brick-person.png" alt="" /></div>
+        <div class="t row"><span>The '70s trucker,<br />cut for now</span><span>Winter<br />2026</span><span>Vintage<br />Blue</span></div>
+        <div class="t" style="left: 4%; bottom: 7%"><p>Rinse trucker<br /><i>₹3,499</i></p><p>Washed cargo jean<br /><i>₹2,499</i></p></div>
+        <div class="t" style="right: 4%; bottom: 7%; text-align: right"><p>Look 03<br /><i>Street issue</i></p><a class="shop r"><span class="sq"></span>Shop<br />now<span class="bar"></span></a></div>
+      </section>
+
+      <section class="p" data-name="A2 · Poster · small text only" style="--page:#121212; --c:#f1e7d8; --ar:4/5; --ox:64%">
+        <div class="sheet"><img src="/assets/ref/brick.jpg" alt="Model in a dark denim jacket and washed cargo jeans sitting on the hood of a black vintage car" /></div>
+        <div class="t row"><span>The '70s trucker,<br />cut for now</span><span>Winter<br />2026</span><span>Vintage<br />Blue</span></div>
+        <div class="t" style="left: 4%; top: 46%"><p>Look 03<br /><i>Street issue</i></p></div>
+        <div class="t" style="right: 4%; top: 46%; text-align: right"><p>Est. 2006<br /><i>Cut &amp; sewn in Delhi</i></p></div>
+        <div class="t" style="left: 4%; bottom: 7%"><p>Rinse trucker<br /><i>₹3,499</i></p><p>Washed cargo jean<br /><i>₹2,499</i></p></div>
+        <div class="t" style="right: 4%; bottom: 7%; text-align: right"><a class="shop r"><span class="sq"></span>Shop<br />now<span class="bar"></span></a></div>
+      </section>
+
+      <!-- ============ B · Full brick: other words ============ -->
+      <section class="p" data-name="B1 · Off duty" style="--c:#f1e7d8; --ink:#f1e7d8">
+        <div class="frame" style="--r: 1672/941">
+          <img src="/assets/ref/brick.jpg" alt="Model in a dark denim jacket and washed cargo jeans sitting on the hood of a black vintage car" />
+          <p class="word" aria-hidden="true" style="right: 46%; top: 13%; font-size: 11cqw">OFF</p>
+          <p class="word" aria-hidden="true" style="left: 65.5%; top: 13%; font-size: 11cqw">DUTY</p>
+          <img class="fg" src="/assets/ref/brick-person.png" alt="" />
+        </div>
+        <div class="safe">
+          <div class="t row"><span>Denim for the<br />days off</span><span>Winter<br />2026</span><span>Vintage<br />Blue</span></div>
+          <div class="t" style="left: 3.2%; bottom: 6%">Rinse trucker <i>· ₹3,499</i><br />Washed cargo jean <i>· ₹2,499</i></div>
+          <a class="t shop r" style="right: 3.2%; bottom: 6%"><span class="sq"></span>Shop<br />now<span class="bar"></span></a>
+        </div>
+      </section>
+
+      <section class="p" data-name="B2 · After hours" style="--c:#f1e7d8; --ink:#f1e7d8">
+        <div class="frame" style="--r: 1672/941">
+          <img src="/assets/ref/brick.jpg" alt="Model in a dark denim jacket and washed cargo jeans sitting on the hood of a black vintage car" />
+          <p class="word" aria-hidden="true" style="right: 46%; top: 14%; font-size: 9.6cqw">AFTER</p>
+          <p class="word" aria-hidden="true" style="left: 65.5%; top: 14%; font-size: 9.6cqw">HOURS</p>
+          <img class="fg" src="/assets/ref/brick-person.png" alt="" />
+        </div>
+        <div class="safe">
+          <div class="t row"><span>Dark rinse,<br />late light</span><span>Winter<br />2026</span><span>Vintage<br />Blue</span></div>
+          <div class="t" style="left: 3.2%; bottom: 6%">Rinse trucker <i>· ₹3,499</i><br />Washed cargo jean <i>· ₹2,499</i></div>
+          <a class="t shop r" style="right: 3.2%; bottom: 6%"><span class="sq"></span>Shop<br />now<span class="bar"></span></a>
+        </div>
+      </section>
+
+      <section class="p" data-name="B3 · Joyride" style="--c:#b9d3ee; --ink:#f1e7d8">
+        <div class="frame" style="--r: 1672/941">
+          <img src="/assets/ref/brick.jpg" alt="Model in a dark denim jacket and washed cargo jeans sitting on the hood of a black vintage car" />
+          <p class="word mid" aria-hidden="true" style="top: 15%; font-size: 15cqw">JOYRIDE</p>
+          <img class="fg" src="/assets/ref/brick-person.png" alt="" />
+        </div>
+        <div class="safe">
+          <div class="t row"><span>The '70s trucker,<br />cut for now</span><span>Winter<br />2026</span><span>Vintage<br />Blue</span></div>
+          <div class="t" style="left: 3.2%; bottom: 6%">Rinse trucker <i>· ₹3,499</i><br />Washed cargo jean <i>· ₹2,499</i></div>
+          <a class="t shop r" style="right: 3.2%; bottom: 6%"><span class="sq"></span>Shop<br />now<span class="bar"></span></a>
+        </div>
+      </section>
+
+      <section class="p" data-name="B4 · Back lot" style="--c:#f1e7d8; --ink:#f1e7d8">
+        <div class="frame" style="--r: 1672/941">
+          <img src="/assets/ref/brick.jpg" alt="Model in a dark denim jacket and washed cargo jeans sitting on the hood of a black vintage car" />
+          <p class="word" aria-hidden="true" style="right: 46%; top: 13%; font-size: 11cqw">BACK</p>
+          <p class="word" aria-hidden="true" style="left: 65.5%; top: 13%; font-size: 11cqw">LOT</p>
+          <img class="fg" src="/assets/ref/brick-person.png" alt="" />
+        </div>
+        <div class="safe">
+          <div class="t row"><span>Shot behind<br />the mill</span><span>Winter<br />2026</span><span>Vintage<br />Blue</span></div>
+          <div class="t" style="left: 3.2%; bottom: 6%">Rinse trucker <i>· ₹3,499</i><br />Washed cargo jean <i>· ₹2,499</i></div>
+          <a class="t shop r" style="right: 3.2%; bottom: 6%"><span class="sq"></span>Shop<br />now<span class="bar"></span></a>
+        </div>
+      </section>
+
+      <section class="p" data-name="B5 · Street issue" style="--c:#f1e7d8; --ink:#f1e7d8">
+        <div class="frame" style="--r: 1672/941">
+          <img src="/assets/ref/brick.jpg" alt="Model in a dark denim jacket and washed cargo jeans sitting on the hood of a black vintage car" />
+          <p class="word stack" aria-hidden="true" style="left: 8.4%; top: 11%; font-size: 8.6cqw">STREET<br />ISSUE.</p>
+          <img class="fg" src="/assets/ref/brick-person.png" alt="" />
+        </div>
+        <div class="safe">
+          <div class="t" style="left: 3.2%; top: 5.5%">Vintage Blue <i>/ Winter 2026</i></div>
+          <div class="t" style="right: 3.2%; top: 5.5%; text-align: right">Look 03<br /><i>Rinse + washed cargo</i></div>
+          <div class="t" style="left: 3.2%; bottom: 6%">Rinse trucker <i>· ₹3,499</i><br />Washed cargo jean <i>· ₹2,499</i></div>
+          <a class="t shop r" style="right: 3.2%; bottom: 6%"><span class="sq"></span>Shop<br />now<span class="bar"></span></a>
+        </div>
+      </section>
+
+      <section class="p" data-name="B6 · Full · small text only" style="--ink:#f1e7d8">
+        <div class="frame" style="--r: 1672/941"><img src="/assets/ref/brick.jpg" alt="Model in a dark denim jacket and washed cargo jeans sitting on the hood of a black vintage car" /></div>
+        <div class="safe">
+          <div class="t row"><span>Denim that<br />takes its time</span><span>Winter<br />2026</span><span>Vintage<br />Blue</span></div>
+          <div class="t" style="left: 3.2%; top: 44%">Look 03<br /><i>Street issue</i></div>
+          <div class="t" style="left: 3.2%; bottom: 6%">Rinse trucker <i>· ₹3,499</i><br />Washed cargo jean <i>· ₹2,499</i></div>
+          <a class="t shop r" style="right: 3.2%; bottom: 6%"><span class="sq"></span>Shop the<br />look<span class="bar"></span></a>
+        </div>
+      </section>
+
+      <!-- ============ C · Split, garage photo ============ -->
+      <section class="p" data-name="C1 · Born blue · photo left" style="--c:#2c4f8c; --ar:1149/1369">
+        <div class="sheet left"><img src="/assets/ref/garage2.jpg" alt="Model in a light-wash denim jacket and jeans leaning on a black vintage car in a garage" /></div>
+        <div class="t" style="right: 4%; top: 5.5%; text-align: right">Vintage Blue <i>/ Winter 2026</i></div>
+        <p class="word stack" aria-hidden="true" style="right: 4%; top: 30vh; text-align: right; font-size: 11vw">BORN<br />BLUE.</p>
+        <div class="t" style="right: 4.4%; top: 66vh; text-align: right; max-width: 24em">Head-to-toe light wash. Rope-dyed indigo, washed by hand, cut and sewn in Delhi since 2006.</div>
+        <a class="t shop r" style="right: 4.4%; bottom: 7%"><span class="sq"></span>Shop<br />double denim<span class="bar"></span></a>
+      </section>
+
+      <section class="p" data-name="C2 · Double denim · into the photo" style="--c:#2c4f8c; --ar:1149/1369">
+        <div class="sheet right"><img src="/assets/ref/garage2.jpg" alt="Model in a light-wash denim jacket and jeans leaning on a black vintage car in a garage" /></div>
+        <p class="word stack" aria-hidden="true" style="left: 4%; top: 30vh; font-size: 13.4vw">DOUBLE<br />DENIM</p>
+        <div class="sheet right fg"><img src="/assets/ref/garage2-person.png" alt="" /></div>
+        <div class="t" style="left: 4%; top: 5.5%">Vintage Blue <i>/ Winter 2026</i></div>
+        <div class="t" style="left: 4.4%; top: 12%; max-width: 22em">Light-wash trucker <i>· ₹3,299</i><br />Straight jean <i>· ₹2,199</i></div>
+        <a class="t shop" style="left: 4.4%; bottom: 7%"><span class="sq"></span>Shop<br />the look<span class="bar"></span></a>
+      </section>
+
+      <section class="p" data-name="C3 · Light wash · along the bottom" style="--c:#2c4f8c; --ar:1149/1369">
+        <div class="sheet right"><img src="/assets/ref/garage2.jpg" alt="Model in a light-wash denim jacket and jeans leaning on a black vintage car in a garage" /></div>
+        <p class="word" aria-hidden="true" style="left: 3.6%; bottom: 7vh; font-size: 12.6vw">LIGHT WASH</p>
+        <div class="sheet right fg"><img src="/assets/ref/garage2-person.png" alt="" /></div>
+        <div class="t" style="left: 4%; top: 5.5%">Vintage Blue <i>/ Winter 2026</i></div>
+        <span class="rule" style="left: 4%; width: 36%; top: 14%"></span>
+        <div class="t" style="left: 4%; top: 16%">The trucker <i>· ₹3,299</i></div>
+        <div class="t" style="left: 22%; top: 16%">The straight jean <i>· ₹2,199</i></div>
+        <div class="t" style="left: 4%; top: 28%; max-width: 24em">Rope-dyed indigo, washed by hand until it looks like it's had ten good years.</div>
+        <a class="t shop" style="left: 4%; top: 42%"><span class="sq"></span>Shop<br />now<span class="bar"></span></a>
+      </section>
+
+      <section class="p" data-name="C4 · All blue · sideways" style="--c:#2c4f8c; --ar:1149/1369">
+        <div class="sheet right"><img src="/assets/ref/garage2.jpg" alt="Model in a light-wash denim jacket and jeans leaning on a black vintage car in a garage" /></div>
+        <p class="word" aria-hidden="true" style="left: 3vw; bottom: 4vh; transform-origin: left bottom; transform: rotate(-90deg) translateY(100%); font-size: 19vh; line-height: 0.78">ALL BLUE</p>
+        <div class="t" style="left: 22%; top: 5.5%">Vintage Blue <i>/ Winter 2026</i></div>
+        <div class="t" style="left: 22%; top: 40%; max-width: 20em"><p>Look 01<br /><i>Head-to-toe light wash</i></p><p>The trucker <i>· ₹3,299</i><br />The straight jean <i>· ₹2,199</i></p></div>
+        <a class="t shop" style="left: 22%; bottom: 7%"><span class="sq"></span>Shop<br />now<span class="bar"></span></a>
+      </section>
+
+      <section class="p" data-name="C5 · Head to toe · dark" style="--page:#121212; --c:#b9d3ee; --ink:#f1e7d8; --ar:1149/1369">
+        <div class="sheet right"><img src="/assets/ref/garage2.jpg" alt="Model in a light-wash denim jacket and jeans leaning on a black vintage car in a garage" /></div>
+        <p class="word stack" aria-hidden="true" style="left: 4%; top: 22vh; font-size: 11vw">HEAD<br />TO TOE.</p>
+        <div class="sheet right fg"><img src="/assets/ref/garage2-person.png" alt="" /></div>
+        <div class="t" style="left: 4%; top: 5.5%">Vintage Blue <i>/ Winter 2026</i></div>
+        <div class="t" style="left: 4.4%; top: 64vh; max-width: 24em">One wash, top to bottom. Light-wash trucker and straight jean, cut and sewn in Delhi.</div>
+        <a class="t shop" style="left: 4.4%; bottom: 7%"><span class="sq"></span>Shop<br />double denim<span class="bar"></span></a>
+      </section>
+
+      <section class="p" data-name="C6 · Split · small text only" style="--c:#2c4f8c; --ar:1149/1369">
+        <div class="sheet right"><img src="/assets/ref/garage2.jpg" alt="Model in a light-wash denim jacket and jeans leaning on a black vintage car in a garage" /></div>
+        <div class="t" style="left: 4%; top: 5.5%">Vintage Blue <i>/ Winter 2026</i></div>
+        <div class="t" style="left: 4%; top: 40%; max-width: 22em"><p>Look 01<br /><i>Double denim</i></p><p>Light-wash trucker <i>· ₹3,299</i><br />Straight jean <i>· ₹2,199</i></p><p><i>Rope-dyed indigo, washed by hand,<br />cut and sewn in Delhi since 2006.</i></p></div>
+        <a class="t shop" style="left: 4%; bottom: 7%"><span class="sq"></span>Shop<br />the look<span class="bar"></span></a>
+      </section>
+    </main>
+
+    <div id="count"><span id="num"></span><span id="sw"></span></div>
+
+    <script>
+      const deck = document.getElementById("deck");
+      const slides = [...document.querySelectorAll(".p")];
+      const num = document.getElementById("num");
+      const sw = document.getElementById("sw");
+      sw.style.cssText = "display:flex;gap:6px";
+      ["#2c4f8c", "#1c2b4a", "#b9d3ee", "#f1e7d8", "#3b2418", "#151515"].forEach((c) => {
+        const b = document.createElement("button");
+        b.style.background = c;
+        b.title = "Try this colour for the big word";
+        b.onclick = () => cur().style.setProperty("--c", c);
+        sw.appendChild(b);
+      });
+      const cur = () => slides[Math.round(deck.scrollTop / innerHeight)] || slides[0];
+      const update = () => { const i = slides.indexOf(cur()); num.textContent = `${i + 1} / ${slides.length} · ${slides[i].dataset.name}`; };
+      deck.addEventListener("scroll", update, { passive: true });
+      update();
+      addEventListener("keydown", (e) => {
+        const i = slides.indexOf(cur());
+        if (e.key === "ArrowDown" || e.key === "ArrowRight") slides[Math.min(i + 1, slides.length - 1)].scrollIntoView({ behavior: "smooth" });
+        if (e.key === "ArrowUp" || e.key === "ArrowLeft") slides[Math.max(i - 1, 0)].scrollIntoView({ behavior: "smooth" });
+      });
+    </script>
+  </body>
+</html>

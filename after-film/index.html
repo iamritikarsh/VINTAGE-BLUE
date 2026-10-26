@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vintage Blue — Imagery after the film</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --page: #fcfaf6; --ink: #141414; --soft: rgba(20, 20, 20, 0.56); --rule: rgba(20, 20, 20, 0.2); --gut: clamp(16px, 2.6vw, 40px); }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; height: 100%; }
+      body { background: var(--page); color: var(--ink); font-family: "Inter", "Helvetica Neue", Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+      a { color: inherit; text-decoration: none; }
+      main { height: 100vh; overflow-y: auto; scroll-snap-type: y mandatory; }
+      .s { position: relative; height: 100vh; scroll-snap-align: start; overflow: hidden; padding: 64px var(--gut) 40px; }
+      .s.bleed { padding: 0; }
+      .tag { position: absolute; top: 16px; left: var(--gut); z-index: 9; padding: 5px 10px; background: #ffd84a; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+      #count { position: fixed; z-index: 10; right: 16px; bottom: 14px; padding: 7px 11px; background: rgba(20, 20, 20, 0.7); color: #fff; font-size: 11px; font-weight: 600; letter-spacing: 0.06em; }
+      .ph { position: relative; overflow: hidden; background: #eeece8; }
+      .ph img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 1.4s cubic-bezier(0.22, 0.61, 0.36, 1); }
+      a:hover .ph img, a.ph:hover img { transform: scale(1.025); }
+      .k { margin: 0; font-size: 12px; font-weight: 500; letter-spacing: 0.02em; text-transform: uppercase; }
+      .soft { color: var(--soft); }
+      .h { margin: 0; font-size: clamp(26px, 2.8vw, 46px); font-weight: 600; line-height: 0.98; letter-spacing: -0.035em; text-transform: uppercase; }
+      .p { margin: 0; max-width: 34ch; font-size: 14px; line-height: 1.6; color: var(--soft); }
+      .cap { display: flex; justify-content: space-between; gap: 12px; margin-top: 12px; }
+      .lnk { font-size: 12px; text-transform: uppercase; text-decoration: underline; text-underline-offset: 4px; }
+
+      /* 01 triptych */
+      .tri { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; height: calc(100vh - 150px); }
+      .tri .ph { height: 100%; }
+
+      /* 02 asymmetric pair */
+      .asym { display: grid; grid-template-columns: 1.25fr 0.6fr 0.85fr; gap: 3vw; height: calc(100vh - 110px); align-items: end; }
+      .asym .a { height: 100%; }
+      .asym .b { height: 62%; }
+      .asym .mid { align-self: center; display: grid; gap: 18px; }
+
+      /* 03 full bleed, small text in the corners */
+      .full .ph { position: absolute; inset: 0; }
+      .full .c { position: absolute; z-index: 2; color: #141414; }
+
+      /* 04 image | text | image */
+      .sand { display: grid; grid-template-columns: 1fr 0.7fr 1fr; height: calc(100vh - 104px); }
+      .sand .ph { height: 100%; }
+      .sand .mid { display: flex; flex-direction: column; justify-content: space-between; padding: 0 2.4vw; text-align: center; align-items: center; }
+
+      /* 05 four categories */
+      .four { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+      .four .ph { aspect-ratio: 2 / 3; }
+
+      /* 06 mosaic */
+      .mos { display: grid; grid-template-columns: 1.3fr 1fr; grid-template-rows: 1fr 1fr; gap: 6px; height: calc(100vh - 104px); }
+      .mos a { position: relative; }
+      .mos a:first-child { grid-row: 1 / 3; }
+      .mos .ph { position: absolute; inset: 0; }
+      .mos .lab { position: absolute; left: 14px; bottom: 12px; z-index: 2; padding: 6px 10px; background: var(--page); }
+
+      /* 07 strip */
+      .strip { display: flex; gap: 6px; overflow-x: auto; height: calc(100vh - 170px); scrollbar-width: none; margin: 0 calc(-1 * var(--gut)); padding: 0 var(--gut); }
+      .strip a { flex: 0 0 auto; height: 100%; display: flex; flex-direction: column; }
+      .strip .ph { flex: 1; aspect-ratio: 2 / 3; }
+
+      /* 08 magazine page */
+      .mag { display: grid; grid-template-columns: 1fr 1.1fr; gap: 6vw; height: calc(100vh - 104px); align-items: stretch; }
+      .mag .txt { display: flex; flex-direction: column; justify-content: space-between; padding: 4vh 0; }
+      .mag .ph { height: 100%; }
+
+      /* 09 staggered heights */
+      .stag { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2vw; height: calc(100vh - 104px); align-items: end; }
+      .stag a:nth-child(1) .ph { height: 58vh; }
+      .stag a:nth-child(2) .ph { height: 78vh; }
+      .stag a:nth-child(3) .ph { height: 46vh; }
+
+      /* 10 detail + full */
+      .det { display: grid; grid-template-columns: 1.5fr 1fr; gap: 6px; height: calc(100vh - 104px); }
+      .det .ph { height: 100%; }
+      .det .r { display: grid; grid-template-rows: 1fr auto; gap: 18px; }
+
+      @media (max-width: 900px) {
+        .s { height: auto; min-height: 100vh; }
+        .tri, .asym, .sand, .mos, .mag, .stag, .det { grid-template-columns: 1fr; height: auto; }
+        .tri .ph, .asym .a, .asym .b, .sand .ph, .mag .ph, .det .ph { height: 70vh; }
+        .four { grid-template-columns: 1fr 1fr; }
+        .mos { grid-template-rows: none; }
+        .mos a { aspect-ratio: 3 / 4; }
+        .mos a:first-child { grid-row: auto; }
+        .stag a .ph { height: 60vh !important; }
+      }
+    </style>
+  </head>
+  <body>
+    <main id="deck"></main>
+    <div id="count"></div>
+    <script>
+      const E = (n) => `/assets/editorial/${n}.jpg`;
+      const ph = (n, pos = "50% 50%", style = "") => `<div class="ph" style="${style}"><img src="${E(n)}" alt="" style="object-position:${pos}" loading="lazy" /></div>`;
+      const slides = [
+        ["Triptych — denim, jackets, pants", "", `
+          <div class="tri">${[["raw-stairs", "50% 40%"], ["suede-jacket", "50% 30%"], ["polo-pants", "50% 40%"]].map(([n, p]) => `<a href="#">${ph(n, p)}</a>`).join("")}</div>
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px">${[["Denim", "Rinse, raw and washed"], ["Jackets", "Truckers and overshirts"], ["Pants", "Pleated and relaxed"]].map(([a, b]) => `<div class="cap"><p class="k">${a}</p><p class="k soft">${b}</p></div>`).join("")}</div>`],
+        ["Big and small, a line of text between", "", `
+          <div class="asym"><a href="#">${ph("linen-stripe", "50% 25%", "height:100%")}</a>
+            <div class="mid"><p class="k soft">Shirts</p><h3 class="h">Light layers,<br />long days</h3><p class="p">Stripes, linen and a knit over the shoulders.</p><a class="lnk" href="#">Shop shirts</a></div>
+            <a href="#" style="height:62%">${ph("stripe-chair", "50% 40%", "height:100%")}</a></div>`],
+        ["Full screen, small text in the empty wall", "bleed", `
+          <div class="full" style="height:100%">${ph("raw-stairs", "50% 50%")}
+            <p class="c k" style="left:var(--gut);top:9%">Raw denim<br /><span class="soft">Winter 2026</span></p>
+            <p class="c k" style="left:var(--gut);top:46%">Unwashed.</p>
+            <p class="c k" style="left:var(--gut);top:51%;color:var(--soft)">Yours to break in.</p>
+            <a class="c lnk" style="left:var(--gut);bottom:7%" href="#">Shop raw denim</a>
+            <p class="c k" style="right:var(--gut);top:9%;text-align:right">Rinse trucker<br />Raw straight jean</p></div>`],
+        ["Picture, text column, picture", "", `
+          <div class="sand"><a href="#">${ph("brown-overshirt", "50% 30%")}</a>
+            <div class="mid"><p class="k soft">The overshirt</p><div><h3 class="h">Brown<br />is the<br />new navy</h3><p class="p" style="margin:18px auto 0">Heavy twill and suede, worn over cream.</p></div><a class="lnk" href="#">Shop overshirts</a></div>
+            <a href="#">${ph("cardigan-navy", "50% 35%")}</a></div>`],
+        ["Four categories, one row", "", `
+          <div style="display:flex;justify-content:space-between;margin-bottom:18px"><p class="k">Shop the edit</p><a class="lnk" href="#">See all</a></div>
+          <div class="four">${[["raw-stairs", "Denim"], ["suede-jacket", "Jackets"], ["polo-pants", "Pants"], ["linen-stripe", "Shirts"]].map(([n, l]) => `<a href="#">${ph(n, "50% 30%")}<div class="cap"><p class="k">${l}</p><p class="k soft">→</p></div></a>`).join("")}</div>`],
+        ["One large, two stacked", "", `
+          <div class="mos"><a href="#">${ph("denim-back", "50% 40%")}<p class="k lab">Washed denim</p></a><a href="#">${ph("brown-overshirt", "50% 25%")}<p class="k lab">Overshirts</p></a><a href="#">${ph("polo-pants", "50% 55%")}<p class="k lab">Pleated pants</p></a></div>`],
+        ["Side-scrolling strip", "", `
+          <div style="display:flex;justify-content:space-between;margin-bottom:18px"><p class="k">The winter book</p><p class="k soft">Scroll →</p></div>
+          <div class="strip">${["raw-stairs", "suede-jacket", "linen-stripe", "brown-overshirt", "denim-back", "cardigan-navy", "polo-pants", "stripe-chair"].map((n) => `<a href="#">${ph(n, "50% 30%")}</a>`).join("")}</div>`],
+        ["Magazine page — text left, one picture", "", `
+          <div class="mag"><div class="txt"><p class="k soft">Jackets</p><div><h3 class="h" style="font-size:clamp(40px,5vw,90px)">The cropped<br />jacket</h3><p class="p" style="margin-top:20px">Boxy, a little short, worn over ecru denim. The shape of the season.</p></div><div style="display:flex;gap:28px"><a class="lnk" href="#">Shop jackets</a><a class="lnk soft" href="#">Lookbook</a></div></div>
+            <a href="#">${ph("suede-jacket", "50% 30%")}</a></div>`],
+        ["Three heights, one floor", "", `
+          <div class="stag">${[["cardigan-navy", "Knitwear", "50% 30%"], ["denim-back", "Denim", "50% 40%"], ["stripe-chair", "Shirts", "50% 40%"]].map(([n, l, p]) => `<a href="#">${ph(n, p)}<div class="cap"><p class="k">${l}</p><p class="k soft">Shop</p></div></a>`).join("")}</div>`],
+        ["Close-up and full look", "", `
+          <div class="det"><a href="#">${ph("denim-back", "50% 62%")}</a>
+            <div class="r"><a href="#">${ph("raw-stairs", "50% 35%")}</a><div style="display:flex;justify-content:space-between;align-items:end;gap:20px"><div><p class="k soft">The detail</p><h3 class="h" style="margin-top:8px">Faded<br />where it counts</h3></div><a class="lnk" href="#">Shop denim</a></div></div></div>`],
+      ];
+      const deck = document.getElementById("deck");
+      deck.innerHTML = slides.map(([name, cls, html], i) => `<section class="s ${cls}"><span class="tag">${String(i + 1).padStart(2, "0")} — ${name}</span>${html}</section>`).join("");
+      const all = [...deck.children];
+      const count = document.getElementById("count");
+      const upd = () => { const i = Math.round(deck.scrollTop / innerHeight); count.textContent = `${Math.min(i + 1, all.length)} / ${all.length} · scroll or ↓`; };
+      deck.addEventListener("scroll", upd, { passive: true }); upd();
+      addEventListener("keydown", (e) => {
+        const i = Math.round(deck.scrollTop / innerHeight);
+        if (e.key === "ArrowDown" || e.key === "ArrowRight") all[Math.min(i + 1, all.length - 1)].scrollIntoView({ behavior: "smooth" });
+        if (e.key === "ArrowUp" || e.key === "ArrowLeft") all[Math.max(i - 1, 0)].scrollIntoView({ behavior: "smooth" });
+      });
+      document.querySelectorAll("a[href='#']").forEach((a) => a.addEventListener("click", (e) => e.preventDefault()));
+    </script>
+  </body>
+</html>

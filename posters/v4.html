@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vintage Blue — Hero layouts</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <style>
+      :root { --sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; height: 100%; }
+      body { font-family: var(--sans); -webkit-font-smoothing: antialiased; background: #e5dccf; }
+      main { height: 100vh; overflow-y: auto; scroll-snap-type: y mandatory; }
+      a { color: inherit; text-decoration: none; cursor: pointer; }
+
+      /* The whole photo, never cropped; the page colour matches the studio backdrop. */
+      .p { position: relative; height: 100vh; overflow: hidden; scroll-snap-align: start; display: grid; place-items: center; background: linear-gradient(#dfd5c9, #ebe2d3); color: var(--ink, var(--c)); }
+      .frame { position: relative; width: min(100vw, calc(100vh * 1671 / 941)); aspect-ratio: 1671 / 941; container-type: inline-size; overflow: hidden; }
+      .frame > img { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+      .fg { z-index: 2; pointer-events: none; }
+
+      /* The big word sits behind the model and in front of the car. Each option places it with inline styles. */
+      .word { position: absolute; z-index: 1; margin: 0; font-weight: 700; line-height: 0.74; letter-spacing: -0.035em; white-space: nowrap; color: var(--c); }
+      .word.mid { left: 50%; transform: translateX(-50.5%); }
+      .word.stack { line-height: 0.8; }
+
+      /* Small poster text */
+      .t { position: absolute; z-index: 3; margin: 0; font-size: max(9px, 0.66cqw); font-weight: 700; line-height: 1.2; text-transform: uppercase; }
+      .t i { font-style: normal; font-weight: 500; opacity: 0.7; }
+      .row { left: 3%; right: 3%; display: flex; justify-content: space-between; }
+      .row span { width: 12em; }
+      .row span:nth-child(2) { text-align: center; }
+      .row span:nth-child(3) { text-align: right; }
+      .shop { display: grid; gap: 0.35em; line-height: 1; }
+      .shop.r { justify-items: end; text-align: right; }
+      .shop .sq { width: 0.8em; height: 0.8em; background: currentColor; }
+      .shop .bar { width: 7em; height: 1.1em; background: repeating-linear-gradient(90deg, currentColor 0 1px, transparent 1px 3px, currentColor 3px 5px, transparent 5px 6px, currentColor 6px 7px, transparent 7px 10px); }
+      .rule { position: absolute; z-index: 3; height: 1px; background: currentColor; opacity: 0.5; }
+
+      #count { position: fixed; z-index: 10; left: 50%; transform: translateX(-50%); bottom: 12px; display: flex; align-items: center; gap: 10px; padding: 7px 10px; border-radius: 99px; background: rgba(20, 20, 20, 0.55); color: #fff; font: 600 10px/1 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; backdrop-filter: blur(8px); }
+      #count button { width: 14px; height: 14px; padding: 0; border: 1.5px solid rgba(255, 255, 255, 0.85); border-radius: 50%; cursor: pointer; }
+
+      @media (max-width: 760px) {
+        .t { font-size: 7px; }
+        .row span { width: auto; }
+      }
+    </style>
+  </head>
+  <body>
+    <main id="deck">
+      <!-- 1 · Giant word filling the top of the photo -->
+      <section class="p" data-name="Giant" style="--c:#2c4f8c">
+        <div class="frame">
+          <img src="/assets/ref/studio.jpg" alt="Model in a denim jacket and jeans leaning on a brown vintage car" />
+          <p class="word mid" aria-hidden="true" style="top: 3.5%; font-size: 26cqw">INDIGO</p>
+          <img class="fg" src="/assets/ref/studio-person.png" alt="" aria-hidden="true" />
+          <p class="t" style="right: 3%; top: 46%; text-align: right">Look 01<br /><i>Double denim</i></p>
+          <p class="t row" style="bottom: 4.5%"><span>Rope-dyed,<br />washed by hand</span><span>Winter<br />2026</span><span>Cut &amp; sewn<br />in Delhi</span></p>
+        </div>
+      </section>
+
+      <!-- 2 · Staggered across the empty corners -->
+      <section class="p" data-name="Staggered" style="--c:#1c2b4a">
+        <div class="frame">
+          <img src="/assets/ref/studio.jpg" alt="Model in a denim jacket and jeans leaning on a brown vintage car" />
+          <p class="word" aria-hidden="true" style="left: 3%; top: 9%; font-size: 12.6cqw">VINTAGE</p>
+          <p class="word" aria-hidden="true" style="right: 3%; top: 25.5%; font-size: 12.6cqw">BLUE</p>
+          <img class="fg" src="/assets/ref/studio-person.png" alt="" aria-hidden="true" />
+          <p class="t" style="left: 3.2%; top: 4.5%">Est. 2006 <i>/ Winter 2026</i></p>
+          <p class="t" style="right: 3%; top: 4.5%; text-align: right">Denim that<br />takes its time</p>
+          <p class="t" style="left: 3.2%; top: 25%">The trucker <i>· ₹3,299</i><br />The wide jean <i>· ₹2,199</i></p>
+          <a class="t shop r" style="right: 3%; bottom: 4.5%"><span class="sq"></span>Shop the<br />look<span class="bar"></span></a>
+        </div>
+      </section>
+
+      <!-- 3 · Stacked beside his head -->
+      <section class="p" data-name="Stacked left" style="--c:#3b2418">
+        <div class="frame">
+          <img src="/assets/ref/studio.jpg" alt="Model in a denim jacket and jeans leaning on a brown vintage car" />
+          <p class="word stack" aria-hidden="true" style="right: 56%; top: 5%; text-align: right; font-size: 9cqw">WORN<br />IN.</p>
+          <img class="fg" src="/assets/ref/studio-person.png" alt="" aria-hidden="true" />
+          <p class="t" style="left: 3.2%; top: 4.5%">Vintage Blue<br /><i>The Winter Edit</i></p>
+          <span class="rule" style="left: 62%; right: 3%; top: 14%"></span>
+          <p class="t" style="left: 62%; top: 16%">Faded the honest way —<br />by wearing it.</p>
+          <p class="t" style="right: 3%; top: 16%; text-align: right">Look 01<br /><i>Double denim</i></p>
+          <p class="t" style="left: 62%; top: 30%">Mid-wash trucker <i>· ₹3,299</i><br />Wide-leg jean <i>· ₹2,199</i></p>
+          <a class="t shop r" style="right: 3%; top: 30%"><span class="sq"></span>Shop<br />now<span class="bar"></span></a>
+        </div>
+      </section>
+
+      <!-- 4 · Stacked in the open space on the right -->
+      <section class="p" data-name="Stacked right" style="--c:#151515">
+        <div class="frame">
+          <img src="/assets/ref/studio.jpg" alt="Model in a denim jacket and jeans leaning on a brown vintage car" />
+          <p class="word stack" aria-hidden="true" style="left: 64%; top: 7%; font-size: 9.4cqw">NO<br />RUSH.</p>
+          <img class="fg" src="/assets/ref/studio-person.png" alt="" aria-hidden="true" />
+          <p class="t" style="right: 3%; top: 4.5%; text-align: right">Winter<br />2026</p>
+          <p class="t" style="left: 3.2%; top: 4.5%">Denim that<br />takes its time</p>
+          <span class="rule" style="left: 3.2%; width: 30%; top: 22%"></span>
+          <p class="t" style="left: 3.2%; top: 24%">Look 01 <i>/ Double denim</i><br />Cut &amp; sewn in Delhi</p>
+          <a class="t shop" style="left: 3.2%; bottom: 4.5%"><span class="sq"></span>Shop<br />now<span class="bar"></span></a>
+          <p class="t" style="right: 3%; bottom: 4.5%; text-align: right">&gt; 26</p>
+        </div>
+      </section>
+
+      <!-- 5 · Huge, low, the word sitting on the car -->
+      <section class="p" data-name="On the car" style="--c:#8fb4dc; --ink:#1c2b4a">
+        <div class="frame">
+          <img src="/assets/ref/studio.jpg" alt="Model in a denim jacket and jeans leaning on a brown vintage car" />
+          <p class="word mid" aria-hidden="true" style="top: 14%; font-size: 21cqw">TRUCKER</p>
+          <img class="fg" src="/assets/ref/studio-person.png" alt="" aria-hidden="true" />
+          <p class="t row" style="top: 4.5%"><span>The jacket<br />of the season</span><span>Winter<br />2026</span><span>Vintage<br />Blue</span></p>
+          <p class="t" style="left: 3.2%; bottom: 4.5%">Two chest pockets <i>/</i> Copper buttons <i>/</i> Cut boxy<br /><i>Mid wash · ₹3,299</i></p>
+          <a class="t shop r" style="right: 3%; bottom: 4.5%"><span class="sq"></span>Shop the<br />jacket<span class="bar"></span></a>
+        </div>
+      </section>
+
+      <!-- 6 · A giant number -->
+      <section class="p" data-name="The number" style="--c:#2c4f8c">
+        <div class="frame">
+          <img src="/assets/ref/studio.jpg" alt="Model in a denim jacket and jeans leaning on a brown vintage car" />
+          <p class="word mid" aria-hidden="true" style="top: 5%; font-size: 47cqw; letter-spacing: -0.06em">26</p>
+          <img class="fg" src="/assets/ref/studio-person.png" alt="" aria-hidden="true" />
+          <p class="t" style="left: 3.2%; top: 4.5%">Vintage Blue<br /><i>Winter 2026</i></p>
+          <p class="t" style="right: 3%; top: 4.5%; text-align: right">The denim<br /><i>issue</i></p>
+          <p class="t" style="left: 3.2%; top: 26%">Six fits.<br />Rope-dyed indigo.<br /><i>Cut &amp; sewn in Delhi.</i></p>
+          <a class="t shop r" style="right: 3%; top: 26%"><span class="sq"></span>Shop<br />denim<span class="bar"></span></a>
+        </div>
+      </section>
+
+      <!-- 7 · Small word, big space -->
+      <section class="p" data-name="Quiet" style="--c:#2c4f8c">
+        <div class="frame">
+          <img src="/assets/ref/studio.jpg" alt="Model in a denim jacket and jeans leaning on a brown vintage car" />
+          <p class="word" aria-hidden="true" style="left: 3.2%; top: 11%; font-size: 7.4cqw">Vintage Blue</p>
+          <img class="fg" src="/assets/ref/studio-person.png" alt="" aria-hidden="true" />
+          <p class="t" style="left: 3.4%; top: 21.5%">Denim that takes its time <i>— Winter 2026</i></p>
+          <p class="t" style="right: 3%; top: 4.5%; text-align: right">Est.<br />2006</p>
+          <p class="t" style="right: 3%; top: 32%; text-align: right">The trucker <i>· ₹3,299</i><br />The wide jean <i>· ₹2,199</i></p>
+          <a class="t shop r" style="right: 3%; bottom: 4.5%"><span class="sq"></span>Shop<br />now<span class="bar"></span></a>
+        </div>
+      </section>
+    </main>
+
+    <div id="count"><span id="num"></span><span id="sw"></span></div>
+
+    <script>
+      const deck = document.getElementById("deck");
+      const slides = [...document.querySelectorAll(".p")];
+      const num = document.getElementById("num");
+      const sw = document.getElementById("sw");
+      sw.style.cssText = "display:flex;gap:6px";
+      ["#2c4f8c", "#1c2b4a", "#8fb4dc", "#3b2418", "#151515"].forEach((c) => {
+        const b = document.createElement("button");
+        b.style.background = c;
+        b.title = "Try this colour for the big word";
+        b.onclick = () => cur().style.setProperty("--c", c);
+        sw.appendChild(b);
+      });
+      const cur = () => slides[Math.round(deck.scrollTop / innerHeight)] || slides[0];
+      const update = () => { const i = slides.indexOf(cur()); num.textContent = `${i + 1} / ${slides.length} · ${slides[i].dataset.name}`; };
+      deck.addEventListener("scroll", update, { passive: true });
+      update();
+      addEventListener("keydown", (e) => {
+        const i = slides.indexOf(cur());
+        if (e.key === "ArrowDown" || e.key === "ArrowRight") slides[Math.min(i + 1, slides.length - 1)].scrollIntoView({ behavior: "smooth" });
+        if (e.key === "ArrowUp" || e.key === "ArrowLeft") slides[Math.max(i - 1, 0)].scrollIntoView({ behavior: "smooth" });
+      });
+    </script>
+  </body>
+</html>

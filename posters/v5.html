@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vintage Blue — Hero options</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <style>
+      :root { --sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; height: 100%; background: #ebe5da; }
+      body { font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+      main { height: 100vh; overflow-y: auto; scroll-snap-type: y mandatory; }
+      a { color: inherit; text-decoration: none; cursor: pointer; }
+
+      .p { position: relative; height: 100vh; overflow: hidden; scroll-snap-align: start; background: var(--page, #ebe5da); color: var(--ink, var(--c)); container-type: inline-size; }
+
+      /* Poster: the photo as a tall sheet in the middle of a plain page */
+      .sheet { position: absolute; top: 0; bottom: 0; left: var(--sx, 50%); transform: translateX(-50%); aspect-ratio: var(--ar, 4 / 5); }
+      .sheet img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: var(--ox, 50%) 50%; display: block; }
+      .sheet.fg { z-index: 2; pointer-events: none; }
+
+      /* Full bleed: the photo covers the screen, text locked to the photo */
+      .frame { position: absolute; left: 50%; top: 50%; width: max(100vw, calc(100vh * var(--r))); aspect-ratio: var(--r); transform: translate(-50%, -50%); container-type: inline-size; }
+      .frame > img { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+      .frame .fg { z-index: 2; pointer-events: none; }
+      .safe { position: absolute; inset: 0; z-index: 3; container-type: inline-size; }
+
+      /* Side by side panels */
+      .panels { position: absolute; inset: 0; display: flex; }
+      .panels img { flex: 1 1 0; min-width: 0; height: 100%; object-fit: cover; display: block; }
+      .panels.fgs { z-index: 2; pointer-events: none; }
+
+      .word { position: absolute; z-index: 1; margin: 0; font-weight: 700; line-height: 0.74; letter-spacing: -0.035em; white-space: nowrap; color: var(--c); }
+      .word.mid { left: 50%; transform: translateX(-50.5%); }
+      .word.stack { line-height: 0.8; }
+
+      .t { position: absolute; z-index: 3; margin: 0; font-size: max(9px, 0.66cqw); font-weight: 700; line-height: 1.25; text-transform: uppercase; }
+      .t i { font-style: normal; font-weight: 500; opacity: 0.72; }
+      .row { left: 3.2%; right: 3.2%; top: 5.5%; display: flex; justify-content: space-between; }
+      .row span { width: 12em; }
+      .row span:nth-child(2) { text-align: center; }
+      .row span:nth-child(3) { text-align: right; }
+      .t p { margin: 0 0 1.4em; }
+      .shop { display: grid; gap: 0.35em; line-height: 1; }
+      .shop.r { justify-items: end; text-align: right; }
+      .shop .sq { width: 0.8em; height: 0.8em; background: currentColor; }
+      .shop .bar { width: 7em; height: 1.1em; background: repeating-linear-gradient(90deg, currentColor 0 1px, transparent 1px 3px, currentColor 3px 5px, transparent 5px 6px, currentColor 6px 7px, transparent 7px 10px); }
+
+      #count { position: fixed; z-index: 10; left: 50%; transform: translateX(-50%); bottom: 12px; display: flex; align-items: center; gap: 10px; padding: 7px 10px; border-radius: 99px; background: rgba(20, 20, 20, 0.55); color: #fff; font: 600 10px/1 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; backdrop-filter: blur(8px); }
+      #count button { width: 14px; height: 14px; padding: 0; border: 1.5px solid rgba(255, 255, 255, 0.85); border-radius: 50%; cursor: pointer; }
+
+      @media (max-width: 760px) {
+        .sheet { left: 0; right: 0; transform: none; aspect-ratio: auto; }
+        .t { font-size: 8px; }
+        .row span { width: auto; }
+      }
+    </style>
+  </head>
+  <body>
+    <main id="deck">
+      <!-- 1 · Poster · garage -->
+      <section class="p" data-name="Poster · garage" style="--c:#2c4f8c; --ar:1149/1369">
+        <div class="sheet"><img src="/assets/ref/garage2.jpg" alt="Model in a light-wash denim jacket and jeans leaning on a black vintage car in a garage" /></div>
+        <p class="word mid" aria-hidden="true" style="top: 24vh; font-size: 16.5vw">JOYRIDE</p>
+        <div class="sheet fg"><img src="/assets/ref/garage2-person.png" alt="" /></div>
+        <div class="t row"><span>Denim that<br />takes its time</span><span>Winter<br />2026</span><span>Cut &amp; sewn<br />in Delhi</span></div>
+        <div class="t" style="left: 4%; bottom: 7%"><p>The trucker<br /><i>Light wash · ₹3,299</i></p><p>The straight jean<br /><i>Light wash · ₹2,199</i></p></div>
+        <div class="t" style="right: 4%; bottom: 7%; text-align: right"><p>Look 01<br /><i>Double denim</i></p><a class="shop r"><span class="sq"></span>Shop<br />now<span class="bar"></span></a></div>
+      </section>
+
+      <!-- 2 · Poster · sunset on navy -->
+      <section class="p" data-name="Poster · sunset" style="--page:#1c2b4a; --c:#f1e7d8; --ar:4/5; --ox:61%">
+        <div class="sheet"><img src="/assets/ref/sunset.jpg" alt="Model in a denim jacket leaning on the open door of a green vintage car at sunset" /></div>
+        <p class="word mid" aria-hidden="true" style="top: 21vh; font-size: 14vw">BLUE HOUR</p>
+        <div class="sheet fg"><img src="/assets/ref/sunset-person.png" alt="" /></div>
+        <div class="t row"><span>Vintage<br />Blue</span><span>The Winter<br />Edit</span><span>Est.<br />2006</span></div>
+        <div class="t" style="left: 4%; bottom: 7%"><p>Mid-wash trucker<br /><i>₹3,299</i></p><p>Relaxed straight jean<br /><i>₹2,199</i></p></div>
+        <div class="t" style="right: 4%; bottom: 7%; text-align: right"><p>Look 02<br /><i>After the drive</i></p><a class="shop r"><span class="sq"></span>Shop the<br />look<span class="bar"></span></a></div>
+      </section>
+
+      <!-- 3 · Poster · brick on brown -->
+      <section class="p" data-name="Poster · brick" style="--page:#2f1d14; --c:#b9d3ee; --ink:#f1e7d8; --ar:4/5; --ox:64%">
+        <div class="sheet"><img src="/assets/ref/brick.jpg" alt="Model in a dark denim jacket and washed cargo jeans sitting on the hood of a black vintage car" /></div>
+        <p class="word mid" aria-hidden="true" style="top: 23vh; font-size: 17vw">REWIND</p>
+        <div class="sheet fg"><img src="/assets/ref/brick-person.png" alt="" /></div>
+        <div class="t row"><span>The '70s trucker,<br />cut for now</span><span>Winter<br />2026</span><span>Vintage<br />Blue</span></div>
+        <div class="t" style="left: 4%; bottom: 7%"><p>Rinse trucker<br /><i>₹3,499</i></p><p>Washed cargo jean<br /><i>₹2,499</i></p></div>
+        <div class="t" style="right: 4%; bottom: 7%; text-align: right"><p>Look 03<br /><i>Street issue</i></p><a class="shop r"><span class="sq"></span>Shop<br />now<span class="bar"></span></a></div>
+      </section>
+
+      <!-- 4 · Full bleed · sunset, word across the sky -->
+      <section class="p" data-name="Full · sunset" style="--c:#f1e7d8; --ink:#f1e7d8">
+        <div class="frame" style="--r: 2000/1125">
+          <img src="/assets/ref/sunset.jpg" alt="Model in a denim jacket leaning on the open door of a green vintage car at sunset" />
+          <p class="word mid" aria-hidden="true" style="top: 8.5%; font-size: 11.6cqw">VINTAGE BLUE</p>
+          <img class="fg" src="/assets/ref/sunset-person.png" alt="" />
+        </div>
+        <div class="safe">
+          <div class="t row" style="top: auto; bottom: 6%"><span>The long way<br /><i>home</i></span><span>Winter<br />2026</span><span>Cut &amp; sewn<br />in Delhi</span></div>
+          <a class="t shop r" style="right: 3.2%; top: 44%"><span class="sq"></span>Shop the<br />look<span class="bar"></span></a>
+        </div>
+      </section>
+
+      <!-- 5 · Full bleed · brick, split around him -->
+      <section class="p" data-name="Full · brick" style="--c:#f1e7d8; --ink:#f1e7d8">
+        <div class="frame" style="--r: 1672/941">
+          <img src="/assets/ref/brick.jpg" alt="Model in a dark denim jacket and washed cargo jeans sitting on the hood of a black vintage car" />
+          <p class="word" aria-hidden="true" style="right: 46%; top: 13%; font-size: 11cqw">NO</p>
+          <p class="word" aria-hidden="true" style="left: 65.5%; top: 13%; font-size: 11cqw">RUSH</p>
+          <img class="fg" src="/assets/ref/brick-person.png" alt="" />
+        </div>
+        <div class="safe">
+          <div class="t row"><span>Denim that<br />takes its time</span><span>Winter<br />2026</span><span>Vintage<br />Blue</span></div>
+          <div class="t" style="left: 3.2%; bottom: 6%">Rinse trucker <i>· ₹3,499</i><br />Washed cargo jean <i>· ₹2,499</i></div>
+          <a class="t shop r" style="right: 3.2%; bottom: 6%"><span class="sq"></span>Shop<br />now<span class="bar"></span></a>
+        </div>
+      </section>
+
+      <!-- 6 · Split: photo right, the word stacked on the left -->
+      <section class="p" data-name="Split" style="--c:#2c4f8c; --ar:1149/1369; --sx:72%">
+        <div class="sheet"><img src="/assets/ref/garage2.jpg" alt="Model in a light-wash denim jacket and jeans leaning on a black vintage car in a garage" /></div>
+        <p class="word stack" aria-hidden="true" style="left: 4%; top: 22vh; font-size: 12.5vw">TRUE<br />BLUE.</p>
+        <div class="sheet fg"><img src="/assets/ref/garage2-person.png" alt="" /></div>
+        <div class="t" style="left: 4%; top: 5.5%">Vintage Blue <i>/ Winter 2026</i></div>
+        <div class="t" style="left: 4.4%; top: 60vh; max-width: 24em">Head-to-toe light wash. Rope-dyed indigo, washed by hand, cut and sewn in Delhi since 2006.</div>
+        <div class="t" style="left: 4.4%; bottom: 7%"><a class="shop"><span class="sq"></span>Shop<br />double denim<span class="bar"></span></a></div>
+      </section>
+
+      <!-- 7 · Three looks -->
+      <section class="p" data-name="Three looks" style="--c:#f1e7d8; --ink:#f1e7d8">
+        <div class="panels"><img src="/assets/ref/brick.jpg" alt="Dark denim jacket and cargo jeans" style="object-position: 58% 50%" /><img src="/assets/ref/garage2.jpg" alt="Double denim in light wash" style="object-position: 45% 50%" /><img src="/assets/ref/sunset.jpg" alt="Denim jacket and straight jeans at sunset" style="object-position: 56% 50%" /></div>
+        <p class="word mid" aria-hidden="true" style="top: 6vh; font-size: 14.5vw">THE EDIT</p>
+        <div class="panels fgs"><img src="/assets/ref/brick-person.png" alt="" style="object-position: 58% 50%" /><img src="/assets/ref/garage2-person.png" alt="" style="object-position: 45% 50%" /><img src="/assets/ref/sunset-person.png" alt="" style="object-position: 56% 50%" /></div>
+        <div class="t" style="left: 0; right: 0; bottom: 5%; display: flex"><span style="flex: 1; padding-left: 2.2%">01 — Street issue</span><span style="flex: 1; padding-left: 2.2%">02 — Double denim</span><span style="flex: 1; padding-left: 2.2%">03 — After the drive</span></div>
+      </section>
+    </main>
+
+    <div id="count"><span id="num"></span><span id="sw"></span></div>
+
+    <script>
+      const deck = document.getElementById("deck");
+      const slides = [...document.querySelectorAll(".p")];
+      const num = document.getElementById("num");
+      const sw = document.getElementById("sw");
+      sw.style.cssText = "display:flex;gap:6px";
+      ["#2c4f8c", "#1c2b4a", "#b9d3ee", "#f1e7d8", "#3b2418", "#151515"].forEach((c) => {
+        const b = document.createElement("button");
+        b.style.background = c;
+        b.title = "Try this colour for the big word";
+        b.onclick = () => cur().style.setProperty("--c", c);
+        sw.appendChild(b);
+      });
+      const cur = () => slides[Math.round(deck.scrollTop / innerHeight)] || slides[0];
+      const update = () => { const i = slides.indexOf(cur()); num.textContent = `${i + 1} / ${slides.length} · ${slides[i].dataset.name}`; };
+      deck.addEventListener("scroll", update, { passive: true });
+      update();
+      addEventListener("keydown", (e) => {
+        const i = slides.indexOf(cur());
+        if (e.key === "ArrowDown" || e.key === "ArrowRight") slides[Math.min(i + 1, slides.length - 1)].scrollIntoView({ behavior: "smooth" });
+        if (e.key === "ArrowUp" || e.key === "ArrowLeft") slides[Math.max(i - 1, 0)].scrollIntoView({ behavior: "smooth" });
+      });
+    </script>
+  </body>
+</html>

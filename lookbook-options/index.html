@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vintage Blue — Lookbook section options</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --page: #fcfaf6; --ink: #141414; --soft: rgba(20, 20, 20, 0.56); --rule: rgba(20, 20, 20, 0.18); --grey: #efece6; --gut: clamp(16px, 2.6vw, 40px); }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; height: 100%; }
+      body { background: var(--page); color: var(--ink); font-family: "Inter", "Helvetica Neue", Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+      a { color: inherit; text-decoration: none; }
+      img { display: block; width: 100%; height: 100%; object-fit: cover; }
+      main { height: 100vh; overflow-y: auto; scroll-snap-type: y mandatory; }
+      .s { position: relative; min-height: 100vh; scroll-snap-align: start; padding: 72px var(--gut) 48px; display: flex; flex-direction: column; justify-content: center; }
+      .s.bleed { padding: 0; }
+      .tag { position: absolute; top: 16px; left: var(--gut); z-index: 9; padding: 5px 10px; background: #ffd84a; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+      #count { position: fixed; z-index: 10; right: 16px; bottom: 14px; padding: 7px 11px; background: rgba(20, 20, 20, 0.7); color: #fff; font-size: 11px; font-weight: 600; letter-spacing: 0.06em; }
+      .k { margin: 0 0 12px; font-size: 12.5px; font-weight: 500; }
+      .p { margin: 0 0 20px; max-width: 32ch; font-size: 12.5px; line-height: 1.6; color: var(--soft); }
+      .lnk { font-size: 12.5px; text-decoration: underline; text-underline-offset: 3px; }
+      .cap { margin: 8px 0 0; font-size: 11.5px; color: var(--soft); }
+      .ph { overflow: hidden; background: #e8e4dd; }
+      .btn { display: inline-flex; justify-content: center; padding: 13px 22px; border: 1px solid var(--ink); background: var(--ink); color: var(--page); font: 500 12px/1 "Inter", sans-serif; letter-spacing: 0.04em; text-transform: uppercase; cursor: pointer; white-space: nowrap; }
+      .btn.ghost { background: transparent; color: var(--ink); }
+      .items { margin: 0; padding: 0; list-style: none; }
+      .items li { display: grid; grid-template-columns: 44px 1fr auto 28px; gap: 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 13px; }
+      .items li:first-child { border-top: 1px solid var(--ink); }
+      .items li .ph { aspect-ratio: 3 / 4; background: var(--grey); }
+      .items li b { font-weight: 600; }
+      .plus { width: 28px; height: 28px; display: grid; place-items: center; border: 1px solid var(--ink); background: transparent; cursor: pointer; font-size: 15px; }
+
+      /* 01 current */
+      .o1 { display: grid; grid-template-columns: 1fr 1.7fr 0.85fr; gap: 2.4vw; align-items: start; }
+      .o1 .main { aspect-ratio: 2 / 2.9; }
+      .o1 .side { display: grid; gap: 2vw; }
+      .o1 .side .ph { aspect-ratio: 4 / 5; }
+      .o1 .shop { grid-column: 2 / 4; display: grid; grid-template-columns: auto 1fr auto; gap: 24px; align-items: center; padding-top: 16px; border-top: 1px solid var(--ink); }
+      .o1 .shop ul { display: flex; gap: 28px; margin: 0; padding: 0; list-style: none; }
+      .o1 .shop li { display: flex; align-items: center; gap: 10px; font-size: 13px; }
+      .o1 .shop li .ph { width: 40px; aspect-ratio: 3 / 4; background: var(--grey); }
+
+      /* 02 image left, everything else right */
+      .o2 { display: grid; grid-template-columns: 1.2fr 1fr; gap: 4vw; align-items: stretch; height: calc(100vh - 120px); }
+      .o2 .main { height: 100%; }
+      .o2 .r { display: flex; flex-direction: column; justify-content: space-between; }
+      .o2 .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      .o2 .pair .ph { aspect-ratio: 4 / 5; }
+
+      /* 03 full bleed with floating card */
+      .o3 { position: relative; height: 100vh; }
+      .o3 > .ph { position: absolute; inset: 0; }
+      .o3 .txt { position: absolute; left: var(--gut); top: 9vh; z-index: 2; }
+      .o3 .card { position: absolute; right: var(--gut); bottom: 6vh; z-index: 2; width: min(380px, 90vw); padding: 20px; background: var(--page); }
+
+      /* 04 centred with details flanking */
+      .o4 { display: grid; grid-template-columns: 1fr 1.4fr 1fr; gap: 3vw; align-items: center; }
+      .o4 .head { grid-column: 1 / -1; text-align: center; margin-bottom: 1vh; }
+      .o4 .head .p { margin: 0 auto 14px; }
+      .o4 .main { aspect-ratio: 2 / 2.8; }
+      .o4 .d1 { aspect-ratio: 4 / 5; align-self: start; margin-top: 8vh; }
+      .o4 .d2 { aspect-ratio: 3 / 4.4; align-self: end; margin-bottom: 4vh; }
+      .o4 .foot { grid-column: 1 / -1; display: flex; justify-content: center; gap: 28px; align-items: center; padding-top: 16px; border-top: 1px solid var(--ink); font-size: 13px; }
+
+      /* 05 split, details as a row */
+      .o5 { display: grid; grid-template-columns: 1fr 1fr; gap: 0; height: calc(100vh - 120px); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+      .o5 .main { height: 100%; }
+      .o5 .r { display: grid; grid-template-rows: auto 1fr auto; gap: 24px; padding: 3vw; border-left: 1px solid var(--rule); }
+      .o5 .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; min-height: 0; }
+      .o5 .row .ph { height: 100%; }
+
+      /* 06 hotspots */
+      .o6 { display: grid; grid-template-columns: 1fr 1.6fr; gap: 4vw; align-items: center; }
+      .o6 .stage { position: relative; aspect-ratio: 2 / 2.9; max-height: calc(100vh - 140px); }
+      .o6 .stage > .ph { position: absolute; inset: 0; }
+      .dot { position: absolute; z-index: 3; width: 18px; height: 18px; margin: -9px 0 0 -9px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.35); cursor: pointer; }
+      .dot span { position: absolute; left: 26px; top: 50%; transform: translateY(-50%); display: none; width: 210px; padding: 10px 12px; background: var(--page); color: var(--ink); font-size: 12.5px; line-height: 1.4; box-shadow: 0 6px 30px rgba(0, 0, 0, 0.12); }
+      .dot:hover span { display: block; }
+
+      /* 07 three-up strip */
+      .o7 .strip { display: grid; grid-template-columns: 0.8fr 1.3fr 0.8fr; gap: 10px; height: 64vh; align-items: stretch; }
+      .o7 .strip .ph { height: 100%; }
+      .o7 .under { display: grid; grid-template-columns: 1fr 1.4fr; gap: 4vw; margin-top: 22px; }
+
+      /* 08 product first */
+      .o8 { display: grid; grid-template-columns: 1fr 1fr 0.9fr; gap: 14px; align-items: stretch; height: calc(100vh - 140px); }
+      .o8 .flat { position: relative; background: var(--grey); display: flex; flex-direction: column; }
+      .o8 .flat .img { flex: 1; min-height: 0; }
+      .o8 .flat .img img { object-fit: contain; padding: 10%; mix-blend-mode: multiply; }
+      .o8 .flat .bar { display: flex; justify-content: space-between; padding: 14px 16px; border-top: 1px solid var(--rule); font-size: 13px; }
+      .o8 .r { display: flex; flex-direction: column; justify-content: space-between; }
+      .o8 .r .ph { flex: 1; min-height: 0; margin-bottom: 18px; }
+
+      @media (max-width: 900px) {
+        .o1, .o2, .o4, .o5, .o6, .o8, .o7 .under { grid-template-columns: 1fr; height: auto; }
+        .o1 .shop { grid-column: auto; grid-template-columns: 1fr; }
+        .o1 .shop ul { flex-direction: column; gap: 10px; }
+        .o2 .main, .o5 .main, .o8 .flat { height: 70vh; }
+        .o7 .strip { grid-template-columns: 1fr; height: auto; }
+        .o7 .strip .ph { height: 60vh; }
+        .o4 .d1, .o4 .d2 { margin: 0; }
+      }
+    </style>
+  </head>
+  <body>
+    <main id="deck"></main>
+    <div id="count"></div>
+    <script type="module">
+      const raw = await (await fetch("/data/products.json")).json();
+      const products = Array.isArray(raw) ? raw : raw.products;
+      const by = new Map(products.map((p) => [p.handle, p]));
+      const inr = (n) => "₹" + n.toLocaleString("en-IN");
+      const front = (p) => p.images.find((i) => i.includes("-front")) || p.images[0];
+      const J = by.get("denim-jacket-152-coal-grey"), D = by.get("brawny-5464-off-white");
+      const total = inr(J.price + D.price);
+      const ph = (src, cls = "", pos = "50% 50%") => `<div class="ph ${cls}"><img src="${src}" alt="" style="object-position:${pos}" /></div>`;
+      const SEAT = "/assets/editorial/lb-seated.jpg", COL = "/assets/editorial/lb-collar.jpg", LEG = "/assets/editorial/lb-pants.jpg";
+      const intro = (h = "The lookbook") => `<p class="k">${h}</p><p class="p">Winter 2026, shot in one afternoon. Washed black denim, a sherpa collar and ecru jeans cut wide.</p><a class="lnk" href="#">Explore the lookbook</a>`;
+      const items = `<ul class="items">${[J, D].map((p) => `<li>${ph(front(p))}<span>${p.name}</span><b>${inr(p.price)}</b><button class="plus" type="button">+</button></li>`).join("")}</ul>`;
+
+      const slides = [
+        ["Current — text, main, two details, shop row", "", `<div class="o1">
+          <div>${intro()}</div>${ph(SEAT, "main")}<div class="side"><div>${ph(COL)}<p class="cap">The collar</p></div><div>${ph(LEG)}<p class="cap">The leg</p></div></div>
+          <div class="shop"><p class="k" style="margin:0">Shop the look</p><ul>${[J, D].map((p) => `<li>${ph(front(p))}<span>${p.name}</span><b>${inr(p.price)}</b></li>`).join("")}</ul><button class="btn" type="button">Add both · ${total}</button></div></div>`],
+        ["Big picture left, story and shop right", "", `<div class="o2">${ph(SEAT, "main")}
+          <div class="r"><div>${intro("Lookbook — Winter 2026")}</div><div class="pair">${ph(COL)}${ph(LEG)}</div><div><p class="k">Shop the look</p>${items}<button class="btn" type="button" style="width:100%;margin-top:16px">Add both · ${total}</button></div></div></div>`],
+        ["Full screen, floating shop card", "bleed", `<div class="o3">${ph(SEAT, "", "50% 30%")}
+          <div class="txt"><p class="k">The lookbook</p><a class="lnk" href="#">Explore the lookbook</a></div>
+          <div class="card"><p class="k">Shop the look</p>${items}<button class="btn" type="button" style="width:100%;margin-top:14px">Add both · ${total}</button></div></div>`],
+        ["Centred, details either side", "", `<div class="o4">
+          <div class="head"><p class="k">The lookbook</p><p class="p">Washed black denim, a sherpa collar and ecru jeans cut wide.</p><a class="lnk" href="#">Explore the lookbook</a></div>
+          ${ph(COL, "d1")}${ph(SEAT, "main")}${ph(LEG, "d2")}
+          <div class="foot">${[J, D].map((p) => `<span>${p.name} <b>${inr(p.price)}</b></span>`).join('<span style="color:var(--soft)">+</span>')}<button class="btn" type="button">Add both · ${total}</button></div></div>`],
+        ["Half and half, details in a row", "", `<div class="o5">${ph(SEAT, "main")}
+          <div class="r"><div>${intro()}</div><div class="row">${ph(COL)}${ph(LEG)}</div><div>${items}<button class="btn" type="button" style="width:100%;margin-top:14px">Add both · ${total}</button></div></div></div>`],
+        ["Hover the dots to shop", "", `<div class="o6"><div>${intro()}<div style="margin-top:34px">${items}</div><button class="btn" type="button" style="margin-top:16px">Add both · ${total}</button></div>
+          <div class="stage">${ph(SEAT)}<a class="dot" style="left:38%;top:30%"><span><b>${J.name}</b><br />${inr(J.price)}</span></a><a class="dot" style="left:52%;top:68%"><span><b>${D.name}</b><br />${inr(D.price)}</span></a></div></div>`],
+        ["Three in a row, text and shop under", "", `<div class="o7"><div class="strip">${ph(COL)}${ph(SEAT, "", "50% 30%")}${ph(LEG)}</div>
+          <div class="under"><div>${intro()}</div><div>${items}<div style="display:flex;justify-content:flex-end;margin-top:14px"><button class="btn" type="button">Add both · ${total}</button></div></div></div></div>`],
+        ["The two pieces first, the look beside", "", `<div class="o8">
+          ${[J, D].map((p) => `<a class="flat" href="#"><div class="img"><img src="${front(p)}" alt="" /></div><div class="bar"><span>${p.name}</span><b>${inr(p.price)}</b></div></a>`).join("")}
+          <div class="r">${ph(SEAT, "", "50% 30%")}<div><p class="k">Worn together</p><div style="display:flex;gap:18px;align-items:center"><button class="btn" type="button">Add both · ${total}</button><a class="lnk" href="#">Explore the lookbook</a></div></div></div></div>`],
+      ];
+      const deck = document.getElementById("deck");
+      deck.innerHTML = slides.map(([n, c, h], i) => `<section class="s ${c}"><span class="tag">${String(i + 1).padStart(2, "0")} — ${n}</span>${h}</section>`).join("");
+      const all = [...deck.children], count = document.getElementById("count");
+      const upd = () => { const i = Math.round(deck.scrollTop / innerHeight); count.textContent = `${Math.min(i + 1, all.length)} / ${all.length} · scroll or ↓`; };
+      deck.addEventListener("scroll", upd, { passive: true }); upd();
+      addEventListener("keydown", (e) => {
+        const i = Math.round(deck.scrollTop / innerHeight);
+        if (e.key === "ArrowDown" || e.key === "ArrowRight") all[Math.min(i + 1, all.length - 1)].scrollIntoView({ behavior: "smooth" });
+        if (e.key === "ArrowUp" || e.key === "ArrowLeft") all[Math.max(i - 1, 0)].scrollIntoView({ behavior: "smooth" });
+      });
+      document.querySelectorAll("a[href='#'], a:not([href])").forEach((a) => a.addEventListener("click", (e) => e.preventDefault()));
+    </script>
+  </body>
+</html>

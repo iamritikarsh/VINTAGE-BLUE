@@ -1,0 +1,6 @@
+{
+  "cleanUrls": false,
+  "rewrites": [
+    { "source": "/((?!assets/|data/|fonts/|.*\\.[a-z0-9]+$).*)", "destination": "/index.html" }
+  ]
+}

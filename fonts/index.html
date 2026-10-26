@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vintage Blue — Font pairings</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Instrument+Serif:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Space+Mono:wght@400;700&family=IBM+Plex+Mono:wght@400;500&family=Jost:wght@400;500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+    <style>
+      * { box-sizing: border-box; }
+      html, body { margin: 0; }
+      body { background: #fcfaf6; color: #1e2f4f; font-family: "Inter", sans-serif; }
+      a { color: inherit; text-decoration: none; }
+      .intro { padding: 40px 4vw 10px; font-size: 13px; color: rgba(30, 47, 79, 0.7); }
+      .intro b { color: #1e2f4f; }
+      .combo { display: grid; grid-template-columns: 1.1fr 1fr; gap: 4vw; padding: 56px 4vw; border-top: 1px solid rgba(30, 47, 79, 0.3); }
+      .tag { grid-column: 1 / -1; display: flex; justify-content: space-between; margin-bottom: -20px; font: 600 11px/1 "Inter", sans-serif; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(30, 47, 79, 0.6); }
+      .tag b { color: #1e2f4f; font-size: 13px; }
+      .h { margin: 0 0 14px; font-family: "Inter", sans-serif; font-weight: 800; font-size: clamp(44px, 5.2vw, 84px); line-height: 0.9; letter-spacing: -0.045em; text-transform: uppercase; }
+      .sub { margin: 0 0 18px; font-family: var(--bf); font-weight: var(--sub); font-size: clamp(22px, 2vw, 32px); line-height: 1.1; }
+      .sub i { font-style: italic; }
+      .b { margin: 0 0 22px; max-width: 46ch; font-family: var(--bf); font-size: var(--bs); line-height: 1.6; color: rgba(30, 47, 79, 0.78); }
+      .lbl { font-family: var(--bf); font-size: 11px; font-weight: 600; letter-spacing: var(--lt, 0.06em); text-transform: uppercase; }
+      .rows { margin: 0; padding: 0; list-style: none; border-top: 1px solid rgba(30, 47, 79, 0.4); }
+      .rows li { display: flex; justify-content: space-between; padding: 14px 0; border-bottom: 1px solid rgba(30, 47, 79, 0.4); font-family: var(--bf); font-size: calc(var(--bs) - 1px); font-weight: 500; }
+      .rows li span { color: rgba(30, 47, 79, 0.6); font-size: 11px; }
+      .cards { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid #1e2f4f; }
+      .card + .card { border-left: 1px solid #1e2f4f; }
+      .card img { width: 100%; aspect-ratio: 3 / 3.6; object-fit: cover; display: block; background: #ece7df; }
+      .card div { display: flex; justify-content: space-between; padding: 10px 12px; border-top: 1px solid #1e2f4f; font-family: var(--bf); font-size: calc(var(--bs) - 2px); }
+      .card b { font-weight: 600; }
+      .btn { display: inline-block; margin-top: 22px; padding: 13px 26px; border: 1px solid #1e2f4f; font-family: var(--bf); font-size: 12px; font-weight: 600; letter-spacing: var(--lt, 0.06em); text-transform: uppercase; }
+      @media (max-width: 800px) { .combo { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <p class="intro"><b>Vintage Blue — font pairings.</b> Headings are always Inter Bold. The second font is used for sub-headings, text, lists, prices and buttons. Tell me the number you like.</p>
+    <main id="list"></main>
+    <script>
+      // Inter is always the heading; the second font carries sub-headings, text, labels and buttons.
+      const combos = [
+        ["Cormorant Garamond", "Classic fashion serif — elegant, light", { bf: '"Cormorant Garamond"', bs: "18px", sub: "500" }],
+        ["Instrument Serif", "Modern editorial serif", { bf: '"Instrument Serif"', bs: "19px", sub: "400" }],
+        ["EB Garamond", "Old-book serif, heritage feel", { bf: '"EB Garamond"', bs: "17px", sub: "500" }],
+        ["Newsreader", "Newspaper serif, calm and readable", { bf: '"Newsreader"', bs: "16px", sub: "500" }],
+        ["Fraunces", "Soft '70s serif — fits the vintage name", { bf: '"Fraunces"', bs: "16px", sub: "400" }],
+        ["Libre Caslon", "Traditional serif, workwear-catalogue feel", { bf: '"Libre Caslon Text"', bs: "15px", sub: "400" }],
+        ["Space Mono", "Typewriter / label-tag feel, utility", { bf: '"Space Mono"', bs: "13.5px", sub: "700" }],
+        ["IBM Plex Mono", "Quieter mono, technical", { bf: '"IBM Plex Mono"', bs: "14px", sub: "500" }],
+        ["Jost", "Geometric sans, soft and round", { bf: '"Jost"', bs: "16px", sub: "500" }],
+        ["DM Sans", "Friendly sans, very clean", { bf: '"DM Sans"', bs: "15px", sub: "600" }],
+      ];
+      const imgs = ["/assets/hulk-32003-mid-blue-model-Cn1adhjB.jpg", "/assets/rock-166-raw-wash-model-D8dRd9Nj.jpg", "/assets/brawny-5462-navy-model-Cv0WpEGd.jpg"];
+      const names = [["Hulk Super Baggy", "₹2,199"], ["Rock Baggy", "₹2,199"], ["Brawny Straight", "₹2,199"]];
+      document.getElementById("list").innerHTML = combos.map(([name, note, v], i) => {
+        const style = Object.entries(v).map(([k, val]) => `--${k}:${val}`).join(";");
+        return `<section class="combo" style='${style}'>
+          <div class="tag"><b>${String(i + 1).padStart(2, "0")} · Inter + ${name}</b><span>${note}</span></div>
+          <div>
+            <h2 class="h">Explore<br />the edit</h2>
+            <p class="sub">Denim and the things you <i>wear with it.</i></p>
+            <p class="b">Rope-dyed indigo, corduroy that softens with every wash, and fleece linings for winter — cut and sewn in Delhi since 2006.</p>
+            <ul class="rows"><li>Denim <span>29 pieces ↗</span></li><li>Shirts <span>22 pieces ↗</span></li><li>Jackets <span>8 pieces ↗</span></li></ul>
+            <a class="btn">Shop the collection</a>
+          </div>
+          <div>
+            <h3 class="h" style="font-size: clamp(28px, 2.8vw, 46px)">Denim, by fit</h3>
+            <p class="sub" style="font-size: clamp(17px, 1.4vw, 22px)">Four cuts, <i>every wash.</i></p>
+            <div class="cards">${imgs.map((src, k) => `<div class="card"><img src="${src}" alt="" loading="lazy" /><div><span>${names[k][0]}</span><b>${names[k][1]}</b></div></div>`).join("")}</div>
+            <p class="lbl" style="margin-top:14px">Free shipping over ₹2,999 / 15-day returns</p>
+          </div>
+        </section>`;
+      }).join("");
+    </script>
+  </body>
+</html>

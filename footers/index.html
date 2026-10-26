@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vintage Blue — Footer options</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <style>
+      :root { --page: #fcfaf6; --ink: #141414; --soft: rgba(20, 20, 20, 0.58); --dk: #141414; --lt: #f1efe9; --lsoft: rgba(241, 239, 233, 0.6); --gut: clamp(16px, 2.2vw, 32px); }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: #e6e3dd; color: var(--ink); font-family: "Inter", "Helvetica Neue", Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+      a { color: inherit; text-decoration: none; }
+      .intro { padding: 28px var(--gut) 0; font-size: 13px; color: var(--soft); }
+      .intro b { color: var(--ink); }
+      .tag { margin: 46px 0 10px; padding: 0 var(--gut); font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+      .tag span { color: var(--soft); font-weight: 500; text-transform: none; letter-spacing: 0; margin-left: 10px; }
+      footer { padding: clamp(40px, 5vw, 72px) var(--gut) 24px; font-size: 13px; }
+      .k { margin: 0 0 12px; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.6; }
+      .col a, .col p { display: block; margin: 0 0 8px; }
+      .up { text-transform: uppercase; }
+      .mark { margin: 0; font-weight: 900; letter-spacing: -0.05em; text-transform: uppercase; line-height: 0.82; }
+      .sub { display: flex; border-bottom: 1px solid currentColor; max-width: 420px; }
+      .sub input { flex: 1; min-width: 0; padding: 12px 0; border: 0; background: transparent; color: inherit; font: inherit; font-size: 13px; outline: none; }
+      .sub input::placeholder { color: inherit; opacity: 0.55; }
+      .sub button { border: 0; background: transparent; color: inherit; font: inherit; font-size: 12px; text-transform: uppercase; cursor: pointer; }
+      .legal { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; margin-top: 40px; padding-top: 16px; font-size: 11.5px; opacity: 0.6; }
+      .dark { background: var(--dk); color: var(--lt); }
+      .light { background: var(--page); color: var(--ink); }
+      .rule { border-top: 1px solid currentColor; opacity: 1; }
+      .thin { border-top: 1px solid rgba(127, 127, 127, 0.35); }
+
+      /* 1 */
+      .f1 .top { display: flex; justify-content: space-between; gap: 40px; flex-wrap: wrap; padding-bottom: 40px; border-bottom: 1px solid rgba(241, 239, 233, 0.14); }
+      .f1 .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 200px)); gap: 40px; padding-top: 40px; }
+      /* 2 */
+      .f2 .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
+      .f2 .mark { margin-top: 56px; font-size: 17.2vw; text-align: center; white-space: nowrap; margin-left: calc(-1 * var(--gut)); margin-right: calc(-1 * var(--gut)); }
+      /* 3 */
+      .f3 { text-align: center; }
+      .f3 .mark { font-size: 22px; }
+      .f3 nav { display: flex; justify-content: center; gap: 22px; flex-wrap: wrap; margin: 26px 0; font-size: 12px; text-transform: uppercase; }
+      .f3 .sub { margin: 0 auto; }
+      /* 4 */
+      .f4 .sign { padding-bottom: 46px; text-align: center; }
+      .f4 .sign p { margin: 0 0 18px; font-size: 13px; text-transform: uppercase; }
+      .f4 .sign .sub { margin: 0 auto; }
+      .f4 .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; padding-top: 40px; }
+      /* 5 */
+      .f5 .grid { display: grid; grid-template-columns: 1.2fr repeat(3, 1fr) 1.2fr; gap: 28px; align-items: start; }
+      .f5 .pics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; }
+      .f5 .pics img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+      /* 6 */
+      .f6 .rows { border-top: 1px solid currentColor; }
+      .f6 .rows a { display: flex; justify-content: space-between; padding: 16px 0; border-bottom: 1px solid rgba(127, 127, 127, 0.35); font-size: clamp(18px, 1.8vw, 26px); font-weight: 500; text-transform: uppercase; letter-spacing: -0.02em; }
+      .f6 .rows a span { font-size: 13px; opacity: 0.55; }
+      .f6 .bot { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 32px; }
+      /* 7 */
+      .f7 { display: grid; grid-template-columns: 1.2fr 1fr; gap: 0; padding: 0; }
+      .f7 .img { min-height: 420px; }
+      .f7 .img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+      .f7 .r { padding: clamp(32px, 4vw, 64px) var(--gut); display: flex; flex-direction: column; justify-content: space-between; gap: 28px; }
+      .f7 .r .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+      /* 8 */
+      .f8 { padding-top: 22px; }
+      .f8 .line { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; font-size: 12px; text-transform: uppercase; }
+      .f8 .line nav { display: flex; gap: 18px; flex-wrap: wrap; }
+      .f8 .mark { font-size: 16px; }
+      @media (max-width: 800px) {
+        .f1 .grid, .f2 .grid, .f5 .grid, .f4 .grid, .f6 .bot, .f7, .f7 .r .grid { grid-template-columns: 1fr 1fr; }
+        .f7 { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <p class="intro"><b>Vintage Blue — footer options.</b> Real content in each. Tell me the number.</p>
+    <main id="list"></main>
+    <script>
+      const shop = '<div class="col"><p class="k">Shop</p><a>Denim</a><a>Shirts</a><a>Jackets</a><a>Cargos</a><a>Pants</a></div>';
+      const brand = '<div class="col"><p class="k">Brand</p><a>About</a><a>Lookbook</a><a>Contact</a><a>Private label</a></div>';
+      const help = '<div class="col"><p class="k">Help</p><a>Shipping</a><a>Returns</a><a>Size guide</a><a>FAQs</a></div>';
+      const studio = '<div class="col"><p class="k">Studio</p><p>Industrial Area A, Delhi</p><a>hello@vintageblue.studio</a><p>10am – 6pm IST</p></div>';
+      const sub = '<form class="sub" onsubmit="return false"><input type="email" placeholder="Email address" /><button>Subscribe</button></form>';
+      const legal = '<div class="legal"><span>© 2026 Vintage Blue Jeanswear</span><span>Privacy · Terms</span><span>Instagram · WhatsApp</span></div>';
+      const opts = [
+        ["Current — simple dark", "Name + tagline and signup on top, three columns below", `<footer class="dark f1"><div class="top"><div><p class="mark" style="font-size:24px">Vintage Blue</p><p style="opacity:.6;margin:10px 0 0">Heritage denim, reimagined.</p></div><div style="flex:1;max-width:420px"><p class="k">Drops and restocks. No noise.</p>${sub}</div></div><div class="grid">${shop}${brand}${studio}</div>${legal}</footer>`],
+        ["Giant wordmark", "Four columns, then VINTAGE BLUE across the whole width", `<footer class="dark f2"><div class="grid">${shop}${brand}${help}${studio}</div><p class="mark">Vintage Blue</p>${legal}</footer>`],
+        ["Centred and minimal", "Name, one line of links, signup", `<footer class="light f3" style="border-top:1px solid rgba(20,20,20,.12)"><p class="mark">Vintage Blue</p><nav><a>Shop</a><a>Lookbook</a><a>About</a><a>Contact</a><a>Shipping</a><a>Returns</a></nav>${sub}${legal}</footer>`],
+        ["Signup first (UY Studio style)", "A dark signup band, then light details", `<div><footer class="dark f4"><div class="sign"><p>Early access to new drops<br />and 10% off your first order.</p>${sub}</div></footer><footer class="light f4" style="padding-top:36px"><div class="grid"><div class="col up"><p>Industrial Area A, Delhi</p><p>10am – 6pm IST</p><a>hello@vintageblue.studio</a></div><div class="col up"><a>Shipping</a><a>Returns</a><a>Private label</a><a>Privacy</a></div></div>${legal}</footer></div>`],
+        ["Columns + photos (GAUCHERE style)", "Links, socials and three small photos", `<footer class="light f5" style="border-top:1px solid rgba(20,20,20,.12)"><div class="grid"><div><p class="mark" style="font-size:20px">Vintage Blue</p><p style="color:var(--soft);margin-top:12px">Since 2006.</p></div>${shop}${brand}${help}<div class="pics"><img src="/assets/editorial/raw-stairs.jpg" alt="" /><img src="/assets/editorial/lb-seated.jpg" alt="" /><img src="/assets/editorial/suede-jacket.jpg" alt="" /></div></div>${legal}</footer>`],
+        ["Big ruled links", "Large link rows, details underneath", `<footer class="dark f6"><div class="rows"><a>Shop <span>84 pieces</span></a><a>Lookbook <span>Winter 2026</span></a><a>About <span>Since 2006</span></a><a>Contact <span>hello@vintageblue.studio</span></a></div><div class="bot"><div><p class="k">Newsletter</p>${sub}</div>${studio}</div>${legal}</footer>`],
+        ["Photo + details", "Half photo, half footer", `<footer class="dark f7"><div class="img"><img src="/assets/ref/brick.jpg" alt="" /></div><div class="r"><p class="mark" style="font-size:clamp(34px,4vw,64px)">Vintage<br />Blue</p><div class="grid">${shop}${studio}</div><div><p class="k">Newsletter</p>${sub}</div><div class="legal" style="margin-top:0">${'<span>© 2026 Vintage Blue Jeanswear</span><span>Privacy · Terms</span>'}</div></div></footer>`],
+        ["One line", "Everything in a single slim bar", `<footer class="light f8" style="border-top:1px solid rgba(20,20,20,.12)"><div class="line"><p class="mark">Vintage Blue</p><nav><a>Shop</a><a>Lookbook</a><a>About</a><a>Contact</a><a>Shipping</a><a>Returns</a></nav><span style="opacity:.6">© 2026 · Instagram · WhatsApp</span></div></footer>`],
+      ];
+      document.getElementById("list").innerHTML = opts.map(([n, note, html], i) => `<p class="tag">${String(i + 1).padStart(2, "0")} — ${n}<span>${note}</span></p>${html}`).join("");
+    </script>
+  </body>
+</html>

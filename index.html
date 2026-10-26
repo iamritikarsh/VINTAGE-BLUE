@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vintage Blue — heritage denim, cut and sewn in Delhi since 2006." />
+    <title>Vintage Blue</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="preload" href="/assets/About3-B9cmU6sk.png" as="image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Anton&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css?v=34" />
+    <link rel="stylesheet" href="/home2.css?v=59" />
+  </head>
+  <body>
+    <header class="nav" id="nav">
+      <a href="/" class="nav-mark" data-link>Vintage Blue</a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="/shop" data-link>Shop</a>
+        <a href="/lookbook" data-link>Lookbook</a>
+        <a href="/about" data-link>About</a>
+        <a href="/contact" data-link>Contact</a>
+      </nav>
+      <div class="nav-right">
+        <button class="nav-menu-btn" id="menuBtn" type="button" aria-expanded="false">Menu</button>
+        <button class="nav-bag" id="bagOpen" type="button" aria-label="Open bag">
+          Bag <span class="nav-bag-count" id="bagCount">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="app"></main>
+
+    <footer class="foot">
+      <div class="foot-top">
+        <div>
+          <p class="foot-mark">Vintage Blue</p>
+          <p class="foot-tag">Heritage denim, reimagined.</p>
+        </div>
+        <form class="foot-sub" id="subForm">
+          <label for="subEmail">Drops, restocks and stories from the workshop. No noise.</label>
+          <div class="foot-sub-row">
+            <input id="subEmail" type="email" placeholder="Email address" required />
+            <button type="submit">Subscribe</button>
+          </div>
+          <p class="foot-sub-done" id="subDone" hidden>Thank you — you're on the list.</p>
+        </form>
+      </div>
+      <div class="foot-grid">
+        <div>
+          <h3>Shop</h3>
+          <a href="/shop/denim" data-link>Denim</a>
+          <a href="/shop/shirts" data-link>Shirts</a>
+          <a href="/shop/jackets" data-link>Jackets</a>
+          <a href="/shop/cargos" data-link>Cargos</a>
+          <a href="/shop/pants" data-link>Pants</a>
+        </div>
+        <div>
+          <h3>Brand</h3>
+          <a href="/about" data-link>About</a>
+          <a href="/lookbook" data-link>Lookbook</a>
+          <a href="/contact" data-link>Contact</a>
+        </div>
+        <div>
+          <h3>Studio</h3>
+          <p>Industrial Area A, Delhi</p>
+          <a href="mailto:hello@vintageblue.studio">hello@vintageblue.studio</a>
+          <p>10am – 6pm IST</p>
+        </div>
+      </div>
+      <p class="foot-legal">© 2026 Vintage Blue Jeanswear</p>
+    </footer>
+
+    <footer class="foot2" aria-label="Site footer">
+      <div class="foot2-grid">
+        <div><h3>Shop</h3><a href="/shop/denim" data-link>Denim</a><a href="/shop/shirts" data-link>Shirts</a><a href="/shop/jackets" data-link>Jackets</a><a href="/shop/cargos" data-link>Cargos</a><a href="/shop/pants" data-link>Pants</a></div>
+        <div><h3>Brand</h3><a href="/about7" data-link>About</a><a href="/lookbook8" data-link>Lookbook</a><a href="/contact2" data-link>Contact</a><a href="/contact2" data-link>Private label</a></div>
+        <div><h3>Help</h3><a href="/contact2" data-link>Shipping</a><a href="/contact2" data-link>Returns</a><a href="/contact2" data-link>Size guide</a><a href="/contact2" data-link>FAQs</a></div>
+        <div><h3>Studio</h3><p>Industrial Area A, Delhi</p><a href="mailto:hello@vintageblue.studio">hello@vintageblue.studio</a><p>10am – 6pm IST</p></div>
+      </div>
+      <div class="foot2-marquee" aria-hidden="true"><div class="foot2-track"><span>Vintage Blue</span><span>Vintage Blue</span><span>Vintage Blue</span><span>Vintage Blue</span></div></div>
+      <div class="foot2-legal"><span>© 2026 Vintage Blue Jeanswear</span><span>Privacy · Terms</span><span>Instagram · WhatsApp</span></div>
+    </footer>
+
+    <div class="bag-scrim" id="bagScrim" hidden></div>
+    <aside class="bag" id="bag" aria-label="Your bag" aria-hidden="true">
+      <div class="bag-head">
+        <h2>Your bag</h2>
+        <button type="button" class="bag-close" id="bagClose" aria-label="Close bag">Close</button>
+      </div>
+      <div class="bag-body" id="bagBody"></div>
+      <div class="bag-foot" id="bagFoot"></div>
+    </aside>
+
+    <script type="module" src="/app.js?v=107"></script>
+  </body>
+</html>

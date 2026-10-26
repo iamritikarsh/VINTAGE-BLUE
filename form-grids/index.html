@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vintage Blue — Form grid options</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <style>
+      :root { --page: #fcfaf6; --ink: #141414; --soft: rgba(20, 20, 20, 0.55); --gut: clamp(16px, 2.2vw, 32px); }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--page); color: var(--ink); font-family: "Inter", "Helvetica Neue", Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+      .intro { padding: 28px var(--gut) 0; font-size: 13px; color: var(--soft); }
+      .intro b { color: var(--ink); }
+      .opt { display: grid; grid-template-columns: 1fr minmax(0, 560px); gap: 40px; padding: 56px var(--gut); border-bottom: 1px solid rgba(20, 20, 20, 0.08); }
+      .opt.dk { background: #141414; color: #f1efe9; }
+      .tag { margin: 0; font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+      .tag small { display: block; margin-top: 8px; font-size: 13px; font-weight: 400; letter-spacing: 0; text-transform: none; opacity: 0.6; max-width: 34ch; line-height: 1.5; }
+      @media (max-width: 860px) { .opt { grid-template-columns: 1fr; gap: 20px; } }
+
+      /* shared form bones */
+      form { display: grid; font-size: 14px; }
+      .two { display: grid; grid-template-columns: 1fr 1fr; }
+      label { display: grid; margin: 0; }
+      label > span { display: flex; justify-content: space-between; font-size: 10.5px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; }
+      input, select, textarea { width: 100%; border: 0; border-radius: 0; outline: none; background: transparent; color: inherit; font: inherit; font-size: 15px; }
+      input::placeholder, textarea::placeholder { color: currentColor; opacity: 0.32; }
+      textarea { min-height: 140px; resize: vertical; }
+      select { appearance: none; cursor: pointer; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23141414' stroke-width='1.3'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 16px center; }
+      select:invalid { color: rgba(20, 20, 20, 0.36); }
+      button { display: flex; justify-content: space-between; align-items: center; width: 100%; border: 0; border-radius: 0; cursor: pointer; font: inherit; font-size: 11.5px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; }
+      button i { font-style: normal; transition: transform 0.3s; }
+      button:hover i { transform: translateX(4px); }
+      label, label > span, input, select, textarea { transition: background-color 0.25s, color 0.25s; }
+
+      /* 1 — Warm tonal */
+      .f1 { --l: rgba(20, 20, 20, 0.13); border: 1px solid var(--l); }
+      .f1 label { border-bottom: 1px solid var(--l); }
+      .f1 .two label + label { border-left: 1px solid var(--l); }
+      .f1 label > span { padding: 10px 16px; background: #efebe3; border-bottom: 1px solid var(--l); color: rgba(20, 20, 20, 0.6); }
+      .f1 input, .f1 select, .f1 textarea { padding: 16px; }
+      .f1 label:focus-within > span { color: var(--ink); }
+      .f1 label:focus-within input, .f1 label:focus-within select, .f1 label:focus-within textarea { background-color: #f7f4ee; }
+      .f1 button { padding: 17px 16px; background: var(--ink); color: var(--page); }
+
+      /* 2 — Spec sheet (labels on the left) */
+      .f2 { --l: rgba(20, 20, 20, 0.14); border-top: 1px solid var(--ink); }
+      .f2 .two { grid-template-columns: 1fr; }
+      .f2 label { grid-template-columns: 150px 1fr; border-bottom: 1px solid var(--l); }
+      .f2 label > span { align-items: center; padding: 0 16px; background: #f1eee8; border-right: 1px solid var(--l); color: rgba(20, 20, 20, 0.6); }
+      .f2 label.msg > span { align-items: flex-start; padding-top: 18px; }
+      .f2 input, .f2 select, .f2 textarea { padding: 18px 16px; }
+      .f2 label:focus-within > span { background: var(--ink); color: var(--page); }
+      .f2 button { margin-top: 18px; padding: 17px 16px; background: var(--ink); color: var(--page); }
+
+      /* 3 — Numbered index */
+      .f3 { --l: rgba(20, 20, 20, 0.16); border: 1px solid var(--l); }
+      .f3 label { border-bottom: 1px solid var(--l); }
+      .f3 .two label + label { border-left: 1px solid var(--l); }
+      .f3 label > span { padding: 10px 16px; background: #f3f0ea; border-bottom: 1px solid var(--l); color: rgba(20, 20, 20, 0.62); }
+      .f3 label > span em { font-style: normal; opacity: 0.5; font-variant-numeric: tabular-nums; }
+      .f3 input, .f3 select, .f3 textarea { padding: 18px 16px; }
+      .f3 label:focus-within > span { color: var(--ink); }
+      .f3 label:focus-within > span em { opacity: 1; }
+      .f3 button { padding: 17px 16px; background: transparent; color: var(--ink); }
+      .f3 button:hover { background: var(--ink); color: var(--page); }
+
+      /* 4 — Stone gap-grid (cells floating on a stone sheet) */
+      .f4 { gap: 1px; padding: 1px; background: #dcd8d0; }
+      .f4 .two { gap: 1px; }
+      .f4 label { background: #f7f5f0; }
+      .f4 label > span { padding: 12px 16px 0; color: rgba(20, 20, 20, 0.5); }
+      .f4 input, .f4 select, .f4 textarea { padding: 8px 16px 16px; }
+      .f4 select { background-position: right 16px top 14px; }
+      .f4 label:focus-within { background: var(--page); }
+      .f4 label:focus-within > span { color: var(--ink); }
+      .f4 button { padding: 17px 16px; background: var(--ink); color: var(--page); }
+
+      /* 5 — Ink headings */
+      .f5 { --l: rgba(20, 20, 20, 0.85); border: 1px solid var(--l); }
+      .f5 label { border-bottom: 1px solid var(--l); }
+      .f5 .two label + label { border-left: 1px solid var(--l); }
+      .f5 label > span { padding: 8px 14px; background: var(--ink); color: rgba(241, 239, 233, 0.75); }
+      .f5 input, .f5 select, .f5 textarea { padding: 16px 14px; background-color: var(--page); }
+      .f5 label:focus-within > span { color: #f1efe9; }
+      .f5 label:focus-within input, .f5 label:focus-within select, .f5 label:focus-within textarea { background-color: #f3f0ea; }
+      .f5 button { padding: 17px 14px; background: var(--page); color: var(--ink); }
+      .f5 button:hover { background: var(--ink); color: var(--page); }
+
+      /* 6 — Hairline blueprint (no fills, crisp) */
+      .f6 { --l: rgba(20, 20, 20, 0.2); border: 1px solid var(--l); }
+      .f6 label { border-bottom: 1px solid var(--l); }
+      .f6 .two label + label { border-left: 1px solid var(--l); }
+      .f6 label > span { padding: 11px 16px; border-bottom: 1px dashed rgba(20, 20, 20, 0.14); color: rgba(20, 20, 20, 0.5); }
+      .f6 label > span::after { content: "*"; opacity: 0.4; }
+      .f6 input, .f6 select, .f6 textarea { padding: 16px; }
+      .f6 label:focus-within > span { background: #f1eee8; color: var(--ink); }
+      .f6 button { padding: 17px 16px; background: transparent; color: var(--ink); }
+      .f6 button:hover { background: #f1eee8; }
+
+      /* 7 — Night (for the dark lookbook page) */
+      .f7 { --l: rgba(241, 239, 233, 0.14); border: 1px solid var(--l); color: #f1efe9; }
+      .f7 label { border-bottom: 1px solid var(--l); }
+      .f7 .two label + label { border-left: 1px solid var(--l); }
+      .f7 label > span { padding: 10px 16px; background: #1e1e1e; border-bottom: 1px solid var(--l); color: rgba(241, 239, 233, 0.55); }
+      .f7 input, .f7 select, .f7 textarea { padding: 16px; background-color: #161616; }
+      .f7 select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23f1efe9' stroke-width='1.3'/%3E%3C/svg%3E"); }
+      .f7 select:invalid { color: rgba(241, 239, 233, 0.36); }
+      .f7 select option { color: #141414; }
+      .f7 label:focus-within > span { color: #f1efe9; }
+      .f7 button { padding: 17px 16px; background: #f1efe9; color: var(--ink); }
+
+      @media (max-width: 560px) {
+        .two { grid-template-columns: 1fr; }
+        .two label + label { border-left: 0 !important; }
+        .f2 label { grid-template-columns: 110px 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <p class="intro"><b>Vintage Blue — form grid options.</b> No pure white anywhere, only the site's cream, stone and ink. Click into the fields to see the focus state. Tell me the number.</p>
+    <main id="list"></main>
+    <script>
+      const topics = ["Order enquiry", "Returns & exchanges", "Fit & sizing", "Wholesale / private label", "Collaborations & press", "Other"];
+      const form = (cls, numbered) => {
+        const n = (i, t) => (numbered ? `<span>${t}<em>0${i}</em></span>` : `<span>${t}</span>`);
+        return `<form class="${cls}" onsubmit="return false">
+          <div class="two">
+            <label>${n(1, "Name")}<input placeholder="Your name" /></label>
+            <label>${n(2, "Email")}<input type="email" placeholder="you@email.com" /></label>
+          </div>
+          <label>${n(3, "Subject")}<select required><option value="" selected disabled>Choose a subject</option>${topics.map((t) => `<option>${t}</option>`).join("")}</select></label>
+          <label class="msg">${n(4, "Message")}<textarea placeholder="Write your message"></textarea></label>
+          <button type="submit">Send message <i>→</i></button>
+        </form>`;
+      };
+      const opts = [
+        ["Warm tonal", "Beige heading strip, hairline, cream answer. The softest version of what you asked for.", "f1"],
+        ["Spec sheet", "Labels sit in a grey column on the left, answers on the right — like a garment spec table.", "f2"],
+        ["Numbered index", "Grey heading strip with 01–04 on the right, outlined send button.", "f3", true],
+        ["Stone gap-grid", "Cells float on a stone sheet with 1px gaps — the lines come from the gaps.", "f4"],
+        ["Ink headings", "Black heading strips, cream answers. Strongest contrast.", "f5"],
+        ["Hairline blueprint", "No fills at all, only thin lines. The heading strip turns beige when you type.", "f6"],
+        ["Night", "The same grid on black, for the dark pages.", "f7", false, true],
+      ];
+      document.getElementById("list").innerHTML = opts
+        .map(([name, note, cls, num, dark], i) => `<section class="opt${dark ? " dk" : ""}"><p class="tag">${String(i + 1).padStart(2, "0")} — ${name}<small>${note}</small></p>${form(cls, num)}</section>`)
+        .join("");
+    </script>
+  </body>
+</html>
