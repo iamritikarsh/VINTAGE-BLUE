@@ -10,10 +10,10 @@
     ],
     "popular": true,
     "images": [
-      "/assets/comfort-cargo-9018-mouse-model-back.jpg",
+      "/assets/comfort-cargo-9018-mouse-model-front.jpg?v=3",
       "/assets/comfort-cargo-9018-mouse-front.jpg",
       "/assets/comfort-cargo-9018-mouse-back.jpg",
-      "/assets/comfort-cargo-9018-mouse-model-front.jpg"
+      "/assets/comfort-cargo-9018-mouse-model-back.jpg?v=3"
     ],
     "description": "A comfort-fit cargo in 100% cotton, with utility pockets down the leg and a washed mouse finish. Style 9018. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -57,7 +57,7 @@
       "cargos"
     ],
     "images": [
-      "/assets/comfort-cargo-9018-black-model-front.jpg?v=2",
+      "/assets/comfort-cargo-9018-black-model-front.jpg?v=3",
       "/assets/comfort-cargo-9018-black-front.jpg",
       "/assets/comfort-cargo-9018-black-back.jpg"
     ],
@@ -103,7 +103,7 @@
       "cargos"
     ],
     "images": [
-      "/assets/comfort-cargo-9018-dark-grey-model-front.jpg?v=2",
+      "/assets/comfort-cargo-9018-dark-grey-model-front.jpg?v=3",
       "/assets/comfort-cargo-9018-dark-grey-front.jpg",
       "/assets/comfort-cargo-9018-dark-grey-back.jpg",
       "/assets/comfort-cargo-9018-dark-grey-model-back.jpg"
@@ -150,7 +150,7 @@
       "cargos"
     ],
     "images": [
-      "/assets/comfort-cargo-9019-stone-front.jpg",
+      "/assets/comfort-cargo-9019-stone-front.jpg?v=3",
       "/assets/comfort-cargo-9019-stone-back.jpg"
     ],
     "description": "A comfort-fit cargo in 100% cotton, with utility pockets down the leg and a washed stone finish. Style 9019. Cut and sewn at our own workshop in Delhi.",
@@ -195,7 +195,7 @@
       "cargos"
     ],
     "images": [
-      "/assets/comfort-cargo-9018-light-olive-model-front.jpg?v=2",
+      "/assets/comfort-cargo-9018-light-olive-model-front.jpg?v=3",
       "/assets/comfort-cargo-9018-light-olive-front.jpg",
       "/assets/comfort-cargo-9018-light-olive-back.jpg",
       "/assets/comfort-cargo-9018-light-olive-model-back.jpg"
@@ -242,7 +242,7 @@
       "cargos"
     ],
     "images": [
-      "/assets/comfort-cargo-9018-cream-model-front.jpg",
+      "/assets/comfort-cargo-9018-cream-model-front.jpg?v=2",
       "/assets/comfort-cargo-9018-cream-front.jpg",
       "/assets/comfort-cargo-9018-cream-back.jpg"
     ],
@@ -288,9 +288,9 @@
       "cargos"
     ],
     "images": [
-      "/assets/comfort-cargo-9019-black-model-back.jpg?v=2",
-      "/assets/comfort-cargo-9019-black-front.jpg",
       "/assets/comfort-cargo-9019-black-model-front.jpg",
+      "/assets/comfort-cargo-9019-black-front.jpg",
+      "/assets/comfort-cargo-9019-black-model-back.jpg?v=3",
       "/assets/comfort-cargo-9019-black-back.jpg"
     ],
     "description": "A comfort-fit cargo in 100% cotton, with utility pockets down the leg and a washed black finish. Style 9019. Cut and sewn at our own workshop in Delhi.",
@@ -335,7 +335,7 @@
       "cargos"
     ],
     "images": [
-      "/assets/comfort-cargo-9019-grey-model-front.jpg",
+      "/assets/comfort-cargo-9019-grey-model-front.jpg?v=3",
       "/assets/comfort-cargo-9019-grey-front.jpg",
       "/assets/comfort-cargo-9019-grey-back.jpg"
     ],
@@ -381,7 +381,7 @@
       "cargos"
     ],
     "images": [
-      "/assets/comfort-cargo-9019-coffee-model-front.jpg",
+      "/assets/comfort-cargo-9019-coffee-model-front.jpg?v=3",
       "/assets/comfort-cargo-9019-coffee-front.jpg",
       "/assets/comfort-cargo-9019-coffee-model-back.jpg",
       "/assets/comfort-cargo-9019-coffee-back.jpg"
@@ -428,7 +428,7 @@
       "cargos"
     ],
     "images": [
-      "/assets/comfort-cargo-9019-cream-front.jpg",
+      "/assets/comfort-cargo-9019-cream-front.jpg?v=3",
       "/assets/comfort-cargo-9019-cream-back.jpg"
     ],
     "description": "A comfort-fit cargo in 100% cotton, with utility pockets down the leg and a washed cream finish. Style 9019. Cut and sewn at our own workshop in Delhi.",
@@ -474,7 +474,7 @@
     ],
     "popular": true,
     "images": [
-      "/assets/comfort-cargo-9019-navy-model-front.jpg?v=2",
+      "/assets/comfort-cargo-9019-navy-model-front.jpg?v=3",
       "/assets/comfort-cargo-9019-navy-front.jpg",
       "/assets/comfort-cargo-9019-navy-back.jpg"
     ],
@@ -520,7 +520,7 @@
       "cargos"
     ],
     "images": [
-      "/assets/comfort-cargo-9018-olive-front.jpg",
+      "/assets/comfort-cargo-9018-olive-front.jpg?v=3",
       "/assets/comfort-cargo-9018-olive-back.jpg"
     ],
     "description": "A comfort-fit cargo in 100% cotton, with utility pockets down the leg and a washed olive finish. Style 9018. Cut and sewn at our own workshop in Delhi.",
@@ -565,7 +565,7 @@
       "cargos"
     ],
     "images": [
-      "/assets/comfort-cargo-9019-khaki-model-front.jpg?v=2",
+      "/assets/comfort-cargo-9019-khaki-model-front.jpg?v=3",
       "/assets/comfort-cargo-9019-khaki-front.jpg",
       "/assets/comfort-cargo-9019-khaki-back.jpg"
     ],
@@ -611,7 +611,7 @@
       "cargos"
     ],
     "images": [
-      "/assets/comfort-cargo-9019-olive-model-front.jpg?v=2",
+      "/assets/comfort-cargo-9019-olive-model-front.jpg?v=3",
       "/assets/comfort-cargo-9019-olive-front.jpg",
       "/assets/comfort-cargo-9019-olive-back.jpg"
     ],
@@ -796,7 +796,7 @@
       "pants"
     ],
     "images": [
-      "/assets/light-weight-pant-4035-navy-front.jpg?v=2",
+      "/assets/light-weight-pant-4035-navy-front.jpg?v=3",
       "/assets/light-weight-pant-4035-navy-back.jpg?v=2"
     ],
     "description": "An easy comfort-fit trouser in 100% cotton, finished in navy. Style 4035. Cut and sewn at our own workshop in Delhi.",
@@ -886,7 +886,7 @@
       "pants"
     ],
     "images": [
-      "/assets/heavy-pant-4036-black-model-front.jpg?v=2",
+      "/assets/heavy-pant-4036-black-model-front.png?v=5",
       "/assets/heavy-pant-4036-black-front.jpg?v=2",
       "/assets/heavy-pant-4036-black-back.jpg?v=2"
     ],
@@ -931,7 +931,7 @@
       "pants"
     ],
     "images": [
-      "/assets/heavy-pant-4036-olive-front.jpg?v=2",
+      "/assets/heavy-pant-4036-olive-front.jpg?v=3",
       "/assets/heavy-pant-4036-olive-back.jpg?v=2"
     ],
     "description": "An easy comfort-fit trouser in 100% cotton, finished in olive. Style 4036. Cut and sewn at our own workshop in Delhi.",
@@ -975,7 +975,7 @@
       "pants"
     ],
     "images": [
-      "/assets/comfort-pant-4038-cream-model-front.jpg?v=2",
+      "/assets/comfort-pant-4038-cream-model-front.jpg?v=3",
       "/assets/comfort-pant-4038-cream-front.jpg?v=2",
       "/assets/comfort-pant-4038-cream-back.jpg?v=2"
     ],
@@ -1111,7 +1111,7 @@
       "pants"
     ],
     "images": [
-      "/assets/comfort-pant-4038-khaki-model-front.png",
+      "/assets/comfort-pant-4038-khaki-model-front.png?v=3",
       "/assets/comfort-pant-4038-khaki-front.png",
       "/assets/comfort-pant-4038-khaki-back.png"
     ],
@@ -2067,7 +2067,7 @@
     ],
     "popular": true,
     "images": [
-      "/assets/corduroy-jacket-173-brown-model-front.jpg",
+      "/assets/corduroy-jacket-173-brown-model-front.jpg?v=3",
       "/assets/corduroy-jacket-173-brown-front.jpg",
       "/assets/corduroy-jacket-173-brown-model-back.jpg",
       "/assets/corduroy-jacket-173-brown-back.jpg"
@@ -2113,9 +2113,9 @@
       "jackets"
     ],
     "images": [
-      "/assets/corduroy-jacket-171-black-model-back.jpg",
+      "/assets/corduroy-jacket-171-black-model-front.jpg?v=3",
       "/assets/corduroy-jacket-171-black-front.jpg",
-      "/assets/corduroy-jacket-171-black-model-front.jpg",
+      "/assets/corduroy-jacket-171-black-model-back.jpg",
       "/assets/corduroy-jacket-171-black-back.jpg"
     ],
     "description": "A corduroy jacket in 98% cotton 2% spandex, lined in fur, finished in black. Style 171. Cut and sewn at our own workshop in Delhi.",
@@ -2159,7 +2159,7 @@
       "jackets"
     ],
     "images": [
-      "/assets/corduroy-jacket-172-olive-model-front.jpg",
+      "/assets/corduroy-jacket-172-olive-model-front.jpg?v=3",
       "/assets/corduroy-jacket-172-olive-front.jpg",
       "/assets/corduroy-jacket-172-olive-back.jpg"
     ],
@@ -2204,7 +2204,7 @@
       "jackets"
     ],
     "images": [
-      "/assets/denim-fur-jacket-167-dark-blue-model-front.jpg",
+      "/assets/denim-fur-jacket-167-dark-blue-model-front.jpg?v=2",
       "/assets/denim-fur-jacket-167-dark-blue-front.jpg",
       "/assets/denim-fur-jacket-167-dark-blue-model-back.jpg",
       "/assets/denim-fur-jacket-167-dark-blue-back.jpg"
@@ -2250,7 +2250,8 @@
       "jackets"
     ],
     "images": [
-      "/assets/denim-fur-jacket-163-blue-skin-front.jpg",
+      "/assets/denim-fur-jacket-163-blue-skin-model-front.jpg",
+      "/assets/denim-fur-jacket-163-blue-skin-front.jpg?v=3",
       "/assets/denim-fur-jacket-163-blue-skin-back.jpg"
     ],
     "description": "A denim fur jacket in 84% cotton 15% polyester 1% elastane, lined in fur, finished in blue skin. Style 163. Cut and sewn at our own workshop in Delhi.",
@@ -2294,7 +2295,7 @@
       "jackets"
     ],
     "images": [
-      "/assets/denim-fleece-jacket-169-moon-light-model-front.jpg",
+      "/assets/denim-fleece-jacket-169-moon-light-model-front.jpg?v=3",
       "/assets/denim-fleece-jacket-169-moon-light-front.jpg",
       "/assets/denim-fleece-jacket-169-moon-light-back.jpg"
     ],
@@ -2339,7 +2340,7 @@
       "jackets"
     ],
     "images": [
-      "/assets/denim-jacket-152-coal-grey-model-front.jpg",
+      "/assets/denim-jacket-152-coal-grey-model-front.jpg?v=2",
       "/assets/denim-jacket-152-coal-grey-front.jpg",
       "/assets/denim-jacket-152-coal-grey-back.jpg"
     ],
@@ -2383,7 +2384,7 @@
     ],
     "popular": true,
     "images": [
-      "/assets/denim-jacket-164-tinted-blue-model-front.jpg",
+      "/assets/denim-jacket-164-tinted-blue-model-front.jpg?v=2",
       "/assets/denim-jacket-164-tinted-blue-front.jpg",
       "/assets/denim-jacket-164-tinted-blue-model-back.jpg",
       "/assets/denim-jacket-164-tinted-blue-back.jpg"

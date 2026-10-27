@@ -44,10 +44,11 @@ function colorOf(p) {
 function card(p) {
   const [main, alt] = cardImages(p);
   const flat = !p.images.some((i) => i.includes("-model"));
+  const isModel = Boolean(main && main.includes("-model"));
   return `
     <a class="card rv" href="/product/${p.handle}" data-link>
       <div class="card-media${flat ? " flat" : ""}">
-        <img src="${main}" alt="${esc(p.name)}" loading="lazy" />
+        <img src="${main}" class="${isModel ? "img-model" : ""}" alt="${esc(p.name)}" loading="lazy" />
         ${alt ? `<img class="alt" src="${alt}" alt="" loading="lazy" />` : ""}
       </div>
       <div class="card-meta">
@@ -1170,10 +1171,11 @@ function shop(cat, sort = "featured", type = "") {
 // Products page cell: plain grey ground, centred caption, alt image on hover.
 function uyCard(p) {
   const [main, alt] = cardImages(p);
+  const isModel = Boolean(main && main.includes("-model"));
   return `
     <a class="uy-cell" href="/product/${p.handle}" data-link>
       <div class="uy-media">
-        <img src="${main}" alt="${esc(p.name)}" loading="lazy" />
+        <img src="${main}" class="${isModel ? "img-model" : ""}" alt="${esc(p.name)}" loading="lazy" />
         ${alt ? `<img class="alt" src="${alt}" alt="" loading="lazy" />` : ""}
       </div>
       <p class="uy-cap">${esc(p.type)} <span>${esc(colorOf(p))}</span> ${inr(p.price)}</p>
@@ -1754,7 +1756,7 @@ document.getElementById("subForm").addEventListener("submit", (e) => {
 
 /* ---------- Boot ---------- */
 
-fetch("/data/products.json?v=17")
+fetch("/data/products.json?v=34")
   .then((r) => r.json())
   .then((data) => {
     products = data;
