@@ -1756,7 +1756,7 @@ document.getElementById("subForm").addEventListener("submit", (e) => {
 
 /* ---------- Boot ---------- */
 
-fetch("/data/products.json?v=34")
+fetch("/data/products.json?v=61")
   .then((r) => r.json())
   .then((data) => {
     products = data;
