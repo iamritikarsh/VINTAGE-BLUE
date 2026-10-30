@@ -1196,22 +1196,23 @@
     "inStock": true
   },
   {
-    "id": "27",
-    "handle": "corduroy-shirt-0040-fawn",
-    "name": "Corduroy Shirt 0040 — Fawn",
-    "styleNo": "0040",
+    "id": "45",
+    "handle": "corduroy-shirt-141-1-navy",
+    "name": "Corduroy Shirt — Navy",
+    "styleNo": "141-1",
     "price": 1499,
     "categories": [
       "shirts"
     ],
     "images": [
-      "/assets/corduroy-shirt-0040-fawn-front.jpg?v=3",
-      "/assets/corduroy-shirt-0040-fawn-back.jpg?v=3"
+      "/assets/corduroy-shirt-141-1-navy-model-front.jpg?v=3",
+      "/assets/corduroy-shirt-141-1-navy-front.jpg?v=3",
+      "/assets/corduroy-shirt-141-1-navy-back.jpg?v=3"
     ],
-    "description": "A corduroy shirt in 98% cotton 2% spandex, finished in fawn. Style 0040. Cut and sewn at our own workshop in Delhi.",
+    "description": "A corduroy shirt in 100% cotton, finished in navy. Style 141-1. Cut and sewn at our own workshop in Delhi.",
     "details": [
-      "Style no. 0040",
-      "98% Cotton 2% Spandex",
+      "Style no. 141-1",
+      "100% Cotton",
       "Regular fit",
       "Sizes S–3XL"
     ],
@@ -1231,9 +1232,9 @@
     ],
     "type": "Corduroy Shirt",
     "fit": "Regular",
-    "material": "98% Cotton 2% Spandex",
-    "color": "Fawn",
-    "colorFamily": "Browns",
+    "material": "100% Cotton",
+    "color": "Navy",
+    "colorFamily": "Blues",
     "inStock": true
   },
   {
@@ -1246,7 +1247,9 @@
       "shirts"
     ],
     "images": [
+      "/assets/corduroy-shirt-0039-olive-model-front.jpg?v=3",
       "/assets/corduroy-shirt-0039-olive-front.jpg?v=3",
+      "/assets/corduroy-shirt-0039-olive-model-back.jpg?v=3",
       "/assets/corduroy-shirt-0039-olive-back.jpg?v=3"
     ],
     "description": "A corduroy shirt in 98% cotton 2% spandex, finished in olive. Style 0039. Cut and sewn at our own workshop in Delhi.",
@@ -1287,9 +1290,10 @@
       "shirts"
     ],
     "images": [
+      "/assets/denim-shirt-0038-black-model-front.jpg?v=3",
       "/assets/denim-shirt-0038-black-front.jpg?v=3",
-      "/assets/denim-shirt-0038-black-back.jpg?v=3",
-      "/assets/denim-shirt-0038-black-detail-ZIXevCTW.jpg"
+      "/assets/denim-shirt-0038-black-model-back.jpg?v=3",
+      "/assets/denim-shirt-0038-black-back.jpg?v=3"
     ],
     "description": "A denim shirt in 100% cotton lined in anti pill fleece, finished in black. Style 0038. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -1332,7 +1336,9 @@
     ],
     "popular": true,
     "images": [
+      "/assets/denim-shirt-0043-ice-berg-model-front.jpg?v=3",
       "/assets/denim-shirt-0043-ice-berg-front.jpg?v=3",
+      "/assets/denim-shirt-0043-ice-berg-model-back.jpg?v=3",
       "/assets/denim-shirt-0043-ice-berg-back.jpg?v=3"
     ],
     "description": "A denim shirt in 100% cotton, finished in ice berg. Style 0043. Cut and sewn at our own workshop in Delhi.",
@@ -1373,7 +1379,9 @@
       "shirts"
     ],
     "images": [
+      "/assets/denim-shirt-0044-black-model-front.jpg?v=3",
       "/assets/denim-shirt-0044-black-front.jpg?v=3",
+      "/assets/denim-shirt-0044-black-model-back.jpg?v=3",
       "/assets/denim-shirt-0044-black-back.jpg?v=3"
     ],
     "description": "A denim shirt in 100% cotton, finished in black. Style 0044. Cut and sewn at our own workshop in Delhi.",
@@ -1414,7 +1422,9 @@
       "shirts"
     ],
     "images": [
+      "/assets/denim-shirt-0027-blue-ocean-model-front.jpg?v=3",
       "/assets/denim-shirt-0027-blue-ocean-front.jpg?v=3",
+      "/assets/denim-shirt-0027-blue-ocean-model-back.jpg?v=3",
       "/assets/denim-shirt-0027-blue-ocean-back.jpg?v=3"
     ],
     "description": "A denim shirt in 98% cotton 2% spandex, finished in blue ocean. Style 0027. Cut and sewn at our own workshop in Delhi.",
@@ -1446,22 +1456,23 @@
     "inStock": true
   },
   {
-    "id": "33",
-    "handle": "denim-shirt-0024-dark-blue",
-    "name": "Denim Shirt — Dark Blue",
-    "styleNo": "0024",
+    "id": "42",
+    "handle": "corduroy-shirt-141-fawn",
+    "name": "Corduroy Shirt 141 — Fawn",
+    "styleNo": "141",
     "price": 1499,
     "categories": [
       "shirts"
     ],
     "images": [
-      "/assets/denim-shirt-0024-dark-blue-front.jpg?v=3",
-      "/assets/denim-shirt-0024-dark-blue-back.jpg?v=3"
+      "/assets/corduroy-shirt-141-fawn-model-front.jpg?v=3",
+      "/assets/corduroy-shirt-141-fawn-front.jpg?v=3",
+      "/assets/corduroy-shirt-141-fawn-back.jpg?v=3"
     ],
-    "description": "A denim shirt in 98% cotton 2% spandex, finished in dark blue. Style 0024. Cut and sewn at our own workshop in Delhi.",
+    "description": "A corduroy shirt in 100% cotton, finished in fawn. Style 141. Cut and sewn at our own workshop in Delhi.",
     "details": [
-      "Style no. 0024",
-      "98% Cotton 2% Spandex",
+      "Style no. 141",
+      "100% Cotton",
       "Regular fit",
       "Sizes S–3XL"
     ],
@@ -1479,11 +1490,11 @@
       "Everyday",
       "Layerable"
     ],
-    "type": "Denim Shirt",
+    "type": "Corduroy Shirt",
     "fit": "Regular",
-    "material": "98% Cotton 2% Spandex",
-    "color": "Dark Blue",
-    "colorFamily": "Blues",
+    "material": "100% Cotton",
+    "color": "Fawn",
+    "colorFamily": "Browns",
     "inStock": true
   },
   {
@@ -1496,7 +1507,9 @@
       "shirts"
     ],
     "images": [
+      "/assets/denim-shirt-0023-icy-blue-model-front.jpg?v=3",
       "/assets/denim-shirt-0023-icy-blue-front.jpg?v=3",
+      "/assets/denim-shirt-0023-icy-blue-model-back.jpg?v=3",
       "/assets/denim-shirt-0023-icy-blue-back.jpg?v=3"
     ],
     "description": "A denim shirt in 100% cotton, finished in icy blue. Style 0023. Cut and sewn at our own workshop in Delhi.",
@@ -1537,7 +1550,9 @@
       "shirts"
     ],
     "images": [
+      "/assets/denim-shirt-0042-washed-blue-model-front.jpg?v=3",
       "/assets/denim-shirt-0042-washed-blue-front.jpg?v=3",
+      "/assets/denim-shirt-0042-washed-blue-model-back.jpg?v=3",
       "/assets/denim-shirt-0042-washed-blue-back.jpg?v=3"
     ],
     "description": "A denim shirt in 100% cotton, finished in washed blue. Style 0042. Cut and sewn at our own workshop in Delhi.",
@@ -1578,9 +1593,10 @@
       "shirts"
     ],
     "images": [
+      "/assets/corduroy-shirt-with-fleece-142-2-black-model-front.jpg?v=3",
       "/assets/corduroy-shirt-with-fleece-142-2-black-front.jpg?v=3",
-      "/assets/corduroy-shirt-with-fleece-142-2-black-back.jpg?v=3",
-      "/assets/corduroy-shirt-with-fleece-142-2-black-detail-DRsSEAsJ.jpg"
+      "/assets/corduroy-shirt-with-fleece-142-2-black-model-back.jpg?v=3",
+      "/assets/corduroy-shirt-with-fleece-142-2-black-back.jpg?v=3"
     ],
     "description": "A corduroy shirt with fleece in 100% cotton lined in anti pill fleece, finished in black. Style 142-2. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -1622,7 +1638,9 @@
       "shirts"
     ],
     "images": [
+      "/assets/corduroy-shirt-with-fleece-142-1-beige-model-front.jpg?v=3",
       "/assets/corduroy-shirt-with-fleece-142-1-beige-front.jpg?v=3",
+      "/assets/corduroy-shirt-with-fleece-142-1-beige-model-back.jpg?v=3",
       "/assets/corduroy-shirt-with-fleece-142-1-beige-back.jpg?v=3"
     ],
     "description": "A corduroy shirt with fleece in 100% cotton lined in anti pill fleece, finished in beige. Style 142-1. Cut and sewn at our own workshop in Delhi.",
@@ -1656,24 +1674,24 @@
     "inStock": true
   },
   {
-    "id": "38",
-    "handle": "corduroy-shirt-with-fleece-142-3-brown",
-    "name": "Corduroy Shirt With Fleece — Brown",
-    "styleNo": "142-3",
+    "id": "43",
+    "handle": "corduroy-shirt-141-2-wine",
+    "name": "Corduroy Shirt — Wine",
+    "styleNo": "141-2",
     "price": 1499,
     "categories": [
       "shirts"
     ],
     "images": [
-      "/assets/corduroy-shirt-with-fleece-142-3-brown-front.jpg?v=3",
-      "/assets/corduroy-shirt-with-fleece-142-3-brown-back.jpg?v=3"
+      "/assets/corduroy-shirt-141-2-wine-model-front.jpg?v=3",
+      "/assets/corduroy-shirt-141-2-wine-front.jpg?v=3",
+      "/assets/corduroy-shirt-141-2-wine-back.jpg?v=3"
     ],
-    "description": "A corduroy shirt with fleece in 100% cotton lined in anti pill fleece, finished in brown. Style 142-3. Cut and sewn at our own workshop in Delhi.",
+    "description": "A corduroy shirt in 100% cotton, finished in wine. Style 141-2. Cut and sewn at our own workshop in Delhi.",
     "details": [
-      "Style no. 142-3",
+      "Style no. 141-2",
       "100% Cotton",
       "Regular fit",
-      "Anti Pill Fleece lining",
       "Sizes S–3XL"
     ],
     "sizes": [
@@ -1690,11 +1708,10 @@
       "Everyday",
       "Layerable"
     ],
-    "type": "Corduroy Shirt With Fleece",
+    "type": "Corduroy Shirt",
     "fit": "Regular",
     "material": "100% Cotton",
-    "lining": "Anti Pill Fleece",
-    "color": "Brown",
+    "color": "Wine",
     "colorFamily": "Browns",
     "inStock": true
   },
@@ -1708,6 +1725,7 @@
       "shirts"
     ],
     "images": [
+      "/assets/corduroy-shirt-with-fleece-142-4-navy-model-front.jpg?v=3",
       "/assets/corduroy-shirt-with-fleece-142-4-navy-front.jpg?v=3",
       "/assets/corduroy-shirt-with-fleece-142-4-navy-back.jpg?v=3"
     ],
@@ -1751,6 +1769,7 @@
       "shirts"
     ],
     "images": [
+      "/assets/corduroy-shirt-with-fleece-142-6-wine-model-front.jpg?v=3",
       "/assets/corduroy-shirt-with-fleece-142-6-wine-front.jpg?v=3",
       "/assets/corduroy-shirt-with-fleece-142-6-wine-back.jpg?v=3"
     ],
@@ -1794,6 +1813,7 @@
       "shirts"
     ],
     "images": [
+      "/assets/corduroy-shirt-with-fleece-142-5-olive-model-front.jpg?v=3",
       "/assets/corduroy-shirt-with-fleece-142-5-olive-front.jpg?v=3",
       "/assets/corduroy-shirt-with-fleece-142-5-olive-back.jpg?v=3"
     ],
@@ -1828,22 +1848,24 @@
     "inStock": true
   },
   {
-    "id": "42",
-    "handle": "corduroy-shirt-141-fawn",
-    "name": "Corduroy Shirt 141 — Fawn",
-    "styleNo": "141",
+    "id": "33",
+    "handle": "denim-shirt-0024-dark-blue",
+    "name": "Denim Shirt — Dark Blue",
+    "styleNo": "0024",
     "price": 1499,
     "categories": [
       "shirts"
     ],
     "images": [
-      "/assets/corduroy-shirt-141-fawn-front.jpg?v=3",
-      "/assets/corduroy-shirt-141-fawn-back.jpg?v=3"
+      "/assets/denim-shirt-0024-dark-blue-model-front.jpg?v=3",
+      "/assets/denim-shirt-0024-dark-blue-front.jpg?v=3",
+      "/assets/denim-shirt-0024-dark-blue-model-back.jpg?v=3",
+      "/assets/denim-shirt-0024-dark-blue-back.jpg?v=3"
     ],
-    "description": "A corduroy shirt in 100% cotton, finished in fawn. Style 141. Cut and sewn at our own workshop in Delhi.",
+    "description": "A denim shirt in 98% cotton 2% spandex, finished in dark blue. Style 0024. Cut and sewn at our own workshop in Delhi.",
     "details": [
-      "Style no. 141",
-      "100% Cotton",
+      "Style no. 0024",
+      "98% Cotton 2% Spandex",
       "Regular fit",
       "Sizes S–3XL"
     ],
@@ -1861,30 +1883,32 @@
       "Everyday",
       "Layerable"
     ],
-    "type": "Corduroy Shirt",
+    "type": "Denim Shirt",
     "fit": "Regular",
-    "material": "100% Cotton",
-    "color": "Fawn",
-    "colorFamily": "Browns",
+    "material": "98% Cotton 2% Spandex",
+    "color": "Dark Blue",
+    "colorFamily": "Blues",
     "inStock": true
   },
   {
-    "id": "43",
-    "handle": "corduroy-shirt-141-2-wine",
-    "name": "Corduroy Shirt — Wine",
-    "styleNo": "141-2",
+    "id": "27",
+    "handle": "corduroy-shirt-0040-fawn",
+    "name": "Corduroy Shirt 0040 — Fawn",
+    "styleNo": "0040",
     "price": 1499,
     "categories": [
       "shirts"
     ],
     "images": [
-      "/assets/corduroy-shirt-141-2-wine-front.jpg?v=3",
-      "/assets/corduroy-shirt-141-2-wine-back.jpg?v=3"
+      "/assets/corduroy-shirt-0040-fawn-model-front.jpg?v=3",
+      "/assets/corduroy-shirt-0040-fawn-front.jpg?v=3",
+      "/assets/corduroy-shirt-0040-fawn-model-back.jpg?v=3",
+      "/assets/corduroy-shirt-0040-fawn-back.jpg?v=3"
     ],
-    "description": "A corduroy shirt in 100% cotton, finished in wine. Style 141-2. Cut and sewn at our own workshop in Delhi.",
+    "description": "A corduroy shirt in 98% cotton 2% spandex, finished in fawn. Style 0040. Cut and sewn at our own workshop in Delhi.",
     "details": [
-      "Style no. 141-2",
-      "100% Cotton",
+      "Style no. 0040",
+      "98% Cotton 2% Spandex",
       "Regular fit",
       "Sizes S–3XL"
     ],
@@ -1904,8 +1928,8 @@
     ],
     "type": "Corduroy Shirt",
     "fit": "Regular",
-    "material": "100% Cotton",
-    "color": "Wine",
+    "material": "98% Cotton 2% Spandex",
+    "color": "Fawn",
     "colorFamily": "Browns",
     "inStock": true
   },
@@ -1919,7 +1943,9 @@
       "shirts"
     ],
     "images": [
-      "/assets/corduroy-shirt-141-black-front-COBMz6qW.jpg"
+      "/assets/corduroy-shirt-141-black-model-front.jpg?v=3",
+      "/assets/corduroy-shirt-141-black-front.jpg?v=3",
+      "/assets/corduroy-shirt-141-black-back.jpg?v=3"
     ],
     "description": "A corduroy shirt in 100% cotton, finished in black. Style 141. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -1950,46 +1976,6 @@
     "inStock": true
   },
   {
-    "id": "45",
-    "handle": "corduroy-shirt-141-1-navy",
-    "name": "Corduroy Shirt — Navy",
-    "styleNo": "141-1",
-    "price": 1499,
-    "categories": [
-      "shirts"
-    ],
-    "images": [
-      "/assets/corduroy-shirt-141-1-navy-front-D_IWPFsx.jpg"
-    ],
-    "description": "A corduroy shirt in 100% cotton, finished in navy. Style 141-1. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 141-1",
-      "100% Cotton",
-      "Regular fit",
-      "Sizes S–3XL"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "2XL",
-      "3XL"
-    ],
-    "tags": [
-      "Soft",
-      "Structured",
-      "Everyday",
-      "Layerable"
-    ],
-    "type": "Corduroy Shirt",
-    "fit": "Regular",
-    "material": "100% Cotton",
-    "color": "Navy",
-    "colorFamily": "Blues",
-    "inStock": true
-  },
-  {
     "id": "46",
     "handle": "corduroy-shirt-141-3-brown",
     "name": "Corduroy Shirt — Brown",
@@ -1999,7 +1985,9 @@
       "shirts"
     ],
     "images": [
-      "/assets/corduroy-shirt-141-3-brown-front-B5TY-HNd.jpg"
+      "/assets/corduroy-shirt-141-3-brown-model-front.jpg?v=3",
+      "/assets/corduroy-shirt-141-3-brown-front.jpg?v=3",
+      "/assets/corduroy-shirt-141-3-brown-back.jpg?v=3"
     ],
     "description": "A corduroy shirt in 100% cotton, finished in brown. Style 141-3. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -2030,6 +2018,50 @@
     "inStock": true
   },
   {
+    "id": "38",
+    "handle": "corduroy-shirt-with-fleece-142-3-brown",
+    "name": "Corduroy Shirt With Fleece — Brown",
+    "styleNo": "142-3",
+    "price": 1499,
+    "categories": [
+      "shirts"
+    ],
+    "images": [
+      "/assets/corduroy-shirt-with-fleece-142-3-brown-model-front.jpg?v=3",
+      "/assets/corduroy-shirt-with-fleece-142-3-brown-front.jpg?v=3",
+      "/assets/corduroy-shirt-with-fleece-142-3-brown-back.jpg?v=3"
+    ],
+    "description": "A corduroy shirt with fleece in 100% cotton lined in anti pill fleece, finished in brown. Style 142-3. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 142-3",
+      "100% Cotton",
+      "Regular fit",
+      "Anti Pill Fleece lining",
+      "Sizes S–3XL"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "tags": [
+      "Soft",
+      "Structured",
+      "Everyday",
+      "Layerable"
+    ],
+    "type": "Corduroy Shirt With Fleece",
+    "fit": "Regular",
+    "material": "100% Cotton",
+    "lining": "Anti Pill Fleece",
+    "color": "Brown",
+    "colorFamily": "Browns",
+    "inStock": true
+  },
+  {
     "id": "47",
     "handle": "corduroy-shirt-141-4-olive",
     "name": "Corduroy Shirt 141-4 — Olive",
@@ -2039,7 +2071,9 @@
       "shirts"
     ],
     "images": [
-      "/assets/corduroy-shirt-141-4-olive-front-Bm8QJ1ku.jpg"
+      "/assets/corduroy-shirt-141-4-olive-model-front.jpg?v=3",
+      "/assets/corduroy-shirt-141-4-olive-front.jpg?v=3",
+      "/assets/corduroy-shirt-141-4-olive-back.jpg?v=3"
     ],
     "description": "A corduroy shirt in 100% cotton, finished in olive. Style 141-4. Cut and sewn at our own workshop in Delhi.",
     "details": [
