@@ -2476,8 +2476,8 @@
     ],
     "images": [
       "/assets/rock-166-raw-wash-front-BRbm6bB3.jpg",
-      "/assets/rock-166-raw-wash-model-D8dRd9Nj.jpg",
-      "/assets/rock-166-raw-wash-model-back-Cx5vRhHe.jpg"
+      "/assets/rock-166-raw-wash-model-front.jpg?v=5",
+      "/assets/rock-166-raw-wash-model-back.jpg?v=5"
     ],
     "description": "A baggy-leg jean in 98% cotton 2% spandex, finished in raw wash. Style 166. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -2520,8 +2520,8 @@
     ],
     "images": [
       "/assets/brawny-5551-tinted-indigo-front-2zlxb7WC.jpg",
-      "/assets/brawny-5551-tinted-indigo-model-front.jpg?v=4",
-      "/assets/brawny-5551-tinted-indigo-model-back.jpg?v=4"
+      "/assets/brawny-5551-tinted-indigo-model-front.jpg?v=5",
+      "/assets/brawny-5551-tinted-indigo-model-back.jpg?v=5"
     ],
     "description": "A straight-leg jean in 74% cotton 24% polyester 2% spandex, finished in tinted indigo. Style 5551. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -2554,24 +2554,25 @@
     "inStock": true
   },
   {
-    "id": "63",
-    "handle": "brawny-5547-dark-indigo",
-    "name": "Brawny Straight Jean — Dark Indigo",
-    "styleNo": "5547",
+    "id": "83",
+    "handle": "jazz-with-fleece-18014-marvin-blue",
+    "name": "Jazz With Fleece Comfort Jean — Marvin Blue",
+    "styleNo": "18014",
     "price": 2199,
     "categories": [
       "denim"
     ],
     "images": [
-      "/assets/brawny-5547-dark-indigo-front-DzVynxx4.jpg",
-      "/assets/brawny-5547-dark-indigo-model-front.jpg?v=3",
-      "/assets/brawny-5547-dark-indigo-model-back.jpg?v=3"
+      "/assets/jazz-with-fleece-18014-marvin-blue-front-CftPQ5_l.jpg",
+      "/assets/jazz-with-fleece-18014-marvin-blue-model-front.jpg?v=5",
+      "/assets/jazz-with-fleece-18014-marvin-blue-model-back.jpg?v=5"
     ],
-    "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in dark indigo. Style 5547. Cut and sewn at our own workshop in Delhi.",
+    "description": "A comfort-leg jean in 74% cotton 24% polyester 2% spandex with a fleece lining, finished in marvin blue. Style 18014. Cut and sewn at our own workshop in Delhi.",
     "details": [
-      "Style no. 5547",
-      "56% Cotton 40% Polyester 4% Spandex",
-      "Straight fit",
+      "Style no. 18014",
+      "74% Cotton 24% Polyester 2% Spandex",
+      "Comfort fit",
+      "Fleece lining",
       "Sizes 30–44"
     ],
     "sizes": [
@@ -2590,10 +2591,11 @@
       "Everyday",
       "Durable"
     ],
-    "type": "Brawny",
-    "fit": "Straight",
-    "material": "56% Cotton 40% Polyester 4% Spandex",
-    "color": "Dark Indigo",
+    "type": "Jazz With Fleece",
+    "fit": "Comfort",
+    "material": "74% Cotton 24% Polyester 2% Spandex",
+    "lining": "Fleece",
+    "color": "Marvin Blue",
     "colorFamily": "Blues",
     "inStock": true
   },
@@ -2609,8 +2611,8 @@
     "popular": true,
     "images": [
       "/assets/hulk-32003-mid-blue-front-CAKg8T9G.jpg",
-      "/assets/hulk-32003-mid-blue-model-Cn1adhjB.jpg",
-      "/assets/hulk-32003-mid-blue-model-back-Dsh2G2Bn.jpg"
+      "/assets/hulk-32003-mid-blue-model-front.jpg?v=5",
+      "/assets/hulk-32003-mid-blue-model-back.jpg?v=5"
     ],
     "description": "A super baggy-leg jean in 100% cotton, finished in mid blue. Style 32003. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -2653,8 +2655,8 @@
     ],
     "images": [
       "/assets/brawny-5463-grey-front-CP0iDydS.jpg",
-      "/assets/brawny-5463-grey-model-front.jpg?v=4",
-      "/assets/brawny-5463-grey-model-back.jpg?v=4"
+      "/assets/brawny-5463-grey-model-front.jpg?v=5",
+      "/assets/brawny-5463-grey-model-back.jpg?v=5"
     ],
     "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in grey. Style 5463. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -2697,8 +2699,8 @@
     ],
     "images": [
       "/assets/jazz-3178-ice-berg-front-lYX2jf5X.jpg",
-      "/assets/jazz-3178-ice-berg-model-front.jpg?v=3",
-      "/assets/jazz-3178-ice-berg-model-back.jpg?v=3"
+      "/assets/jazz-3178-ice-berg-model-front.jpg?v=5",
+      "/assets/jazz-3178-ice-berg-model-back.jpg?v=5"
     ],
     "description": "A comfort-leg jean in 100% cotton, finished in ice berg. Style 3178. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -2741,8 +2743,8 @@
     ],
     "images": [
       "/assets/jazz-3124-raw-wash-front-DdMGN_zL.jpg",
-      "/assets/jazz-3124-raw-wash-model-front.jpg?v=3",
-      "/assets/jazz-3124-raw-wash-model-back.jpg?v=3"
+      "/assets/jazz-3124-raw-wash-model-front.jpg?v=5",
+      "/assets/jazz-3124-raw-wash-model-back.jpg?v=5"
     ],
     "description": "A comfort-leg jean in 98% cotton 2% spandex, finished in raw wash. Style 3124. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -2785,9 +2787,8 @@
     ],
     "images": [
       "/assets/jazz-with-fleece-035-light-blue-front-Dkn48N6j.jpg",
-      "/assets/jazz-with-fleece-035-light-blue-model-CzgVPgnf.jpg",
-      "/assets/jazz-with-fleece-035-light-blue-model-back-oY3uvTiK.jpg",
-      "/assets/jazz-with-fleece-035-light-blue-detail-CFOdliVU.jpg"
+      "/assets/jazz-with-fleece-035-light-blue-model-front.jpg?v=5",
+      "/assets/jazz-with-fleece-035-light-blue-model-back.jpg?v=5"
     ],
     "description": "A comfort-leg jean in 98% cotton 2% spandex with a fleece lining, finished in light blue. Style 035. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -2832,8 +2833,8 @@
     ],
     "images": [
       "/assets/jazz-3180-dark-blue-front-BaJIlRno.jpg",
-      "/assets/jazz-3180-dark-blue-model-CsGmnvz8.jpg",
-      "/assets/jazz-3180-dark-blue-model-back-CqZlje3K.jpg"
+      "/assets/jazz-3180-dark-blue-model-front.jpg?v=5",
+      "/assets/jazz-3180-dark-blue-model-back.jpg?v=5"
     ],
     "description": "A comfort-leg jean in 99% cotton 1% elastane, finished in dark blue. Style 3180. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -2876,8 +2877,8 @@
     ],
     "images": [
       "/assets/jazz-3200-tinted-indigo-front-C3F__Z1p.jpg",
-      "/assets/jazz-3200-tinted-indigo-model-front.jpg?v=3",
-      "/assets/jazz-3200-tinted-indigo-model-back.jpg?v=3"
+      "/assets/jazz-3200-tinted-indigo-model-front.jpg?v=5",
+      "/assets/jazz-3200-tinted-indigo-model-back.jpg?v=5"
     ],
     "description": "A comfort-leg jean in 100% cotton, finished in tinted indigo. Style 3200. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -2920,8 +2921,8 @@
     ],
     "images": [
       "/assets/jazz-with-fleece-031-blue-ridge-front-CoXrGj-4.jpg",
-      "/assets/jazz-with-fleece-031-blue-ridge-model-DwNpuQRh.jpg",
-      "/assets/jazz-with-fleece-031-blue-ridge-model-back-CQV9Xllc.jpg"
+      "/assets/jazz-with-fleece-031-blue-ridge-model-front.jpg?v=5",
+      "/assets/jazz-with-fleece-031-blue-ridge-model-back.jpg?v=5"
     ],
     "description": "A comfort-leg jean in 74% cotton 24% polyester 2% spandex with a fleece lining, finished in blue ridge. Style 031. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -2966,8 +2967,8 @@
     ],
     "images": [
       "/assets/rock-159-dark-indigo-front-29cM2r88.jpg",
-      "/assets/rock-159-dark-indigo-model-C3FJt228.jpg",
-      "/assets/rock-159-dark-indigo-model-back-Bs9pqGG_.jpg"
+      "/assets/rock-159-dark-indigo-model-front.jpg?v=5",
+      "/assets/rock-159-dark-indigo-model-back.jpg?v=5"
     ],
     "description": "A baggy-leg jean in 99% cotton 1% elastane, finished in dark indigo. Style 159. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -3010,8 +3011,8 @@
     ],
     "images": [
       "/assets/brawny-5549-dark-navy-front-biCNLUV2.jpg",
-      "/assets/brawny-5549-dark-navy-model-BiT6bjMV.jpg",
-      "/assets/brawny-5549-dark-navy-model-back-LkPHXjq9.jpg"
+      "/assets/brawny-5549-dark-navy-model-front.jpg?v=5",
+      "/assets/brawny-5549-dark-navy-model-back.jpg?v=5"
     ],
     "description": "A straight-leg jean in 75% cotton 23% polyester 2% elastane, finished in dark navy. Style 5549. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -3054,7 +3055,7 @@
     ],
     "images": [
       "/assets/jazz-3190-black-front-kM-jb579.jpg",
-      "/assets/jazz-3190-black-model-front.jpg?v=3",
+      "/assets/jazz-3190-black-model-front.jpg?v=5",
       "/assets/jazz-3190-black-back-vfbfWiE3.jpg"
     ],
     "description": "A comfort-leg jean in 99% cotton 1% elastane, finished in black. Style 3190. Cut and sewn at our own workshop in Delhi.",
@@ -3098,8 +3099,8 @@
     ],
     "images": [
       "/assets/brawny-5461-black-front-BE35mDq-.jpg",
-      "/assets/brawny-5461-black-model-BgP6u1fi.jpg",
-      "/assets/brawny-5461-black-model-back-BWUtfz83.jpg"
+      "/assets/brawny-5461-black-model-front.jpg?v=5",
+      "/assets/brawny-5461-black-model-back.jpg?v=5"
     ],
     "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in black. Style 5461. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -3142,7 +3143,7 @@
     ],
     "images": [
       "/assets/hulk-32002-dark-blue-front-Bt0NhxO4.jpg",
-      "/assets/hulk-32002-dark-blue-model-U5Oz4VPA.jpg",
+      "/assets/hulk-32002-dark-blue-model-front.jpg?v=5",
       "/assets/hulk-32002-dark-blue-model-back-D1hd-Wfu.jpg"
     ],
     "description": "A super baggy-leg jean in 100% cotton, finished in dark blue. Style 32002. Cut and sewn at our own workshop in Delhi.",
@@ -3187,8 +3188,8 @@
     "popular": true,
     "images": [
       "/assets/jazz-3214-mid-blue-front-bJwElJGD.jpg",
-      "/assets/jazz-3214-mid-blue-model-front.jpg?v=3",
-      "/assets/jazz-3214-mid-blue-model-back.jpg?v=3",
+      "/assets/jazz-3214-mid-blue-model-front.jpg?v=5",
+      "/assets/jazz-3214-mid-blue-model-back.jpg?v=5",
       "/assets/jazz-3214-mid-blue-back-iZx6FK9d.jpg"
     ],
     "description": "A comfort-leg jean in 69% cotton 29% polyester 2% spandex, finished in mid blue. Style 3214. Cut and sewn at our own workshop in Delhi.",
@@ -3232,9 +3233,9 @@
     ],
     "popular": true,
     "images": [
-      "/assets/brawny-5462-navy-model-front.jpg?v=4",
+      "/assets/brawny-5462-navy-model-front.jpg?v=5",
       "/assets/brawny-5462-navy-front-C06oYZ3y.jpg",
-      "/assets/brawny-5462-navy-model-Cv0WpEGd.jpg"
+      "/assets/brawny-5462-navy-model-back.jpg?v=5"
     ],
     "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in navy. Style 5462. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -3277,8 +3278,8 @@
     ],
     "images": [
       "/assets/joggers-2001-black-front-BLGAVp8G.jpg",
-      "/assets/joggers-2001-black-model-BXU_COG_.jpg",
-      "/assets/joggers-2001-black-detail-D9900_38.jpg"
+      "/assets/joggers-2001-black-model-front.jpg?v=5",
+      "/assets/joggers-2001-black-model-back.jpg?v=5"
     ],
     "description": "A comfort-leg jean in 86% cotton 10% polyester 4% elastane, finished in black. Style 2001. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -3321,8 +3322,8 @@
     ],
     "images": [
       "/assets/jazz-with-fleece-028-grease-black-front-DOkzeAmC.jpg",
-      "/assets/jazz-with-fleece-028-grease-black-model-B0Miyzvj.jpg",
-      "/assets/jazz-with-fleece-028-grease-black-model-back-mxuWZIKs.jpg"
+      "/assets/jazz-with-fleece-028-grease-black-model-front.jpg?v=5",
+      "/assets/jazz-with-fleece-028-grease-black-model-back.jpg?v=5"
     ],
     "description": "A comfort-leg jean in 99% cotton 1% elastane with a fleece lining, finished in grease black. Style 028. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -3367,8 +3368,8 @@
     ],
     "images": [
       "/assets/rock-163-dark-navy-front-DsjI4Vv3.jpg",
-      "/assets/rock-163-dark-navy-model-Ccr32v6K.jpg",
-      "/assets/rock-163-dark-navy-model-back-DAOiWYqq.jpg"
+      "/assets/rock-163-dark-navy-model-front.jpg?v=5",
+      "/assets/rock-163-dark-navy-model-back.jpg?v=5"
     ],
     "description": "A baggy-leg jean in 98% cotton 2% spandex, finished in dark navy. Style 163. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -3411,8 +3412,8 @@
     ],
     "images": [
       "/assets/joggers-2002-indigo-front-D73MwCnL.jpg",
-      "/assets/joggers-2002-indigo-model-CIUhmqyN.jpg",
-      "/assets/joggers-2002-indigo-back-Fctg8c2n.jpg"
+      "/assets/joggers-2002-indigo-model-front.jpg?v=5",
+      "/assets/joggers-2002-indigo-model-back.jpg?v=5"
     ],
     "description": "A comfort-leg jean in 79% cotton 15% polyester 6% elastane, finished in indigo. Style 2002. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -3455,9 +3456,8 @@
     ],
     "images": [
       "/assets/jazz-with-fleece-033-mid-blue-front-CnuwJajr.jpg",
-      "/assets/jazz-with-fleece-033-mid-blue-model-CiLZXbm9.jpg",
-      "/assets/jazz-with-fleece-033-mid-blue-model-back-DkP6a48Y.jpg",
-      "/assets/jazz-with-fleece-033-mid-blue-detail-DrlxGCRU.jpg"
+      "/assets/jazz-with-fleece-033-mid-blue-model-front.jpg?v=5",
+      "/assets/jazz-with-fleece-033-mid-blue-model-back.jpg?v=5"
     ],
     "description": "A comfort-leg jean in 75% cotton 23% polyester 2% elastane with a fleece lining, finished in mid blue. Style 033. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -3502,8 +3502,8 @@
     ],
     "images": [
       "/assets/joggers-2003-tinted-indigo-front-TP3CQqeO.jpg",
-      "/assets/joggers-2003-tinted-indigo-model-front.jpg?v=4",
-      "/assets/joggers-2003-tinted-indigo-back-BtimoWvR.jpg"
+      "/assets/joggers-2003-tinted-indigo-model-front.jpg?v=5",
+      "/assets/joggers-2003-tinted-indigo-model-back.jpg?v=5"
     ],
     "description": "A comfort-leg jean in 79% cotton 15% polyester 6% elastane, finished in tinted indigo. Style 2003. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -3546,8 +3546,8 @@
     ],
     "images": [
       "/assets/hulk-32004-ice-berg-front-qrKdcgax.jpg",
-      "/assets/hulk-32004-ice-berg-model-CuuoMm6m.jpg",
-      "/assets/hulk-32004-ice-berg-model-back-DkURoE1H.jpg"
+      "/assets/hulk-32004-ice-berg-model-front.jpg?v=5",
+      "/assets/hulk-32004-ice-berg-model-back.jpg?v=5"
     ],
     "description": "A super baggy-leg jean in 100% cotton, finished in ice berg. Style 32004. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -3590,8 +3590,8 @@
     ],
     "images": [
       "/assets/brawny-5484-black-front-iEUBJP8Y.jpg",
-      "/assets/brawny-5484-black-model-BfEx-Zyx.jpg",
-      "/assets/brawny-5484-black-model-back-Bo3oDYu1.jpg"
+      "/assets/brawny-5484-black-model-front.jpg?v=5",
+      "/assets/brawny-5484-black-model-back.jpg?v=5"
     ],
     "description": "A straight-leg jean in 99% cotton 1% elastane, finished in black. Style 5484. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -3634,8 +3634,8 @@
     ],
     "images": [
       "/assets/brawny-5464-off-white-front-CLgSl1gR.jpg",
-      "/assets/brawny-5464-off-white-model-front.jpg?v=4",
-      "/assets/brawny-5464-off-white-model-back.jpg?v=4"
+      "/assets/brawny-5464-off-white-model-front.jpg?v=5",
+      "/assets/brawny-5464-off-white-model-back.jpg?v=5"
     ],
     "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in off-white. Style 5464. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -3678,8 +3678,8 @@
     ],
     "images": [
       "/assets/hulk-32001-coal-front-TbEBk64t.jpg",
-      "/assets/hulk-32001-coal-model-BaeLNkwz.jpg",
-      "/assets/hulk-32001-coal-model-back-fcZLN4Ys.jpg"
+      "/assets/hulk-32001-coal-model-front.jpg?v=5",
+      "/assets/hulk-32001-coal-model-back.jpg?v=5"
     ],
     "description": "A super baggy-leg jean in 100% cotton, finished in coal. Style 32001. Cut and sewn at our own workshop in Delhi.",
     "details": [
@@ -3712,25 +3712,24 @@
     "inStock": true
   },
   {
-    "id": "83",
-    "handle": "jazz-with-fleece-18014-marvin-blue",
-    "name": "Jazz With Fleece Comfort Jean — Marvin Blue",
-    "styleNo": "18014",
+    "id": "63",
+    "handle": "brawny-5547-dark-indigo",
+    "name": "Brawny Straight Jean — Dark Indigo",
+    "styleNo": "5547",
     "price": 2199,
     "categories": [
       "denim"
     ],
     "images": [
-      "/assets/jazz-with-fleece-18014-marvin-blue-front-CftPQ5_l.jpg",
-      "/assets/jazz-with-fleece-18014-marvin-blue-model-Ca144njM.jpg",
-      "/assets/jazz-with-fleece-18014-marvin-blue-model-back-D8SUkdSa.jpg"
+      "/assets/brawny-5547-dark-indigo-front-DzVynxx4.jpg",
+      "/assets/brawny-5547-dark-indigo-model-front.jpg?v=5",
+      "/assets/brawny-5547-dark-indigo-model-back.jpg?v=5"
     ],
-    "description": "A comfort-leg jean in 74% cotton 24% polyester 2% spandex with a fleece lining, finished in marvin blue. Style 18014. Cut and sewn at our own workshop in Delhi.",
+    "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in dark indigo. Style 5547. Cut and sewn at our own workshop in Delhi.",
     "details": [
-      "Style no. 18014",
-      "74% Cotton 24% Polyester 2% Spandex",
-      "Comfort fit",
-      "Fleece lining",
+      "Style no. 5547",
+      "56% Cotton 40% Polyester 4% Spandex",
+      "Straight fit",
       "Sizes 30–44"
     ],
     "sizes": [
@@ -3749,11 +3748,10 @@
       "Everyday",
       "Durable"
     ],
-    "type": "Jazz With Fleece",
-    "fit": "Comfort",
-    "material": "74% Cotton 24% Polyester 2% Spandex",
-    "lining": "Fleece",
-    "color": "Marvin Blue",
+    "type": "Brawny",
+    "fit": "Straight",
+    "material": "56% Cotton 40% Polyester 4% Spandex",
+    "color": "Dark Indigo",
     "colorFamily": "Blues",
     "inStock": true
   }

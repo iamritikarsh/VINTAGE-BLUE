@@ -1117,7 +1117,7 @@ const PANTS_ORDER = [
 const DENIM_ORDER = [
   "rock-166-raw-wash",
   "brawny-5551-tinted-indigo",
-  "brawny-5547-dark-indigo",
+  "jazz-with-fleece-18014-marvin-blue",
   "hulk-32003-mid-blue",
   "brawny-5463-grey",
   "jazz-3178-ice-berg",
@@ -1143,7 +1143,7 @@ const DENIM_ORDER = [
   "brawny-5484-black",
   "brawny-5464-off-white",
   "hulk-32001-coal",
-  "jazz-with-fleece-18014-marvin-blue",
+  "brawny-5547-dark-indigo",
 ];
 
 // Products page hero: only the denim page gets one — the four fits side by side.
