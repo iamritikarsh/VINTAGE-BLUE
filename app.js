@@ -26,6 +26,13 @@ const byHandle = new Map();
 const inr = (n) => "₹" + n.toLocaleString("en-IN");
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
+// ============================================================================
+// PRODUCT HOVER ANIMATION TOGGLE (2nd image / alternate image on hover)
+// Set to false to pause hover image swap; set to true to resume hover animation.
+// ============================================================================
+const ENABLE_PRODUCT_HOVER_ANIMATION = false;
+window.ENABLE_PRODUCT_HOVER_ANIMATION = ENABLE_PRODUCT_HOVER_ANIMATION;
+
 // Lead with the model shot when there is one; the flat shot becomes the hover image.
 function cardImages(p) {
   if (p.images[0] && p.images[0].includes("-model")) {
@@ -49,7 +56,7 @@ function card(p) {
     <a class="card rv" href="/product/${p.handle}" data-link>
       <div class="card-media${flat ? " flat" : ""}">
         <img src="${main}" class="${isModel ? "img-model" : ""}" alt="${esc(p.name)}" loading="lazy" />
-        ${alt ? `<img class="alt" src="${alt}" alt="" loading="lazy" />` : ""}
+        ${ENABLE_PRODUCT_HOVER_ANIMATION && alt ? `<img class="alt" src="${alt}" alt="" loading="lazy" />` : ""}
       </div>
       <div class="card-meta">
         <div>
@@ -308,7 +315,7 @@ function home2() {
   const tile = (p, label) => {
     const [a, b] = cardImages(p);
     return `<a class="g-tile rv" href="/product/${p.handle}" data-link>
-      <div class="g-img"><img src="${a}" alt="${esc(p.name)}" loading="lazy" />${b ? `<img class="g-alt" src="${b}" alt="" loading="lazy" />` : ""}</div>
+      <div class="g-img"><img src="${a}" alt="${esc(p.name)}" loading="lazy" />${ENABLE_PRODUCT_HOVER_ANIMATION && b ? `<img class="g-alt" src="${b}" alt="" loading="lazy" />` : ""}</div>
       <p class="g-name">${esc(label || p.name)}</p>
       <p class="g-price">${inr(p.price)}</p>
     </a>`;
@@ -371,17 +378,17 @@ function home2() {
 
     <section class="g-sec g-stag" aria-label="Jackets, shirts and pants">
       <a class="g-stag-col g-stag-1 rv" href="/shop/jackets" data-link>
-        <p class="g-stag-note">Cropped and boxy,<br />cut a little short.<br /><span>Worn over ecru denim.</span></p>
-        <div class="g-stag-img"><img src="/assets/editorial/suede-jacket.jpg" alt="Model in a cropped navy jacket and ecru jeans" loading="lazy" /></div>
+        <p class="g-stag-note">Cropped and boxy,<br />cut a little short.<br /><span>Worn over blue jeans.</span></p>
+        <div class="g-stag-img"><img src="/assets/editorial/editorial-jackets.jpg?v=2" alt="Model in a cropped brown corduroy shearling jacket and blue jeans" loading="lazy" /></div>
         <div class="g-stag-cap"><span>Jackets</span><em>Shop</em></div>
       </a>
       <a class="g-stag-col g-stag-2 rv" href="/shop/shirts" data-link>
-        <div class="g-stag-img"><img src="/assets/editorial/linen-stripe.jpg" alt="Model in a striped shirt with a knit over his shoulders" loading="lazy" /></div>
+        <div class="g-stag-img"><img src="/assets/editorial/editorial-shirts.jpg?v=1" alt="Model in a wine corduroy shirt and white linen pants" loading="lazy" /></div>
         <div class="g-stag-cap"><span>Shirts</span><em>Shop</em></div>
       </a>
       <a class="g-stag-col g-stag-3 rv" href="/shop/pants" data-link>
         <p class="g-stag-note">Pleated, relaxed,<br />made to move.<br /><span>Light and heavy weights.</span></p>
-        <div class="g-stag-img"><img src="/assets/editorial/polo-pants.jpg" alt="Model in a cream polo and brown pleated pants" loading="lazy" /></div>
+        <div class="g-stag-img"><img src="/assets/editorial/editorial-pants.jpg?v=3" alt="Model in a cream knit polo and grey pleated pants" loading="lazy" /></div>
         <div class="g-stag-cap"><span>Pants</span><em>Shop</em></div>
       </a>
     </section>
@@ -612,7 +619,7 @@ function bindAbout7() {
 const LB2 = [
   { id: "01", name: "Sherpa & ecru", word: "Ecru", line: "Washed black denim, a sherpa collar, ecru cut wide.", img: "lb-seated", pos: "50% 35%", more: ["lb-collar", "lb-pants"], shop: ["denim-jacket-152-coal-grey", "brawny-5464-off-white"] },
   { id: "02", name: "Raw, head to toe", word: "Raw", line: "Unwashed indigo, top and bottom. Yours to break in.", img: "raw-stairs", pos: "50% 30%", more: ["denim-back"], shop: ["denim-fur-jacket-167-dark-blue", "brawny-5547-dark-indigo"] },
-  { id: "03", name: "The cropped jacket", word: "Cropped", line: "Boxy and short, worn over ecru denim.", img: "suede-jacket", pos: "50% 30%", more: ["cardigan-navy"], shop: ["corduroy-jacket-171-black", "brawny-5464-off-white"] },
+  { id: "03", name: "The cropped jacket", word: "Cropped", line: "Boxy and short, worn over blue jeans.", img: "suede-jacket", pos: "50% 30%", more: ["cardigan-navy"], shop: ["corduroy-jacket-171-black", "brawny-5464-off-white"] },
   { id: "04", name: "Light layers", word: "Linen", line: "A washed shirt, a knit on the shoulders, cream trousers.", img: "linen-stripe", pos: "50% 25%", more: ["polo-pants"], shop: ["denim-shirt-0042-washed-blue", "light-weight-pant-4037-cream"] },
   { id: "05", name: "Brown is the new navy", word: "Earth", line: "A heavy overshirt in brown, worn over cream.", img: "brown-overshirt", pos: "50% 25%", more: ["stripe-chair"], shop: ["corduroy-shirt-141-3-brown", "comfort-pant-4038-cream"] },
   { id: "06", name: "Washed blue", word: "Faded", line: "Double denim in a light wash, worn loose.", img: "denim-back", pos: "50% 45%", more: ["raw-stairs"], shop: ["denim-jacket-164-tinted-blue", "hulk-32004-ice-berg"] },
@@ -1107,6 +1114,38 @@ const PANTS_ORDER = [
   "comfort-pant-4038-khaki",
 ];
 
+const DENIM_ORDER = [
+  "rock-166-raw-wash",
+  "brawny-5551-tinted-indigo",
+  "brawny-5547-dark-indigo",
+  "hulk-32003-mid-blue",
+  "brawny-5463-grey",
+  "jazz-3178-ice-berg",
+  "jazz-3124-raw-wash",
+  "jazz-with-fleece-035-light-blue",
+  "jazz-3180-dark-blue",
+  "jazz-3200-tinted-indigo",
+  "jazz-with-fleece-031-blue-ridge",
+  "rock-159-dark-indigo",
+  "brawny-5549-dark-navy",
+  "jazz-3190-black",
+  "brawny-5461-black",
+  "hulk-32002-dark-blue",
+  "jazz-3214-mid-blue",
+  "brawny-5462-navy",
+  "joggers-2001-black",
+  "jazz-with-fleece-028-grease-black",
+  "rock-163-dark-navy",
+  "joggers-2002-indigo",
+  "jazz-with-fleece-033-mid-blue",
+  "joggers-2003-tinted-indigo",
+  "hulk-32004-ice-berg",
+  "brawny-5484-black",
+  "brawny-5464-off-white",
+  "hulk-32001-coal",
+  "jazz-with-fleece-18014-marvin-blue",
+];
+
 // Products page hero: only the denim page gets one — the four fits side by side.
 function shopHero(cat, type) {
   if (cat !== "denim") return "";
@@ -1131,6 +1170,9 @@ function shop(cat, sort = "featured", type = "") {
       list.sort((a, b) => (orderMap.get(a.handle) ?? 999) - (orderMap.get(b.handle) ?? 999));
     } else if (cat === "pants") {
       const orderMap = new Map(PANTS_ORDER.map((h, i) => [h, i]));
+      list.sort((a, b) => (orderMap.get(a.handle) ?? 999) - (orderMap.get(b.handle) ?? 999));
+    } else if (cat === "denim") {
+      const orderMap = new Map(DENIM_ORDER.map((h, i) => [h, i]));
       list.sort((a, b) => (orderMap.get(a.handle) ?? 999) - (orderMap.get(b.handle) ?? 999));
     } else {
       // Studio-shot pieces first, otherwise keep catalogue order.
@@ -1176,7 +1218,7 @@ function uyCard(p) {
     <a class="uy-cell" href="/product/${p.handle}" data-link>
       <div class="uy-media">
         <img src="${main}" class="${isModel ? "img-model" : ""}" alt="${esc(p.name)}" loading="lazy" />
-        ${alt ? `<img class="alt" src="${alt}" alt="" loading="lazy" />` : ""}
+        ${ENABLE_PRODUCT_HOVER_ANIMATION && alt ? `<img class="alt" src="${alt}" alt="" loading="lazy" />` : ""}
       </div>
       <p class="uy-cap">${esc(p.type)} <span>${esc(colorOf(p))}</span> ${inr(p.price)}</p>
     </a>`;
@@ -1756,7 +1798,7 @@ document.getElementById("subForm").addEventListener("submit", (e) => {
 
 /* ---------- Boot ---------- */
 
-fetch("/data/products.json?v=89")
+fetch("/data/products.json?v=103")
   .then((r) => r.json())
   .then((data) => {
     products = data;

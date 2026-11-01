@@ -2466,756 +2466,6 @@
     "inStock": true
   },
   {
-    "id": "56",
-    "handle": "joggers-2001-black",
-    "name": "Denim Jogger — Black",
-    "styleNo": "2001",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/joggers-2001-black-front-BLGAVp8G.jpg",
-      "/assets/joggers-2001-black-model-BXU_COG_.jpg",
-      "/assets/joggers-2001-black-detail-D9900_38.jpg"
-    ],
-    "description": "A comfort-leg jean in 86% cotton 10% polyester 4% elastane, finished in black. Style 2001. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 2001",
-      "86% Cotton 10% Polyester 4% Elastane",
-      "Comfort fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Joggers",
-    "fit": "Comfort",
-    "material": "86% Cotton 10% Polyester 4% Elastane",
-    "color": "Black",
-    "colorFamily": "Neutrals",
-    "inStock": true
-  },
-  {
-    "id": "57",
-    "handle": "joggers-2003-tinted-indigo",
-    "name": "Denim Jogger — Tinted Indigo",
-    "styleNo": "2003",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/joggers-2003-tinted-indigo-front-TP3CQqeO.jpg",
-      "/assets/joggers-2003-tinted-indigo-model-O2dPsfCX.jpg",
-      "/assets/joggers-2003-tinted-indigo-back-BtimoWvR.jpg"
-    ],
-    "description": "A comfort-leg jean in 79% cotton 15% polyester 6% elastane, finished in tinted indigo. Style 2003. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 2003",
-      "79% Cotton 15% Polyester 6% Elastane",
-      "Comfort fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Joggers",
-    "fit": "Comfort",
-    "material": "79% Cotton 15% Polyester 6% Elastane",
-    "color": "Tinted Indigo",
-    "colorFamily": "Blues",
-    "inStock": true
-  },
-  {
-    "id": "58",
-    "handle": "joggers-2002-indigo",
-    "name": "Denim Jogger — Indigo",
-    "styleNo": "2002",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/joggers-2002-indigo-front-D73MwCnL.jpg",
-      "/assets/joggers-2002-indigo-model-CIUhmqyN.jpg",
-      "/assets/joggers-2002-indigo-back-Fctg8c2n.jpg"
-    ],
-    "description": "A comfort-leg jean in 79% cotton 15% polyester 6% elastane, finished in indigo. Style 2002. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 2002",
-      "79% Cotton 15% Polyester 6% Elastane",
-      "Comfort fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Joggers",
-    "fit": "Comfort",
-    "material": "79% Cotton 15% Polyester 6% Elastane",
-    "color": "Indigo",
-    "colorFamily": "Blues",
-    "inStock": true
-  },
-  {
-    "id": "59",
-    "handle": "brawny-5462-navy",
-    "name": "Brawny Straight Jean — Navy",
-    "styleNo": "5462",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "popular": true,
-    "images": [
-      "/assets/brawny-5462-navy-front-C06oYZ3y.jpg",
-      "/assets/brawny-5462-navy-model-Cv0WpEGd.jpg",
-      "/assets/brawny-5462-navy-lifestyle-Dcz-Juu1.jpg"
-    ],
-    "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in navy. Style 5462. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 5462",
-      "56% Cotton 40% Polyester 4% Spandex",
-      "Straight fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Brawny",
-    "fit": "Straight",
-    "material": "56% Cotton 40% Polyester 4% Spandex",
-    "color": "Navy",
-    "colorFamily": "Blues",
-    "inStock": true
-  },
-  {
-    "id": "60",
-    "handle": "brawny-5461-black",
-    "name": "Brawny Straight Jean 5461 — Black",
-    "styleNo": "5461",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/brawny-5461-black-front-BE35mDq-.jpg",
-      "/assets/brawny-5461-black-model-BgP6u1fi.jpg",
-      "/assets/brawny-5461-black-model-back-BWUtfz83.jpg"
-    ],
-    "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in black. Style 5461. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 5461",
-      "56% Cotton 40% Polyester 4% Spandex",
-      "Straight fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Brawny",
-    "fit": "Straight",
-    "material": "56% Cotton 40% Polyester 4% Spandex",
-    "color": "Black",
-    "colorFamily": "Neutrals",
-    "inStock": true
-  },
-  {
-    "id": "61",
-    "handle": "brawny-5463-grey",
-    "name": "Brawny Straight Jean — Grey",
-    "styleNo": "5463",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/brawny-5463-grey-front-CP0iDydS.jpg",
-      "/assets/brawny-5463-grey-model-CZT1pC4Q.jpg",
-      "/assets/brawny-5463-grey-model-back-DzuQ_unH.jpg"
-    ],
-    "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in grey. Style 5463. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 5463",
-      "56% Cotton 40% Polyester 4% Spandex",
-      "Straight fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Brawny",
-    "fit": "Straight",
-    "material": "56% Cotton 40% Polyester 4% Spandex",
-    "color": "Grey",
-    "colorFamily": "Neutrals",
-    "inStock": true
-  },
-  {
-    "id": "62",
-    "handle": "brawny-5464-off-white",
-    "name": "Brawny Straight Jean — Off-White",
-    "styleNo": "5464",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/brawny-5464-off-white-front-CLgSl1gR.jpg",
-      "/assets/brawny-5464-off-white-model-CsPxn0Kw.jpg",
-      "/assets/brawny-5464-off-white-model-back-CFqjemoM.jpg"
-    ],
-    "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in off-white. Style 5464. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 5464",
-      "56% Cotton 40% Polyester 4% Spandex",
-      "Straight fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Brawny",
-    "fit": "Straight",
-    "material": "56% Cotton 40% Polyester 4% Spandex",
-    "color": "Off-White",
-    "colorFamily": "Neutrals",
-    "inStock": true
-  },
-  {
-    "id": "63",
-    "handle": "brawny-5547-dark-indigo",
-    "name": "Brawny Straight Jean — Dark Indigo",
-    "styleNo": "5547",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/brawny-5547-dark-indigo-front-DzVynxx4.jpg",
-      "/assets/brawny-5547-dark-indigo-model-DYspw9OC.jpg",
-      "/assets/brawny-5547-dark-indigo-model-back-BZ2if7WL.jpg"
-    ],
-    "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in dark indigo. Style 5547. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 5547",
-      "56% Cotton 40% Polyester 4% Spandex",
-      "Straight fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Brawny",
-    "fit": "Straight",
-    "material": "56% Cotton 40% Polyester 4% Spandex",
-    "color": "Dark Indigo",
-    "colorFamily": "Blues",
-    "inStock": true
-  },
-  {
-    "id": "64",
-    "handle": "brawny-5484-black",
-    "name": "Brawny Straight Jean 5484 — Black",
-    "styleNo": "5484",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/brawny-5484-black-front-iEUBJP8Y.jpg",
-      "/assets/brawny-5484-black-model-BfEx-Zyx.jpg",
-      "/assets/brawny-5484-black-model-back-Bo3oDYu1.jpg"
-    ],
-    "description": "A straight-leg jean in 99% cotton 1% elastane, finished in black. Style 5484. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 5484",
-      "99% Cotton 1% Elastane",
-      "Straight fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Brawny",
-    "fit": "Straight",
-    "material": "99% Cotton 1% Elastane",
-    "color": "Black",
-    "colorFamily": "Neutrals",
-    "inStock": true
-  },
-  {
-    "id": "65",
-    "handle": "brawny-5551-tinted-indigo",
-    "name": "Brawny Straight Jean — Tinted Indigo",
-    "styleNo": "5551",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/brawny-5551-tinted-indigo-front-2zlxb7WC.jpg",
-      "/assets/brawny-5551-tinted-indigo-model-aBk8j27L.jpg",
-      "/assets/brawny-5551-tinted-indigo-model-back-tIlouQ_K.jpg"
-    ],
-    "description": "A straight-leg jean in 74% cotton 24% polyester 2% spandex, finished in tinted indigo. Style 5551. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 5551",
-      "74% Cotton 24% Polyester 2% Spandex",
-      "Straight fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Brawny",
-    "fit": "Straight",
-    "material": "74% Cotton 24% Polyester 2% Spandex",
-    "color": "Tinted Indigo",
-    "colorFamily": "Blues",
-    "inStock": true
-  },
-  {
-    "id": "66",
-    "handle": "brawny-5549-dark-navy",
-    "name": "Brawny Straight Jean — Dark Navy",
-    "styleNo": "5549",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/brawny-5549-dark-navy-front-biCNLUV2.jpg",
-      "/assets/brawny-5549-dark-navy-model-BiT6bjMV.jpg",
-      "/assets/brawny-5549-dark-navy-model-back-LkPHXjq9.jpg"
-    ],
-    "description": "A straight-leg jean in 75% cotton 23% polyester 2% elastane, finished in dark navy. Style 5549. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 5549",
-      "75% Cotton 23% Polyester 2% Elastane",
-      "Straight fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Brawny",
-    "fit": "Straight",
-    "material": "75% Cotton 23% Polyester 2% Elastane",
-    "color": "Dark Navy",
-    "colorFamily": "Blues",
-    "inStock": true
-  },
-  {
-    "id": "67",
-    "handle": "jazz-3214-mid-blue",
-    "name": "Jazz Comfort Jean — Mid Blue",
-    "styleNo": "3214",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "popular": true,
-    "images": [
-      "/assets/jazz-3214-mid-blue-front-bJwElJGD.jpg",
-      "/assets/jazz-3214-mid-blue-model-DYM_tvbB.jpg",
-      "/assets/jazz-3214-mid-blue-back-iZx6FK9d.jpg"
-    ],
-    "description": "A comfort-leg jean in 69% cotton 29% polyester 2% spandex, finished in mid blue. Style 3214. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 3214",
-      "69% Cotton 29% Polyester 2% Spandex",
-      "Comfort fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Jazz",
-    "fit": "Comfort",
-    "material": "69% Cotton 29% Polyester 2% Spandex",
-    "color": "Mid Blue",
-    "colorFamily": "Blues",
-    "inStock": true
-  },
-  {
-    "id": "68",
-    "handle": "jazz-3180-dark-blue",
-    "name": "Jazz Comfort Jean — Dark Blue",
-    "styleNo": "3180",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/jazz-3180-dark-blue-front-BaJIlRno.jpg",
-      "/assets/jazz-3180-dark-blue-model-CsGmnvz8.jpg",
-      "/assets/jazz-3180-dark-blue-model-back-CqZlje3K.jpg"
-    ],
-    "description": "A comfort-leg jean in 99% cotton 1% elastane, finished in dark blue. Style 3180. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 3180",
-      "99% Cotton 1% Elastane",
-      "Comfort fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Jazz",
-    "fit": "Comfort",
-    "material": "99% Cotton 1% Elastane",
-    "color": "Dark Blue",
-    "colorFamily": "Blues",
-    "inStock": true
-  },
-  {
-    "id": "69",
-    "handle": "jazz-3124-raw-wash",
-    "name": "Jazz Comfort Jean — Raw Wash",
-    "styleNo": "3124",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/jazz-3124-raw-wash-front-DdMGN_zL.jpg",
-      "/assets/jazz-3124-raw-wash-model-B00fSOXm.jpg",
-      "/assets/jazz-3124-raw-wash-model-back-82My478o.jpg"
-    ],
-    "description": "A comfort-leg jean in 98% cotton 2% spandex, finished in raw wash. Style 3124. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 3124",
-      "98% Cotton 2% Spandex",
-      "Comfort fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Jazz",
-    "fit": "Comfort",
-    "material": "98% Cotton 2% Spandex",
-    "color": "Raw Wash",
-    "colorFamily": "Neutrals",
-    "inStock": true
-  },
-  {
-    "id": "70",
-    "handle": "jazz-3200-tinted-indigo",
-    "name": "Jazz Comfort Jean — Tinted Indigo",
-    "styleNo": "3200",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/jazz-3200-tinted-indigo-front-C3F__Z1p.jpg",
-      "/assets/jazz-3200-tinted-indigo-model-CHtfbCRo.jpg",
-      "/assets/jazz-3200-tinted-indigo-model-back-o2OKZVXZ.jpg"
-    ],
-    "description": "A comfort-leg jean in 100% cotton, finished in tinted indigo. Style 3200. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 3200",
-      "100% Cotton",
-      "Comfort fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Jazz",
-    "fit": "Comfort",
-    "material": "100% Cotton",
-    "color": "Tinted Indigo",
-    "colorFamily": "Blues",
-    "inStock": true
-  },
-  {
-    "id": "71",
-    "handle": "jazz-3190-black",
-    "name": "Jazz Comfort Jean — Black",
-    "styleNo": "3190",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/jazz-3190-black-front-kM-jb579.jpg",
-      "/assets/jazz-3190-black-model-p_MO0Ave.jpg",
-      "/assets/jazz-3190-black-back-vfbfWiE3.jpg"
-    ],
-    "description": "A comfort-leg jean in 99% cotton 1% elastane, finished in black. Style 3190. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 3190",
-      "99% Cotton 1% Elastane",
-      "Comfort fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Jazz",
-    "fit": "Comfort",
-    "material": "99% Cotton 1% Elastane",
-    "color": "Black",
-    "colorFamily": "Neutrals",
-    "inStock": true
-  },
-  {
-    "id": "72",
-    "handle": "jazz-3178-ice-berg",
-    "name": "Jazz Comfort Jean — Ice Berg",
-    "styleNo": "3178",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/jazz-3178-ice-berg-front-lYX2jf5X.jpg",
-      "/assets/jazz-3178-ice-berg-model-C2s4RsOY.jpg",
-      "/assets/jazz-3178-ice-berg-model-back-CWJJDn3H.jpg"
-    ],
-    "description": "A comfort-leg jean in 100% cotton, finished in ice berg. Style 3178. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 3178",
-      "100% Cotton",
-      "Comfort fit",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Jazz",
-    "fit": "Comfort",
-    "material": "100% Cotton",
-    "color": "Ice Berg",
-    "colorFamily": "Blues",
-    "inStock": true
-  },
-  {
     "id": "73",
     "handle": "rock-166-raw-wash",
     "name": "Rock Baggy Jean — Raw Wash",
@@ -3260,24 +2510,24 @@
     "inStock": true
   },
   {
-    "id": "74",
-    "handle": "rock-163-dark-navy",
-    "name": "Rock Baggy Jean — Dark Navy",
-    "styleNo": "163",
+    "id": "65",
+    "handle": "brawny-5551-tinted-indigo",
+    "name": "Brawny Straight Jean — Tinted Indigo",
+    "styleNo": "5551",
     "price": 2199,
     "categories": [
       "denim"
     ],
     "images": [
-      "/assets/rock-163-dark-navy-front-DsjI4Vv3.jpg",
-      "/assets/rock-163-dark-navy-model-Ccr32v6K.jpg",
-      "/assets/rock-163-dark-navy-model-back-DAOiWYqq.jpg"
+      "/assets/brawny-5551-tinted-indigo-front-2zlxb7WC.jpg",
+      "/assets/brawny-5551-tinted-indigo-model-front.jpg?v=4",
+      "/assets/brawny-5551-tinted-indigo-model-back.jpg?v=4"
     ],
-    "description": "A baggy-leg jean in 98% cotton 2% spandex, finished in dark navy. Style 163. Cut and sewn at our own workshop in Delhi.",
+    "description": "A straight-leg jean in 74% cotton 24% polyester 2% spandex, finished in tinted indigo. Style 5551. Cut and sewn at our own workshop in Delhi.",
     "details": [
-      "Style no. 163",
-      "98% Cotton 2% Spandex",
-      "Baggy fit",
+      "Style no. 5551",
+      "74% Cotton 24% Polyester 2% Spandex",
+      "Straight fit",
       "Sizes 30–44"
     ],
     "sizes": [
@@ -3296,32 +2546,32 @@
       "Everyday",
       "Durable"
     ],
-    "type": "Rock",
-    "fit": "Baggy",
-    "material": "98% Cotton 2% Spandex",
-    "color": "Dark Navy",
+    "type": "Brawny",
+    "fit": "Straight",
+    "material": "74% Cotton 24% Polyester 2% Spandex",
+    "color": "Tinted Indigo",
     "colorFamily": "Blues",
     "inStock": true
   },
   {
-    "id": "75",
-    "handle": "rock-159-dark-indigo",
-    "name": "Rock Baggy Jean — Dark Indigo",
-    "styleNo": "159",
+    "id": "63",
+    "handle": "brawny-5547-dark-indigo",
+    "name": "Brawny Straight Jean — Dark Indigo",
+    "styleNo": "5547",
     "price": 2199,
     "categories": [
       "denim"
     ],
     "images": [
-      "/assets/rock-159-dark-indigo-front-29cM2r88.jpg",
-      "/assets/rock-159-dark-indigo-model-C3FJt228.jpg",
-      "/assets/rock-159-dark-indigo-model-back-Bs9pqGG_.jpg"
+      "/assets/brawny-5547-dark-indigo-front-DzVynxx4.jpg",
+      "/assets/brawny-5547-dark-indigo-model-front.jpg?v=3",
+      "/assets/brawny-5547-dark-indigo-model-back.jpg?v=3"
     ],
-    "description": "A baggy-leg jean in 99% cotton 1% elastane, finished in dark indigo. Style 159. Cut and sewn at our own workshop in Delhi.",
+    "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in dark indigo. Style 5547. Cut and sewn at our own workshop in Delhi.",
     "details": [
-      "Style no. 159",
-      "99% Cotton 1% Elastane",
-      "Baggy fit",
+      "Style no. 5547",
+      "56% Cotton 40% Polyester 4% Spandex",
+      "Straight fit",
       "Sizes 30–44"
     ],
     "sizes": [
@@ -3340,9 +2590,9 @@
       "Everyday",
       "Durable"
     ],
-    "type": "Rock",
-    "fit": "Baggy",
-    "material": "99% Cotton 1% Elastane",
+    "type": "Brawny",
+    "fit": "Straight",
+    "material": "56% Cotton 40% Polyester 4% Spandex",
     "color": "Dark Indigo",
     "colorFamily": "Blues",
     "inStock": true
@@ -3393,24 +2643,24 @@
     "inStock": true
   },
   {
-    "id": "77",
-    "handle": "hulk-32001-coal",
-    "name": "Hulk Super Baggy Jean — Coal",
-    "styleNo": "32001",
+    "id": "61",
+    "handle": "brawny-5463-grey",
+    "name": "Brawny Straight Jean — Grey",
+    "styleNo": "5463",
     "price": 2199,
     "categories": [
       "denim"
     ],
     "images": [
-      "/assets/hulk-32001-coal-front-TbEBk64t.jpg",
-      "/assets/hulk-32001-coal-model-BaeLNkwz.jpg",
-      "/assets/hulk-32001-coal-model-back-fcZLN4Ys.jpg"
+      "/assets/brawny-5463-grey-front-CP0iDydS.jpg",
+      "/assets/brawny-5463-grey-model-front.jpg?v=4",
+      "/assets/brawny-5463-grey-model-back.jpg?v=4"
     ],
-    "description": "A super baggy-leg jean in 100% cotton, finished in coal. Style 32001. Cut and sewn at our own workshop in Delhi.",
+    "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in grey. Style 5463. Cut and sewn at our own workshop in Delhi.",
     "details": [
-      "Style no. 32001",
-      "100% Cotton",
-      "Super Baggy fit",
+      "Style no. 5463",
+      "56% Cotton 40% Polyester 4% Spandex",
+      "Straight fit",
       "Sizes 30–44"
     ],
     "sizes": [
@@ -3429,32 +2679,32 @@
       "Everyday",
       "Durable"
     ],
-    "type": "Hulk",
-    "fit": "Super Baggy",
-    "material": "100% Cotton",
-    "color": "Coal",
+    "type": "Brawny",
+    "fit": "Straight",
+    "material": "56% Cotton 40% Polyester 4% Spandex",
+    "color": "Grey",
     "colorFamily": "Neutrals",
     "inStock": true
   },
   {
-    "id": "78",
-    "handle": "hulk-32004-ice-berg",
-    "name": "Hulk Super Baggy Jean — Ice Berg",
-    "styleNo": "32004",
+    "id": "72",
+    "handle": "jazz-3178-ice-berg",
+    "name": "Jazz Comfort Jean — Ice Berg",
+    "styleNo": "3178",
     "price": 2199,
     "categories": [
       "denim"
     ],
     "images": [
-      "/assets/hulk-32004-ice-berg-front-qrKdcgax.jpg",
-      "/assets/hulk-32004-ice-berg-model-CuuoMm6m.jpg",
-      "/assets/hulk-32004-ice-berg-model-back-DkURoE1H.jpg"
+      "/assets/jazz-3178-ice-berg-front-lYX2jf5X.jpg",
+      "/assets/jazz-3178-ice-berg-model-front.jpg?v=3",
+      "/assets/jazz-3178-ice-berg-model-back.jpg?v=3"
     ],
-    "description": "A super baggy-leg jean in 100% cotton, finished in ice berg. Style 32004. Cut and sewn at our own workshop in Delhi.",
+    "description": "A comfort-leg jean in 100% cotton, finished in ice berg. Style 3178. Cut and sewn at our own workshop in Delhi.",
     "details": [
-      "Style no. 32004",
+      "Style no. 3178",
       "100% Cotton",
-      "Super Baggy fit",
+      "Comfort fit",
       "Sizes 30–44"
     ],
     "sizes": [
@@ -3473,11 +2723,412 @@
       "Everyday",
       "Durable"
     ],
-    "type": "Hulk",
-    "fit": "Super Baggy",
+    "type": "Jazz",
+    "fit": "Comfort",
     "material": "100% Cotton",
     "color": "Ice Berg",
     "colorFamily": "Blues",
+    "inStock": true
+  },
+  {
+    "id": "69",
+    "handle": "jazz-3124-raw-wash",
+    "name": "Jazz Comfort Jean — Raw Wash",
+    "styleNo": "3124",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/jazz-3124-raw-wash-front-DdMGN_zL.jpg",
+      "/assets/jazz-3124-raw-wash-model-front.jpg?v=3",
+      "/assets/jazz-3124-raw-wash-model-back.jpg?v=3"
+    ],
+    "description": "A comfort-leg jean in 98% cotton 2% spandex, finished in raw wash. Style 3124. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 3124",
+      "98% Cotton 2% Spandex",
+      "Comfort fit",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Jazz",
+    "fit": "Comfort",
+    "material": "98% Cotton 2% Spandex",
+    "color": "Raw Wash",
+    "colorFamily": "Neutrals",
+    "inStock": true
+  },
+  {
+    "id": "84",
+    "handle": "jazz-with-fleece-035-light-blue",
+    "name": "Jazz With Fleece Comfort Jean — Light Blue",
+    "styleNo": "035",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/jazz-with-fleece-035-light-blue-front-Dkn48N6j.jpg",
+      "/assets/jazz-with-fleece-035-light-blue-model-CzgVPgnf.jpg",
+      "/assets/jazz-with-fleece-035-light-blue-model-back-oY3uvTiK.jpg",
+      "/assets/jazz-with-fleece-035-light-blue-detail-CFOdliVU.jpg"
+    ],
+    "description": "A comfort-leg jean in 98% cotton 2% spandex with a fleece lining, finished in light blue. Style 035. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 035",
+      "98% Cotton 2% Spandex",
+      "Comfort fit",
+      "Fleece lining",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Jazz With Fleece",
+    "fit": "Comfort",
+    "material": "98% Cotton 2% Spandex",
+    "lining": "Fleece",
+    "color": "Light Blue",
+    "colorFamily": "Blues",
+    "inStock": true
+  },
+  {
+    "id": "68",
+    "handle": "jazz-3180-dark-blue",
+    "name": "Jazz Comfort Jean — Dark Blue",
+    "styleNo": "3180",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/jazz-3180-dark-blue-front-BaJIlRno.jpg",
+      "/assets/jazz-3180-dark-blue-model-CsGmnvz8.jpg",
+      "/assets/jazz-3180-dark-blue-model-back-CqZlje3K.jpg"
+    ],
+    "description": "A comfort-leg jean in 99% cotton 1% elastane, finished in dark blue. Style 3180. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 3180",
+      "99% Cotton 1% Elastane",
+      "Comfort fit",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Jazz",
+    "fit": "Comfort",
+    "material": "99% Cotton 1% Elastane",
+    "color": "Dark Blue",
+    "colorFamily": "Blues",
+    "inStock": true
+  },
+  {
+    "id": "70",
+    "handle": "jazz-3200-tinted-indigo",
+    "name": "Jazz Comfort Jean — Tinted Indigo",
+    "styleNo": "3200",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/jazz-3200-tinted-indigo-front-C3F__Z1p.jpg",
+      "/assets/jazz-3200-tinted-indigo-model-front.jpg?v=3",
+      "/assets/jazz-3200-tinted-indigo-model-back.jpg?v=3"
+    ],
+    "description": "A comfort-leg jean in 100% cotton, finished in tinted indigo. Style 3200. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 3200",
+      "100% Cotton",
+      "Comfort fit",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Jazz",
+    "fit": "Comfort",
+    "material": "100% Cotton",
+    "color": "Tinted Indigo",
+    "colorFamily": "Blues",
+    "inStock": true
+  },
+  {
+    "id": "82",
+    "handle": "jazz-with-fleece-031-blue-ridge",
+    "name": "Jazz With Fleece Comfort Jean — Blue Ridge",
+    "styleNo": "031",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/jazz-with-fleece-031-blue-ridge-front-CoXrGj-4.jpg",
+      "/assets/jazz-with-fleece-031-blue-ridge-model-DwNpuQRh.jpg",
+      "/assets/jazz-with-fleece-031-blue-ridge-model-back-CQV9Xllc.jpg"
+    ],
+    "description": "A comfort-leg jean in 74% cotton 24% polyester 2% spandex with a fleece lining, finished in blue ridge. Style 031. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 031",
+      "74% Cotton 24% Polyester 2% Spandex",
+      "Comfort fit",
+      "Fleece lining",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Jazz With Fleece",
+    "fit": "Comfort",
+    "material": "74% Cotton 24% Polyester 2% Spandex",
+    "lining": "Fleece",
+    "color": "Blue Ridge",
+    "colorFamily": "Blues",
+    "inStock": true
+  },
+  {
+    "id": "75",
+    "handle": "rock-159-dark-indigo",
+    "name": "Rock Baggy Jean — Dark Indigo",
+    "styleNo": "159",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/rock-159-dark-indigo-front-29cM2r88.jpg",
+      "/assets/rock-159-dark-indigo-model-C3FJt228.jpg",
+      "/assets/rock-159-dark-indigo-model-back-Bs9pqGG_.jpg"
+    ],
+    "description": "A baggy-leg jean in 99% cotton 1% elastane, finished in dark indigo. Style 159. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 159",
+      "99% Cotton 1% Elastane",
+      "Baggy fit",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Rock",
+    "fit": "Baggy",
+    "material": "99% Cotton 1% Elastane",
+    "color": "Dark Indigo",
+    "colorFamily": "Blues",
+    "inStock": true
+  },
+  {
+    "id": "66",
+    "handle": "brawny-5549-dark-navy",
+    "name": "Brawny Straight Jean — Dark Navy",
+    "styleNo": "5549",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/brawny-5549-dark-navy-front-biCNLUV2.jpg",
+      "/assets/brawny-5549-dark-navy-model-BiT6bjMV.jpg",
+      "/assets/brawny-5549-dark-navy-model-back-LkPHXjq9.jpg"
+    ],
+    "description": "A straight-leg jean in 75% cotton 23% polyester 2% elastane, finished in dark navy. Style 5549. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 5549",
+      "75% Cotton 23% Polyester 2% Elastane",
+      "Straight fit",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Brawny",
+    "fit": "Straight",
+    "material": "75% Cotton 23% Polyester 2% Elastane",
+    "color": "Dark Navy",
+    "colorFamily": "Blues",
+    "inStock": true
+  },
+  {
+    "id": "71",
+    "handle": "jazz-3190-black",
+    "name": "Jazz Comfort Jean — Black",
+    "styleNo": "3190",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/jazz-3190-black-front-kM-jb579.jpg",
+      "/assets/jazz-3190-black-model-front.jpg?v=3",
+      "/assets/jazz-3190-black-back-vfbfWiE3.jpg"
+    ],
+    "description": "A comfort-leg jean in 99% cotton 1% elastane, finished in black. Style 3190. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 3190",
+      "99% Cotton 1% Elastane",
+      "Comfort fit",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Jazz",
+    "fit": "Comfort",
+    "material": "99% Cotton 1% Elastane",
+    "color": "Black",
+    "colorFamily": "Neutrals",
+    "inStock": true
+  },
+  {
+    "id": "60",
+    "handle": "brawny-5461-black",
+    "name": "Brawny Straight Jean 5461 — Black",
+    "styleNo": "5461",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/brawny-5461-black-front-BE35mDq-.jpg",
+      "/assets/brawny-5461-black-model-BgP6u1fi.jpg",
+      "/assets/brawny-5461-black-model-back-BWUtfz83.jpg"
+    ],
+    "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in black. Style 5461. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 5461",
+      "56% Cotton 40% Polyester 4% Spandex",
+      "Straight fit",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Brawny",
+    "fit": "Straight",
+    "material": "56% Cotton 40% Polyester 4% Spandex",
+    "color": "Black",
+    "colorFamily": "Neutrals",
     "inStock": true
   },
   {
@@ -3521,6 +3172,275 @@
     "fit": "Super Baggy",
     "material": "100% Cotton",
     "color": "Dark Blue",
+    "colorFamily": "Blues",
+    "inStock": true
+  },
+  {
+    "id": "67",
+    "handle": "jazz-3214-mid-blue",
+    "name": "Jazz Comfort Jean — Mid Blue",
+    "styleNo": "3214",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "popular": true,
+    "images": [
+      "/assets/jazz-3214-mid-blue-front-bJwElJGD.jpg",
+      "/assets/jazz-3214-mid-blue-model-front.jpg?v=3",
+      "/assets/jazz-3214-mid-blue-model-back.jpg?v=3",
+      "/assets/jazz-3214-mid-blue-back-iZx6FK9d.jpg"
+    ],
+    "description": "A comfort-leg jean in 69% cotton 29% polyester 2% spandex, finished in mid blue. Style 3214. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 3214",
+      "69% Cotton 29% Polyester 2% Spandex",
+      "Comfort fit",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Jazz",
+    "fit": "Comfort",
+    "material": "69% Cotton 29% Polyester 2% Spandex",
+    "color": "Mid Blue",
+    "colorFamily": "Blues",
+    "inStock": true
+  },
+  {
+    "id": "59",
+    "handle": "brawny-5462-navy",
+    "name": "Brawny Straight Jean — Navy",
+    "styleNo": "5462",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "popular": true,
+    "images": [
+      "/assets/brawny-5462-navy-model-front.jpg?v=4",
+      "/assets/brawny-5462-navy-front-C06oYZ3y.jpg",
+      "/assets/brawny-5462-navy-model-Cv0WpEGd.jpg"
+    ],
+    "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in navy. Style 5462. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 5462",
+      "56% Cotton 40% Polyester 4% Spandex",
+      "Straight fit",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Brawny",
+    "fit": "Straight",
+    "material": "56% Cotton 40% Polyester 4% Spandex",
+    "color": "Navy",
+    "colorFamily": "Blues",
+    "inStock": true
+  },
+  {
+    "id": "56",
+    "handle": "joggers-2001-black",
+    "name": "Denim Jogger — Black",
+    "styleNo": "2001",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/joggers-2001-black-front-BLGAVp8G.jpg",
+      "/assets/joggers-2001-black-model-BXU_COG_.jpg",
+      "/assets/joggers-2001-black-detail-D9900_38.jpg"
+    ],
+    "description": "A comfort-leg jean in 86% cotton 10% polyester 4% elastane, finished in black. Style 2001. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 2001",
+      "86% Cotton 10% Polyester 4% Elastane",
+      "Comfort fit",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Joggers",
+    "fit": "Comfort",
+    "material": "86% Cotton 10% Polyester 4% Elastane",
+    "color": "Black",
+    "colorFamily": "Neutrals",
+    "inStock": true
+  },
+  {
+    "id": "81",
+    "handle": "jazz-with-fleece-028-grease-black",
+    "name": "Jazz With Fleece Comfort Jean — Grease Black",
+    "styleNo": "028",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/jazz-with-fleece-028-grease-black-front-DOkzeAmC.jpg",
+      "/assets/jazz-with-fleece-028-grease-black-model-B0Miyzvj.jpg",
+      "/assets/jazz-with-fleece-028-grease-black-model-back-mxuWZIKs.jpg"
+    ],
+    "description": "A comfort-leg jean in 99% cotton 1% elastane with a fleece lining, finished in grease black. Style 028. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 028",
+      "99% Cotton 1% Elastane",
+      "Comfort fit",
+      "Fleece lining",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Jazz With Fleece",
+    "fit": "Comfort",
+    "material": "99% Cotton 1% Elastane",
+    "lining": "Fleece",
+    "color": "Grease Black",
+    "colorFamily": "Neutrals",
+    "inStock": true
+  },
+  {
+    "id": "74",
+    "handle": "rock-163-dark-navy",
+    "name": "Rock Baggy Jean — Dark Navy",
+    "styleNo": "163",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/rock-163-dark-navy-front-DsjI4Vv3.jpg",
+      "/assets/rock-163-dark-navy-model-Ccr32v6K.jpg",
+      "/assets/rock-163-dark-navy-model-back-DAOiWYqq.jpg"
+    ],
+    "description": "A baggy-leg jean in 98% cotton 2% spandex, finished in dark navy. Style 163. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 163",
+      "98% Cotton 2% Spandex",
+      "Baggy fit",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Rock",
+    "fit": "Baggy",
+    "material": "98% Cotton 2% Spandex",
+    "color": "Dark Navy",
+    "colorFamily": "Blues",
+    "inStock": true
+  },
+  {
+    "id": "58",
+    "handle": "joggers-2002-indigo",
+    "name": "Denim Jogger — Indigo",
+    "styleNo": "2002",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/joggers-2002-indigo-front-D73MwCnL.jpg",
+      "/assets/joggers-2002-indigo-model-CIUhmqyN.jpg",
+      "/assets/joggers-2002-indigo-back-Fctg8c2n.jpg"
+    ],
+    "description": "A comfort-leg jean in 79% cotton 15% polyester 6% elastane, finished in indigo. Style 2002. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 2002",
+      "79% Cotton 15% Polyester 6% Elastane",
+      "Comfort fit",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Joggers",
+    "fit": "Comfort",
+    "material": "79% Cotton 15% Polyester 6% Elastane",
+    "color": "Indigo",
     "colorFamily": "Blues",
     "inStock": true
   },
@@ -3572,25 +3492,24 @@
     "inStock": true
   },
   {
-    "id": "81",
-    "handle": "jazz-with-fleece-028-grease-black",
-    "name": "Jazz With Fleece Comfort Jean — Grease Black",
-    "styleNo": "028",
+    "id": "57",
+    "handle": "joggers-2003-tinted-indigo",
+    "name": "Denim Jogger — Tinted Indigo",
+    "styleNo": "2003",
     "price": 2199,
     "categories": [
       "denim"
     ],
     "images": [
-      "/assets/jazz-with-fleece-028-grease-black-front-DOkzeAmC.jpg",
-      "/assets/jazz-with-fleece-028-grease-black-model-B0Miyzvj.jpg",
-      "/assets/jazz-with-fleece-028-grease-black-model-back-mxuWZIKs.jpg"
+      "/assets/joggers-2003-tinted-indigo-front-TP3CQqeO.jpg",
+      "/assets/joggers-2003-tinted-indigo-model-front.jpg?v=4",
+      "/assets/joggers-2003-tinted-indigo-back-BtimoWvR.jpg"
     ],
-    "description": "A comfort-leg jean in 99% cotton 1% elastane with a fleece lining, finished in grease black. Style 028. Cut and sewn at our own workshop in Delhi.",
+    "description": "A comfort-leg jean in 79% cotton 15% polyester 6% elastane, finished in tinted indigo. Style 2003. Cut and sewn at our own workshop in Delhi.",
     "details": [
-      "Style no. 028",
-      "99% Cotton 1% Elastane",
+      "Style no. 2003",
+      "79% Cotton 15% Polyester 6% Elastane",
       "Comfort fit",
-      "Fleece lining",
       "Sizes 30–44"
     ],
     "sizes": [
@@ -3609,34 +3528,120 @@
       "Everyday",
       "Durable"
     ],
-    "type": "Jazz With Fleece",
+    "type": "Joggers",
     "fit": "Comfort",
+    "material": "79% Cotton 15% Polyester 6% Elastane",
+    "color": "Tinted Indigo",
+    "colorFamily": "Blues",
+    "inStock": true
+  },
+  {
+    "id": "78",
+    "handle": "hulk-32004-ice-berg",
+    "name": "Hulk Super Baggy Jean — Ice Berg",
+    "styleNo": "32004",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/hulk-32004-ice-berg-front-qrKdcgax.jpg",
+      "/assets/hulk-32004-ice-berg-model-CuuoMm6m.jpg",
+      "/assets/hulk-32004-ice-berg-model-back-DkURoE1H.jpg"
+    ],
+    "description": "A super baggy-leg jean in 100% cotton, finished in ice berg. Style 32004. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 32004",
+      "100% Cotton",
+      "Super Baggy fit",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Hulk",
+    "fit": "Super Baggy",
+    "material": "100% Cotton",
+    "color": "Ice Berg",
+    "colorFamily": "Blues",
+    "inStock": true
+  },
+  {
+    "id": "64",
+    "handle": "brawny-5484-black",
+    "name": "Brawny Straight Jean 5484 — Black",
+    "styleNo": "5484",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/brawny-5484-black-front-iEUBJP8Y.jpg",
+      "/assets/brawny-5484-black-model-BfEx-Zyx.jpg",
+      "/assets/brawny-5484-black-model-back-Bo3oDYu1.jpg"
+    ],
+    "description": "A straight-leg jean in 99% cotton 1% elastane, finished in black. Style 5484. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 5484",
+      "99% Cotton 1% Elastane",
+      "Straight fit",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Brawny",
+    "fit": "Straight",
     "material": "99% Cotton 1% Elastane",
-    "lining": "Fleece",
-    "color": "Grease Black",
+    "color": "Black",
     "colorFamily": "Neutrals",
     "inStock": true
   },
   {
-    "id": "82",
-    "handle": "jazz-with-fleece-031-blue-ridge",
-    "name": "Jazz With Fleece Comfort Jean — Blue Ridge",
-    "styleNo": "031",
+    "id": "62",
+    "handle": "brawny-5464-off-white",
+    "name": "Brawny Straight Jean — Off-White",
+    "styleNo": "5464",
     "price": 2199,
     "categories": [
       "denim"
     ],
     "images": [
-      "/assets/jazz-with-fleece-031-blue-ridge-front-CoXrGj-4.jpg",
-      "/assets/jazz-with-fleece-031-blue-ridge-model-DwNpuQRh.jpg",
-      "/assets/jazz-with-fleece-031-blue-ridge-model-back-CQV9Xllc.jpg"
+      "/assets/brawny-5464-off-white-front-CLgSl1gR.jpg",
+      "/assets/brawny-5464-off-white-model-front.jpg?v=4",
+      "/assets/brawny-5464-off-white-model-back.jpg?v=4"
     ],
-    "description": "A comfort-leg jean in 74% cotton 24% polyester 2% spandex with a fleece lining, finished in blue ridge. Style 031. Cut and sewn at our own workshop in Delhi.",
+    "description": "A straight-leg jean in 56% cotton 40% polyester 4% spandex, finished in off-white. Style 5464. Cut and sewn at our own workshop in Delhi.",
     "details": [
-      "Style no. 031",
-      "74% Cotton 24% Polyester 2% Spandex",
-      "Comfort fit",
-      "Fleece lining",
+      "Style no. 5464",
+      "56% Cotton 40% Polyester 4% Spandex",
+      "Straight fit",
       "Sizes 30–44"
     ],
     "sizes": [
@@ -3655,12 +3660,55 @@
       "Everyday",
       "Durable"
     ],
-    "type": "Jazz With Fleece",
-    "fit": "Comfort",
-    "material": "74% Cotton 24% Polyester 2% Spandex",
-    "lining": "Fleece",
-    "color": "Blue Ridge",
-    "colorFamily": "Blues",
+    "type": "Brawny",
+    "fit": "Straight",
+    "material": "56% Cotton 40% Polyester 4% Spandex",
+    "color": "Off-White",
+    "colorFamily": "Neutrals",
+    "inStock": true
+  },
+  {
+    "id": "77",
+    "handle": "hulk-32001-coal",
+    "name": "Hulk Super Baggy Jean — Coal",
+    "styleNo": "32001",
+    "price": 2199,
+    "categories": [
+      "denim"
+    ],
+    "images": [
+      "/assets/hulk-32001-coal-front-TbEBk64t.jpg",
+      "/assets/hulk-32001-coal-model-BaeLNkwz.jpg",
+      "/assets/hulk-32001-coal-model-back-fcZLN4Ys.jpg"
+    ],
+    "description": "A super baggy-leg jean in 100% cotton, finished in coal. Style 32001. Cut and sewn at our own workshop in Delhi.",
+    "details": [
+      "Style no. 32001",
+      "100% Cotton",
+      "Super Baggy fit",
+      "Sizes 30–44"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "tags": [
+      "Rope-Dyed",
+      "Worn-In",
+      "Everyday",
+      "Durable"
+    ],
+    "type": "Hulk",
+    "fit": "Super Baggy",
+    "material": "100% Cotton",
+    "color": "Coal",
+    "colorFamily": "Neutrals",
     "inStock": true
   },
   {
@@ -3706,53 +3754,6 @@
     "material": "74% Cotton 24% Polyester 2% Spandex",
     "lining": "Fleece",
     "color": "Marvin Blue",
-    "colorFamily": "Blues",
-    "inStock": true
-  },
-  {
-    "id": "84",
-    "handle": "jazz-with-fleece-035-light-blue",
-    "name": "Jazz With Fleece Comfort Jean — Light Blue",
-    "styleNo": "035",
-    "price": 2199,
-    "categories": [
-      "denim"
-    ],
-    "images": [
-      "/assets/jazz-with-fleece-035-light-blue-front-Dkn48N6j.jpg",
-      "/assets/jazz-with-fleece-035-light-blue-model-CzgVPgnf.jpg",
-      "/assets/jazz-with-fleece-035-light-blue-model-back-oY3uvTiK.jpg",
-      "/assets/jazz-with-fleece-035-light-blue-detail-CFOdliVU.jpg"
-    ],
-    "description": "A comfort-leg jean in 98% cotton 2% spandex with a fleece lining, finished in light blue. Style 035. Cut and sewn at our own workshop in Delhi.",
-    "details": [
-      "Style no. 035",
-      "98% Cotton 2% Spandex",
-      "Comfort fit",
-      "Fleece lining",
-      "Sizes 30–44"
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40",
-      "42",
-      "44"
-    ],
-    "tags": [
-      "Rope-Dyed",
-      "Worn-In",
-      "Everyday",
-      "Durable"
-    ],
-    "type": "Jazz With Fleece",
-    "fit": "Comfort",
-    "material": "98% Cotton 2% Spandex",
-    "lining": "Fleece",
-    "color": "Light Blue",
     "colorFamily": "Blues",
     "inStock": true
   }

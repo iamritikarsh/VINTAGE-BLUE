@@ -275,8 +275,10 @@ body.h2 .foot { display: none; }
 .g-stag-img img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; transition: transform 1.4s cubic-bezier(0.22, 0.61, 0.36, 1); }
 .g-stag-col:hover .g-stag-img img { transform: scale(1.025); }
 .g-stag-1 .g-stag-img { height: clamp(380px, 58vh, 640px); }
+.g-stag-1 .g-stag-img img { object-position: 50% 20%; }
 .g-stag-2 .g-stag-img { height: clamp(500px, 80vh, 880px); }
 .g-stag-3 .g-stag-img { height: clamp(320px, 46vh, 520px); }
+.g-stag-3 .g-stag-img img { object-position: 50% 8%; }
 .g-stag-note { margin: 0 0 clamp(28px, 6vh, 72px); font-size: 12px; font-weight: 500; line-height: 1.45; letter-spacing: 0.02em; text-transform: uppercase; }
 .g-stag-note span { color: var(--g-soft); }
 .g-stag-3 .g-stag-note { text-align: right; }
@@ -1047,3 +1049,10 @@ body.h2.h2dark .ab-switch a { color: inherit; }
 .lb10-cell-p:hover .lb10-panel-photo img { transform: scale(1.07); }
 .lb10-mosaic-foot { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding-top: 16px; }
 .lb10-mosaic-foot p { margin: 0; font-size: 13px; color: var(--g-soft); }
+
+/* ==========================================================================
+   PRODUCT HOVER ANIMATION: PAUSED
+   ========================================================================== */
+.g-tile:hover .g-alt {
+  opacity: 0 !important;
+}
