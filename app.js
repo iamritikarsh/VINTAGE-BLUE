@@ -1115,22 +1115,22 @@ const PANTS_ORDER = [
 ];
 
 const DENIM_ORDER = [
-  "rock-166-raw-wash",
+  "hulk-32002-dark-blue",
   "brawny-5551-tinted-indigo",
-  "jazz-with-fleece-18014-marvin-blue",
-  "hulk-32003-mid-blue",
-  "brawny-5463-grey",
-  "jazz-3178-ice-berg",
-  "jazz-3124-raw-wash",
   "jazz-with-fleece-035-light-blue",
   "jazz-3180-dark-blue",
   "jazz-3200-tinted-indigo",
+  "jazz-3178-ice-berg",
+  "jazz-3124-raw-wash",
+  "jazz-with-fleece-18014-marvin-blue",
+  "hulk-32003-mid-blue",
+  "brawny-5463-grey",
   "jazz-with-fleece-031-blue-ridge",
   "rock-159-dark-indigo",
   "brawny-5549-dark-navy",
   "jazz-3190-black",
-  "brawny-5461-black",
-  "hulk-32002-dark-blue",
+  "brawny-5547-dark-indigo",
+  "rock-166-raw-wash",
   "jazz-3214-mid-blue",
   "brawny-5462-navy",
   "joggers-2001-black",
@@ -1143,7 +1143,7 @@ const DENIM_ORDER = [
   "brawny-5484-black",
   "brawny-5464-off-white",
   "hulk-32001-coal",
-  "brawny-5547-dark-indigo",
+  "brawny-5461-black",
 ];
 
 // Products page hero: only the denim page gets one — the four fits side by side.
