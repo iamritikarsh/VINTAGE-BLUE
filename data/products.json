@@ -2510,24 +2510,24 @@
     "inStock": true
   },
   {
-    "id": "65",
-    "handle": "brawny-5551-tinted-indigo",
-    "name": "Brawny Straight Jean — Tinted Indigo",
-    "styleNo": "5551",
+    "id": "72",
+    "handle": "jazz-3178-ice-berg",
+    "name": "Jazz Comfort Jean — Ice Berg",
+    "styleNo": "3178",
     "price": 2199,
     "categories": [
       "denim"
     ],
     "images": [
-      "/assets/brawny-5551-tinted-indigo-front-2zlxb7WC.jpg",
-      "/assets/brawny-5551-tinted-indigo-model-front.jpg?v=5",
-      "/assets/brawny-5551-tinted-indigo-model-back.jpg?v=5"
+      "/assets/jazz-3178-ice-berg-front-lYX2jf5X.jpg",
+      "/assets/jazz-3178-ice-berg-model-front.jpg?v=6",
+      "/assets/jazz-3178-ice-berg-model-back.jpg?v=6"
     ],
-    "description": "A straight-leg jean in 74% cotton 24% polyester 2% spandex, finished in tinted indigo. Style 5551. Cut and sewn at our own workshop in Delhi.",
+    "description": "A comfort-leg jean in 100% cotton, finished in ice berg. Style 3178. Cut and sewn at our own workshop in Delhi.",
     "details": [
-      "Style no. 5551",
-      "74% Cotton 24% Polyester 2% Spandex",
-      "Straight fit",
+      "Style no. 3178",
+      "100% Cotton",
+      "Comfort fit",
       "Sizes 30–44"
     ],
     "sizes": [
@@ -2546,10 +2546,10 @@
       "Everyday",
       "Durable"
     ],
-    "type": "Brawny",
-    "fit": "Straight",
-    "material": "74% Cotton 24% Polyester 2% Spandex",
-    "color": "Tinted Indigo",
+    "type": "Jazz",
+    "fit": "Comfort",
+    "material": "100% Cotton",
+    "color": "Ice Berg",
     "colorFamily": "Blues",
     "inStock": true
   },
@@ -2688,24 +2688,24 @@
     "inStock": true
   },
   {
-    "id": "72",
-    "handle": "jazz-3178-ice-berg",
-    "name": "Jazz Comfort Jean — Ice Berg",
-    "styleNo": "3178",
+    "id": "65",
+    "handle": "brawny-5551-tinted-indigo",
+    "name": "Brawny Straight Jean — Tinted Indigo",
+    "styleNo": "5551",
     "price": 2199,
     "categories": [
       "denim"
     ],
     "images": [
-      "/assets/jazz-3178-ice-berg-front-lYX2jf5X.jpg",
-      "/assets/jazz-3178-ice-berg-model-front.jpg?v=6",
-      "/assets/jazz-3178-ice-berg-model-back.jpg?v=6"
+      "/assets/brawny-5551-tinted-indigo-front-2zlxb7WC.jpg",
+      "/assets/brawny-5551-tinted-indigo-model-front.jpg?v=6",
+      "/assets/brawny-5551-tinted-indigo-model-back.jpg?v=5"
     ],
-    "description": "A comfort-leg jean in 100% cotton, finished in ice berg. Style 3178. Cut and sewn at our own workshop in Delhi.",
+    "description": "A straight-leg jean in 74% cotton 24% polyester 2% spandex, finished in tinted indigo. Style 5551. Cut and sewn at our own workshop in Delhi.",
     "details": [
-      "Style no. 3178",
-      "100% Cotton",
-      "Comfort fit",
+      "Style no. 5551",
+      "74% Cotton 24% Polyester 2% Spandex",
+      "Straight fit",
       "Sizes 30–44"
     ],
     "sizes": [
@@ -2724,10 +2724,10 @@
       "Everyday",
       "Durable"
     ],
-    "type": "Jazz",
-    "fit": "Comfort",
-    "material": "100% Cotton",
-    "color": "Ice Berg",
+    "type": "Brawny",
+    "fit": "Straight",
+    "material": "74% Cotton 24% Polyester 2% Spandex",
+    "color": "Tinted Indigo",
     "colorFamily": "Blues",
     "inStock": true
   },

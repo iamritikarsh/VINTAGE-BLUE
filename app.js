@@ -428,7 +428,10 @@ function bindHome2() {
 }
 
 /* ---------- About pages (v2 system): five layouts, same facts ---------- */
-const ED = (n) => `/assets/editorial/${n}.jpg`;
+const ED = (n) => {
+  const [base, qs] = n.split("?");
+  return `/assets/editorial/${base}.jpg${qs ? `?${qs}` : ""}`;
+};
 const AB_NUMS = [["2006", "Founded in Delhi"], ["36 yrs", "Fabric sourcing"], ["08", "States served"], ["100%", "Made in India"]];
 const AB_VALUES = [
   ["Authenticity", "No borrowed heritage — twenty years of our own patterns and our own mill."],
@@ -771,7 +774,7 @@ function lookbook10() {
         <div class="lb10-page lb10-page-r">
           <p class="lb10-pg-top"><span>Looks 04 — 05</span><span>From ${lbTotal(LB2[3])}</span></p>
           <div class="lb10-sp-grid">
-            ${spreadPic("polo-pants", "50% 20%", "light-weight-pant-4037-cream")}
+            ${spreadPic("polo-pants?v=2", "50% 50%", "light-weight-pant-4037-cream")}
             ${spreadPic("stripe-chair", "50% 30%", "corduroy-shirt-141-3-brown")}
             ${spreadPic("lb-pants", "50% 60%", "brawny-5464-off-white")}
             ${spreadPic("lb-collar", "50% 40%", "denim-jacket-152-coal-grey")}
@@ -1116,11 +1119,11 @@ const PANTS_ORDER = [
 
 const DENIM_ORDER = [
   "hulk-32002-dark-blue",
-  "brawny-5551-tinted-indigo",
+  "jazz-3178-ice-berg",
   "jazz-with-fleece-035-light-blue",
   "jazz-3180-dark-blue",
   "jazz-3200-tinted-indigo",
-  "jazz-3178-ice-berg",
+  "brawny-5551-tinted-indigo",
   "jazz-3124-raw-wash",
   "jazz-with-fleece-18014-marvin-blue",
   "hulk-32003-mid-blue",
