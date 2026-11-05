@@ -1809,3 +1809,38 @@ fetch("/data/products.json?v=103")
     renderBag();
     render();
   });
+
+
+/* ---------- Mobile guarded enhancements (<=768px only) ---------- */
+if (typeof window !== "undefined" && window.matchMedia) {
+  const mqlMobile = window.matchMedia("(max-width: 768px)");
+  const syncMobileState = () => {
+    if (!mqlMobile.matches) {
+      document.body.classList.remove("mobile-scroll-lock");
+      if (typeof closeMenu === "function" && nav.classList.contains("menu-open")) {
+        closeMenu();
+      }
+      return;
+    }
+    const isMenuOpen = nav.classList.contains("menu-open");
+    const isBagOpen = typeof bagEl !== "undefined" && bagEl.classList.contains("open");
+    if (isMenuOpen || isBagOpen) {
+      document.body.classList.add("mobile-scroll-lock");
+    } else {
+      document.body.classList.remove("mobile-scroll-lock");
+    }
+  };
+
+  const navObserver = new MutationObserver(syncMobileState);
+  navObserver.observe(nav, { attributes: true, attributeFilter: ["class"] });
+  if (typeof bagEl !== "undefined") {
+    const bagObserver = new MutationObserver(syncMobileState);
+    bagObserver.observe(bagEl, { attributes: true, attributeFilter: ["class"] });
+  }
+
+  if (mqlMobile.addEventListener) {
+    mqlMobile.addEventListener("change", syncMobileState);
+  } else if (mqlMobile.addListener) {
+    mqlMobile.addListener(syncMobileState);
+  }
+}
