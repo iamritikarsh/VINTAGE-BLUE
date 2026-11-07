@@ -748,7 +748,7 @@ function lookbook10() {
       </aside>
       <div class="lb10-time-pics">
         <figure class="rv">${abImg(ED("suede-jacket"), "Model in a cropped navy jacket and ecru jeans", "lb10-time-img", "50% 25%")}<figcaption>${esc(LB2[2].name)} — ${esc(LB2[2].line)}</figcaption></figure>
-        <figure class="rv">${abImg(ED("cardigan-navy"), "Model in a cream jacket, striped tee and navy trousers", "lb10-time-img", "50% 30%")}<figcaption>Cream jacket, striped tee, navy trousers.</figcaption></figure>
+        <figure class="rv">${abImg(ED("cardigan-navy"), "Model in corduroy jacket olive and cream cargo", "lb10-time-img", "50% 30%")}<figcaption>Corduroy Jacket Olive , Cream Cargo</figcaption></figure>
       </div>
     </section>
 
