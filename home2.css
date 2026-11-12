@@ -40,7 +40,7 @@ body.h2 .nav-bag-count { border-radius: 0; }
 .h2-frame { position: absolute; left: 50%; top: 50%; width: max(100%, calc((100svh - 104px) * 3840 / 2161)); aspect-ratio: 3840 / 2161; transform: translate(-50%, -50%); container-type: inline-size; }
 .h2-frame > img { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
 .h2-fg { z-index: 2; pointer-events: none; }
-.h2-word { position: absolute; z-index: 1; left: 50%; top: 15%; transform: translateX(-50.5%); margin: 0; font-size: 15cqw; font-weight: 700; line-height: 0.74; letter-spacing: -0.035em; white-space: nowrap; color: var(--g-cream); }
+.h2-word { position: absolute; z-index: 1; left: 50%; top: 15%; transform: translateX(-50.5%); margin: 0; font-size: 11.6cqw; font-weight: 700; line-height: 0.74; letter-spacing: -0.035em; white-space: nowrap; color: var(--g-cream); }
 .h2-safe { position: absolute; inset: 0; z-index: 3; container-type: inline-size; }
 
 /* Caption bar under a full-width image */
@@ -154,7 +154,7 @@ body.h2 .foot-sub button { color: var(--g-ink); letter-spacing: 0; font-size: 13
   .h2-row span { width: auto; }
   .h2-hero { height: 74svh; }
   .h2-frame { width: calc(74svh * 1672 / 941); }
-  .h2-word { font-size: 21.5vw; top: 17%; }
+  .h2-word { font-size: 15vw; top: 17%; }
 }
 
 /* ---------- Home 2, final set ---------- */

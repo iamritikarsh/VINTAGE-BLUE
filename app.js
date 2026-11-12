@@ -326,7 +326,7 @@ function home2() {
     <section class="h2-hero" aria-label="Vintage Blue Winter 2026">
       <div class="h2-frame">
         <img src="/assets/ref/brick4k.jpg?v=2" alt="Model in a dark denim trucker and washed cargo jeans sitting on the hood of a black vintage car" />
-        <p class="h2-word" aria-hidden="true">JOYRIDE</p>
+        <p class="h2-word" aria-hidden="true">VINTAGE BLUE</p>
         <img class="h2-fg" src="/assets/ref/brick4k-layer.png?v=2" alt="" aria-hidden="true" />
       </div>
       <div class="h2-safe">
@@ -567,7 +567,7 @@ function about6() {
 function about7() {
   const ch = [
     ["Heritage", "It started<br />with denim.", "Founded in 2006 as a men's denim label. In 2022 we grew into a complete menswear brand — shirts, tees, trousers, cargos and jackets.", ED("raw-stairs"), "50% 30%"],
-    ["Fabric", "Thirty-six years<br />of cloth behind us.", "Our sister company, Indigo Multifab, has sourced and traded fabric for over 36 years. It's why we can work with premium cloth and hold it to a high standard.", ED("denim-back"), "50% 55%"],
+    ["Fabric", "Thirty-six years<br />of expertise behind us.", "Our sister company, Indigo Multifab, has sourced and traded fabric for over 36 years. It's why we can work with premium cloth and hold it to a high standard.", ED("denim-back"), "50% 55%"],
     ["Making", "Built on manufacturing<br />excellence.", "We also make for brands like The Souled Store, Monte Carlo and Octave as a private-label partner — the same care on every line we sew.", ED("brown-overshirt"), "50% 25%"],
     ["Responsibility", "A lasting impression,<br />not a lasting footprint.", "Organic and recycled materials, production offcuts recycled, and garments built to be worn and kept for years.", ED("cardigan-navy"), "50% 30%"],
     ["Today", "Across North<br />and East India.", "Punjab, J&amp;K, Himachal, Uttarakhand, Western UP, Rajasthan, Jharkhand and Bihar — and growing.", ED("lb-seated"), "50% 35%"],
