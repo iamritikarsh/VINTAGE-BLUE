@@ -2,17 +2,17 @@
  * /api/health.js
  * 
  * Safe diagnostic endpoint for Vercel / local environments.
- * Verifies presence of environment variables and shopifyMap without exposing any secrets.
+ * CommonJS format for 100% native zero-config Vercel Serverless Functions.
  */
 
-import fs from 'node:fs';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const fs = require('fs');
+const path = require('path');
 
 function getShopifyMap() {
+  try {
+    return require('../data/shopifyMap.json');
+  } catch (e) {}
+
   const possiblePaths = [
     path.join(process.cwd(), 'data', 'shopifyMap.json'),
     path.join(__dirname, '..', 'data', 'shopifyMap.json'),
@@ -21,15 +21,14 @@ function getShopifyMap() {
   for (const p of possiblePaths) {
     try {
       if (fs.existsSync(p) && fs.statSync(p).isFile()) {
-        const text = fs.readFileSync(p, 'utf8');
-        return JSON.parse(text);
+        return JSON.parse(fs.readFileSync(p, 'utf8'));
       }
     } catch (e) {}
   }
   return null;
 }
 
-export default async function handler(req, res) {
+async function handler(req, res) {
   res.writeHead(200, {
     'Content-Type': 'application/json; charset=UTF-8',
     'Access-Control-Allow-Origin': '*',
@@ -60,3 +59,6 @@ export default async function handler(req, res) {
     products: productCount
   }));
 }
+
+module.exports = handler;
+module.exports.default = handler;

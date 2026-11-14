@@ -4,27 +4,23 @@
  * Secure Vercel Serverless Function to create a Shopify checkout cart
  * using the Shopify Storefront GraphQL API.
  * 
+ * CommonJS format for 100% native zero-config Vercel Serverless Functions.
  * Supports:
  * - Diagnostic GET / health check
  * - Single item direct buy: { handle, size, quantity }
  * - Full bag checkout: { items: [ { handle, size, quantity }, ... ] }
  */
 
-import fs from 'node:fs';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+const fs = require('fs');
+const path = require('path');
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-// Helper to load local env if running in standalone/dev mode
+// Safe loader for local development
 function ensureEnvLoaded() {
-  // On Vercel, env vars are injected by the platform runtime; skip local file searches
   if (process.env.VERCEL) return;
 
   const searchDirs = [
-    path.join(__dirname, '..'),           // vintage-blue-main (inner project folder)
-    path.join(__dirname, '..', '..'),     // parent folder
+    path.join(__dirname, '..'),
+    path.join(__dirname, '..', '..'),
     process.cwd()
   ];
   const envFiles = ['.env.local', '.env'];
@@ -54,10 +50,15 @@ function ensureEnvLoaded() {
   }
 }
 
-// Lazy load shopifyMap.json with multi-path resolution
+// Lazy load shopifyMap.json
 let shopifyMap = null;
 function getShopifyMap() {
   if (!shopifyMap) {
+    try {
+      shopifyMap = require('../data/shopifyMap.json');
+      return shopifyMap;
+    } catch (e) {}
+
     const possiblePaths = [
       path.join(process.cwd(), 'data', 'shopifyMap.json'),
       path.join(__dirname, '..', 'data', 'shopifyMap.json'),
@@ -125,7 +126,6 @@ async function shopifyGraphQL(query, variables = {}) {
     throw err;
   }
 
-  // Pre-validate token type: Admin tokens start with shpat_
   if (storefrontToken.startsWith('shpat_')) {
     const err = new Error('Shopify authentication error: An Admin API token (shpat_...) was provided. A Storefront Access Token is required.');
     err.code = 'SHOPIFY_ADMIN_TOKEN_PROVIDED';
@@ -168,7 +168,6 @@ async function resolveVariantId(handle, size) {
   const entry = map[handle];
   const shopifyHandle = entry?.shopifyHandle || handle;
 
-  // Check if already pre-cached in map
   if (entry?.shopifyVariantIds) {
     if (size && entry.shopifyVariantIds[size]) {
       return entry.shopifyVariantIds[size];
@@ -179,7 +178,6 @@ async function resolveVariantId(handle, size) {
     }
   }
 
-  // Query Shopify Storefront API for this product's variants
   const query = `
     query getProduct($handle: String!) {
       product(handle: $handle) {
@@ -212,7 +210,6 @@ async function resolveVariantId(handle, size) {
   const variants = product.variants.edges.map(e => e.node);
 
   if (size) {
-    // Exact match on size option
     const matched = variants.find(v => {
       const sizeOpt = v.selectedOptions?.find(o => /size/i.test(o.name))?.value;
       return sizeOpt === String(size) || v.title.toLowerCase().includes(String(size).toLowerCase());
@@ -220,15 +217,13 @@ async function resolveVariantId(handle, size) {
     if (matched) return matched.id;
   }
 
-  // Fallback to first available or first variant
   const available = variants.find(v => v.availableForSale);
   return (available || variants[0]).id;
 }
 
-export default async function handler(req, res) {
+async function handler(req, res) {
   ensureEnvLoaded();
 
-  // Handle CORS preflight
   if (req.method === 'OPTIONS') {
     res.writeHead(204, {
       'Access-Control-Allow-Origin': '*',
@@ -238,7 +233,6 @@ export default async function handler(req, res) {
     return res.end();
   }
 
-  // Handle GET request as a safe diagnostic health check
   if (req.method === 'GET') {
     const map = getShopifyMap();
     const productCount = map ? Object.keys(map).length : 0;
@@ -269,7 +263,6 @@ export default async function handler(req, res) {
       return sendJson(res, 400, { error: 'Invalid JSON request body.', code: 'INVALID_JSON' });
     }
 
-    // Support both single item and cart lines
     let items = [];
     if (Array.isArray(body.items) && body.items.length > 0) {
       items = body.items;
@@ -284,7 +277,6 @@ export default async function handler(req, res) {
       return sendJson(res, 400, { error: 'Missing handle or items in request body.', code: 'MISSING_PAYLOAD' });
     }
 
-    // Validate quantities
     for (const item of items) {
       const q = parseInt(item.quantity || item.qty || 1, 10);
       if (isNaN(q) || q < 1 || q > 10) {
@@ -293,7 +285,6 @@ export default async function handler(req, res) {
       item.quantity = q;
     }
 
-    // Check Shopify token configuration
     if (!process.env.SHOPIFY_STOREFRONT_TOKEN) {
       return sendJson(res, 500, {
         error: 'Shopify Storefront Token is not configured. Please set SHOPIFY_STOREFRONT_TOKEN in .env.local or Vercel Environment Variables.',
@@ -301,7 +292,6 @@ export default async function handler(req, res) {
       });
     }
 
-    // Resolve variant GIDs
     const lines = [];
     for (const item of items) {
       let variantId = item.variantId;
@@ -323,7 +313,6 @@ export default async function handler(req, res) {
       });
     }
 
-    // Create Shopify Cart
     const mutation = `
       mutation cartCreate($input: CartInput!) {
         cartCreate(input: $input) {
@@ -405,3 +394,6 @@ export default async function handler(req, res) {
     });
   }
 }
+
+module.exports = handler;
+module.exports.default = handler;

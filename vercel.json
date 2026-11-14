@@ -1,13 +1,5 @@
 {
-  "framework": null,
-  "buildCommand": null,
-  "outputDirectory": ".",
   "cleanUrls": false,
-  "functions": {
-    "api/*.js": {
-      "includeFiles": "data/**"
-    }
-  },
   "rewrites": [
     { "source": "/((?!api/|assets/|data/|fonts/|.*\\.[a-z0-9]+$).*)", "destination": "/index.html" }
   ]
