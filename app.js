@@ -1784,11 +1784,37 @@ document.getElementById("bagBody").addEventListener("click", (e) => {
     saveBag();
   }
 });
-document.getElementById("bagFoot").addEventListener("click", (e) => {
-  if (e.target.id !== "checkout") return;
-  bag = [];
-  checkedOut = true;
-  saveBag();
+document.getElementById("bagFoot").addEventListener("click", async (e) => {
+  const btn = e.target.closest("#checkout");
+  if (!btn || btn.disabled) return;
+  if (!bag.length) return;
+
+  btn.disabled = true;
+
+  try {
+    const items = bag.map((l) => ({
+      handle: l.handle,
+      size: l.size,
+      quantity: l.qty || 1
+    }));
+
+    const res = await fetch("/api/checkout", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ items })
+    });
+
+    const data = await res.json().catch(() => null);
+
+    if (!res.ok || !data?.checkoutUrl) {
+      throw new Error(data?.error || "Checkout could not be created. Please try again.");
+    }
+
+    window.location.href = data.checkoutUrl;
+  } catch (err) {
+    btn.disabled = false;
+    alert(err.message || "Checkout is temporarily unavailable. Please try again.");
+  }
 });
 
 /* ---------- Newsletter ---------- */

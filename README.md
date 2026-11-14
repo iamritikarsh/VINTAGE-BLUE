@@ -715,6 +715,65 @@ Contributions, bug reports, and suggestions are welcome!
 
 ---
 
+## 🛍️ Shopify Checkout Setup
+
+This storefront connects directly to Shopify's hosted checkout via a secure backend serverless function (`/api/checkout`) powered by the **Shopify Storefront GraphQL API**.
+
+### 1. Environment Variables
+
+Create a `.env.local` file in the root or set these environment variables in your Vercel project settings:
+
+```ini
+# Your Shopify store myshopify.com domain
+SHOPIFY_STORE_DOMAIN=yjhumg-ip.myshopify.com
+
+# Shopify Storefront API Access Token (never expose in client code)
+SHOPIFY_STOREFRONT_TOKEN=your_storefront_access_token_here
+
+# Shopify API Version (e.g. 2026-07)
+SHOPIFY_API_VERSION=2026-07
+```
+
+> **Security Note:** The `.env*` files are ignored by git in `.gitignore`. Storefront tokens are kept exclusively on the serverless backend and never exposed to the client browser.
+
+### 2. Local Setup & Testing
+
+1. Create your `.env.local` file from the provided `.env.example`:
+   ```bash
+   cp .env.example .env.local
+   ```
+2. Add your `SHOPIFY_STOREFRONT_TOKEN` inside `.env.local`.
+3. Start the local server:
+   ```bash
+   node server.mjs
+   ```
+4. Verify the checkout endpoint with the 3 sample products:
+   ```bash
+   node scripts/testCheckout.mjs
+   ```
+
+### 3. Deploying on Vercel
+
+1. Go to your project on the [Vercel Dashboard](https://vercel.com).
+2. Navigate to **Settings** > **Environment Variables**.
+3. Add the following environment variables:
+   - `SHOPIFY_STORE_DOMAIN`: `yjhumg-ip.myshopify.com`
+   - `SHOPIFY_STOREFRONT_TOKEN`: `<your-storefront-access-token>`
+   - `SHOPIFY_API_VERSION`: `2025-01`
+4. Redeploy the application. The serverless function at `/api/checkout` will automatically authenticate requests against Shopify and generate cart checkouts.
+
+### 4. Re-syncing the Product Map
+
+When new products or variants are added in Shopify, re-sync the mapping by running:
+
+```bash
+node scripts/syncShopifyMap.mjs
+```
+
+This queries your Shopify Storefront catalog, matches all 84 website products by title and handle, caches the variant IDs for all sizes, and updates `data/shopifyMap.json`.
+
+---
+
 ## 📜 License & Attribution
 
 ### License

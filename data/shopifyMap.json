@@ -1,0 +1,2334 @@
+{
+  "comfort-cargo-9018-mouse": {
+    "websiteHandle": "comfort-cargo-9018-mouse",
+    "websiteName": "Comfort Cargo 9018 — Mouse",
+    "shopifyHandle": "comfort-cargo-9018-mouse",
+    "shopifyId": "gid://shopify/Product/15513455951966",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Mouse",
+    "type": "Comfort Cargo",
+    "price": 1899,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989634646110",
+      "32": "gid://shopify/ProductVariant/67989634678878",
+      "34": "gid://shopify/ProductVariant/67989634711646",
+      "36": "gid://shopify/ProductVariant/67989634744414",
+      "38": "gid://shopify/ProductVariant/67989634777182",
+      "40": "gid://shopify/ProductVariant/67989634809950",
+      "42": "gid://shopify/ProductVariant/67989634842718",
+      "44": "gid://shopify/ProductVariant/67989634875486"
+    }
+  },
+  "comfort-cargo-9018-black": {
+    "websiteHandle": "comfort-cargo-9018-black",
+    "websiteName": "Comfort Cargo 9018 — Black",
+    "shopifyHandle": "comfort-cargo-9018-black",
+    "shopifyId": "gid://shopify/Product/15513455984734",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Black",
+    "type": "Comfort Cargo",
+    "price": 1899,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989634908254",
+      "32": "gid://shopify/ProductVariant/67989634941022",
+      "34": "gid://shopify/ProductVariant/67989634973790",
+      "36": "gid://shopify/ProductVariant/67989635006558",
+      "38": "gid://shopify/ProductVariant/67989635039326",
+      "40": "gid://shopify/ProductVariant/67989635072094",
+      "42": "gid://shopify/ProductVariant/67989635104862",
+      "44": "gid://shopify/ProductVariant/67989635137630"
+    }
+  },
+  "comfort-cargo-9018-dark-grey": {
+    "websiteHandle": "comfort-cargo-9018-dark-grey",
+    "websiteName": "Comfort Cargo 9018 — Dark Grey",
+    "shopifyHandle": "comfort-cargo-9018-dark-grey",
+    "shopifyId": "gid://shopify/Product/15513456017502",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Dark Grey",
+    "type": "Comfort Cargo",
+    "price": 1899,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989635170398",
+      "32": "gid://shopify/ProductVariant/67989635203166",
+      "34": "gid://shopify/ProductVariant/67989635235934",
+      "36": "gid://shopify/ProductVariant/67989635268702",
+      "38": "gid://shopify/ProductVariant/67989635301470",
+      "40": "gid://shopify/ProductVariant/67989635334238",
+      "42": "gid://shopify/ProductVariant/67989635367006",
+      "44": "gid://shopify/ProductVariant/67989635399774"
+    }
+  },
+  "comfort-cargo-9019-stone": {
+    "websiteHandle": "comfort-cargo-9019-stone",
+    "websiteName": "Comfort Cargo 9019 — Stone",
+    "shopifyHandle": "comfort-cargo-9019-stone",
+    "shopifyId": "gid://shopify/Product/15513456410718",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Stone",
+    "type": "Comfort Cargo",
+    "price": 1899,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989638119518",
+      "32": "gid://shopify/ProductVariant/67989638152286",
+      "34": "gid://shopify/ProductVariant/67989638185054",
+      "36": "gid://shopify/ProductVariant/67989638217822",
+      "38": "gid://shopify/ProductVariant/67989638250590",
+      "40": "gid://shopify/ProductVariant/67989638283358",
+      "42": "gid://shopify/ProductVariant/67989638316126",
+      "44": "gid://shopify/ProductVariant/67989638348894"
+    }
+  },
+  "comfort-cargo-9018-light-olive": {
+    "websiteHandle": "comfort-cargo-9018-light-olive",
+    "websiteName": "Comfort Cargo 9018 — Light Olive",
+    "shopifyHandle": "comfort-cargo-9018-light-olive",
+    "shopifyId": "gid://shopify/Product/15513456083038",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Light Olive",
+    "type": "Comfort Cargo",
+    "price": 1899,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989635694686",
+      "32": "gid://shopify/ProductVariant/67989635727454",
+      "34": "gid://shopify/ProductVariant/67989635760222",
+      "36": "gid://shopify/ProductVariant/67989635792990",
+      "38": "gid://shopify/ProductVariant/67989635825758",
+      "40": "gid://shopify/ProductVariant/67989635858526",
+      "42": "gid://shopify/ProductVariant/67989635891294",
+      "44": "gid://shopify/ProductVariant/67989635924062"
+    }
+  },
+  "comfort-cargo-9018-cream": {
+    "websiteHandle": "comfort-cargo-9018-cream",
+    "websiteName": "Comfort Cargo 9018 — Cream",
+    "shopifyHandle": "comfort-cargo-9018-cream",
+    "shopifyId": "gid://shopify/Product/15513456115806",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Cream",
+    "type": "Comfort Cargo",
+    "price": 1899,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989635956830",
+      "32": "gid://shopify/ProductVariant/67989635989598",
+      "34": "gid://shopify/ProductVariant/67989636022366",
+      "36": "gid://shopify/ProductVariant/67989636055134",
+      "38": "gid://shopify/ProductVariant/67989636087902",
+      "40": "gid://shopify/ProductVariant/67989636120670",
+      "42": "gid://shopify/ProductVariant/67989636153438",
+      "44": "gid://shopify/ProductVariant/67989636186206"
+    }
+  },
+  "comfort-cargo-9019-black": {
+    "websiteHandle": "comfort-cargo-9019-black",
+    "websiteName": "Comfort Cargo 9019 — Black",
+    "shopifyHandle": "comfort-cargo-9019-black",
+    "shopifyId": "gid://shopify/Product/15513456148574",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Black",
+    "type": "Comfort Cargo",
+    "price": 1899,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989636218974",
+      "32": "gid://shopify/ProductVariant/67989636251742",
+      "34": "gid://shopify/ProductVariant/67989636284510",
+      "36": "gid://shopify/ProductVariant/67989636317278",
+      "38": "gid://shopify/ProductVariant/67989636350046",
+      "40": "gid://shopify/ProductVariant/67989636382814",
+      "42": "gid://shopify/ProductVariant/67989636415582",
+      "44": "gid://shopify/ProductVariant/67989636448350"
+    }
+  },
+  "comfort-cargo-9019-grey": {
+    "websiteHandle": "comfort-cargo-9019-grey",
+    "websiteName": "Comfort Cargo 9019 — Grey",
+    "shopifyHandle": "comfort-cargo-9019-grey",
+    "shopifyId": "gid://shopify/Product/15513456181342",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Grey",
+    "type": "Comfort Cargo",
+    "price": 1899,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989636481118",
+      "32": "gid://shopify/ProductVariant/67989636513886",
+      "34": "gid://shopify/ProductVariant/67989636546654",
+      "36": "gid://shopify/ProductVariant/67989636579422",
+      "38": "gid://shopify/ProductVariant/67989636612190",
+      "40": "gid://shopify/ProductVariant/67989636644958",
+      "42": "gid://shopify/ProductVariant/67989636677726",
+      "44": "gid://shopify/ProductVariant/67989636710494"
+    }
+  },
+  "comfort-cargo-9019-coffee": {
+    "websiteHandle": "comfort-cargo-9019-coffee",
+    "websiteName": "Comfort Cargo 9019 — Coffee",
+    "shopifyHandle": "comfort-cargo-9019-coffee",
+    "shopifyId": "gid://shopify/Product/15513456279646",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Coffee",
+    "type": "Comfort Cargo",
+    "price": 1899,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989637070942",
+      "32": "gid://shopify/ProductVariant/67989637103710",
+      "34": "gid://shopify/ProductVariant/67989637136478",
+      "36": "gid://shopify/ProductVariant/67989637169246",
+      "38": "gid://shopify/ProductVariant/67989637202014",
+      "40": "gid://shopify/ProductVariant/67989637234782",
+      "42": "gid://shopify/ProductVariant/67989637267550",
+      "44": "gid://shopify/ProductVariant/67989637300318"
+    }
+  },
+  "comfort-cargo-9019-cream": {
+    "websiteHandle": "comfort-cargo-9019-cream",
+    "websiteName": "Comfort Cargo 9019 — Cream",
+    "shopifyHandle": "comfort-cargo-9019-cream",
+    "shopifyId": "gid://shopify/Product/15513456246878",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Cream",
+    "type": "Comfort Cargo",
+    "price": 1899,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989636776030",
+      "32": "gid://shopify/ProductVariant/67989636808798",
+      "34": "gid://shopify/ProductVariant/67989636841566",
+      "36": "gid://shopify/ProductVariant/67989636874334",
+      "38": "gid://shopify/ProductVariant/67989636907102",
+      "40": "gid://shopify/ProductVariant/67989636939870",
+      "42": "gid://shopify/ProductVariant/67989636972638",
+      "44": "gid://shopify/ProductVariant/67989637005406"
+    }
+  },
+  "comfort-cargo-9019-navy": {
+    "websiteHandle": "comfort-cargo-9019-navy",
+    "websiteName": "Comfort Cargo 9019 — Navy",
+    "shopifyHandle": "comfort-cargo-9019-navy",
+    "shopifyId": "gid://shopify/Product/15513456312414",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Navy",
+    "type": "Comfort Cargo",
+    "price": 1899,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989637333086",
+      "32": "gid://shopify/ProductVariant/67989637365854",
+      "34": "gid://shopify/ProductVariant/67989637398622",
+      "36": "gid://shopify/ProductVariant/67989637431390",
+      "38": "gid://shopify/ProductVariant/67989637464158",
+      "40": "gid://shopify/ProductVariant/67989637496926",
+      "42": "gid://shopify/ProductVariant/67989637529694",
+      "44": "gid://shopify/ProductVariant/67989637562462"
+    }
+  },
+  "comfort-cargo-9018-olive": {
+    "websiteHandle": "comfort-cargo-9018-olive",
+    "websiteName": "Comfort Cargo 9018 — Olive",
+    "shopifyHandle": "comfort-cargo-9018-olive",
+    "shopifyId": "gid://shopify/Product/15513456050270",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Olive",
+    "type": "Comfort Cargo",
+    "price": 1899,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989635432542",
+      "32": "gid://shopify/ProductVariant/67989635465310",
+      "34": "gid://shopify/ProductVariant/67989635498078",
+      "36": "gid://shopify/ProductVariant/67989635530846",
+      "38": "gid://shopify/ProductVariant/67989635563614",
+      "40": "gid://shopify/ProductVariant/67989635596382",
+      "42": "gid://shopify/ProductVariant/67989635629150",
+      "44": "gid://shopify/ProductVariant/67989635661918"
+    }
+  },
+  "comfort-cargo-9019-khaki": {
+    "websiteHandle": "comfort-cargo-9019-khaki",
+    "websiteName": "Comfort Cargo 9019 — Khaki",
+    "shopifyHandle": "comfort-cargo-9019-khaki",
+    "shopifyId": "gid://shopify/Product/15513456345182",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Khaki",
+    "type": "Comfort Cargo",
+    "price": 1899,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989637595230",
+      "32": "gid://shopify/ProductVariant/67989637627998",
+      "34": "gid://shopify/ProductVariant/67989637660766",
+      "36": "gid://shopify/ProductVariant/67989637693534",
+      "38": "gid://shopify/ProductVariant/67989637726302",
+      "40": "gid://shopify/ProductVariant/67989637759070",
+      "42": "gid://shopify/ProductVariant/67989637791838",
+      "44": "gid://shopify/ProductVariant/67989637824606"
+    }
+  },
+  "comfort-cargo-9019-olive": {
+    "websiteHandle": "comfort-cargo-9019-olive",
+    "websiteName": "Comfort Cargo 9019 — Olive",
+    "shopifyHandle": "comfort-cargo-9019-olive",
+    "shopifyId": "gid://shopify/Product/15513456377950",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Olive",
+    "type": "Comfort Cargo",
+    "price": 1899,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989637857374",
+      "32": "gid://shopify/ProductVariant/67989637890142",
+      "34": "gid://shopify/ProductVariant/67989637922910",
+      "36": "gid://shopify/ProductVariant/67989637955678",
+      "38": "gid://shopify/ProductVariant/67989637988446",
+      "40": "gid://shopify/ProductVariant/67989638021214",
+      "42": "gid://shopify/ProductVariant/67989638053982",
+      "44": "gid://shopify/ProductVariant/67989638086750"
+    }
+  },
+  "light-weight-pant-4037-light-grey": {
+    "websiteHandle": "light-weight-pant-4037-light-grey",
+    "websiteName": "Bolster Light Weight Pant — Light Grey",
+    "shopifyHandle": "light-weight-pant-4037-light-grey",
+    "shopifyId": "gid://shopify/Product/15513456476254",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Light Grey",
+    "type": "Light Weight Pant",
+    "price": 1699,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989638414430",
+      "32": "gid://shopify/ProductVariant/67989638447198",
+      "34": "gid://shopify/ProductVariant/67989638479966",
+      "36": "gid://shopify/ProductVariant/67989638512734",
+      "38": "gid://shopify/ProductVariant/67989638545502",
+      "40": "gid://shopify/ProductVariant/67989638578270",
+      "42": "gid://shopify/ProductVariant/67989638611038",
+      "44": "gid://shopify/ProductVariant/67989638643806"
+    }
+  },
+  "light-weight-pant-4035-khaki": {
+    "websiteHandle": "light-weight-pant-4035-khaki",
+    "websiteName": "Bolster Light Weight Pant — Khaki",
+    "shopifyHandle": "light-weight-pant-4035-khaki",
+    "shopifyId": "gid://shopify/Product/15513456509022",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Khaki",
+    "type": "Light Weight Pant",
+    "price": 1699,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989638709342",
+      "32": "gid://shopify/ProductVariant/67989638742110",
+      "34": "gid://shopify/ProductVariant/67989638774878",
+      "36": "gid://shopify/ProductVariant/67989638807646",
+      "38": "gid://shopify/ProductVariant/67989638840414",
+      "40": "gid://shopify/ProductVariant/67989638873182",
+      "42": "gid://shopify/ProductVariant/67989638905950",
+      "44": "gid://shopify/ProductVariant/67989638938718"
+    }
+  },
+  "light-weight-pant-4037-cream": {
+    "websiteHandle": "light-weight-pant-4037-cream",
+    "websiteName": "Bolster Light Weight Pant — Cream",
+    "shopifyHandle": "light-weight-pant-4037-cream",
+    "shopifyId": "gid://shopify/Product/15513456541790",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Cream",
+    "type": "Light Weight Pant",
+    "price": 1699,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989638971486",
+      "32": "gid://shopify/ProductVariant/67989639004254",
+      "34": "gid://shopify/ProductVariant/67989639037022",
+      "36": "gid://shopify/ProductVariant/67989639069790",
+      "38": "gid://shopify/ProductVariant/67989639102558",
+      "40": "gid://shopify/ProductVariant/67989639135326",
+      "42": "gid://shopify/ProductVariant/67989639168094",
+      "44": "gid://shopify/ProductVariant/67989639200862"
+    }
+  },
+  "light-weight-pant-4035-navy": {
+    "websiteHandle": "light-weight-pant-4035-navy",
+    "websiteName": "Bolster Light Weight Pant — Navy",
+    "shopifyHandle": "light-weight-pant-4035-navy",
+    "shopifyId": "gid://shopify/Product/15513456574558",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Navy",
+    "type": "Light Weight Pant",
+    "price": 1699,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989639233630",
+      "32": "gid://shopify/ProductVariant/67989639266398",
+      "34": "gid://shopify/ProductVariant/67989639299166",
+      "36": "gid://shopify/ProductVariant/67989639331934",
+      "38": "gid://shopify/ProductVariant/67989639364702",
+      "40": "gid://shopify/ProductVariant/67989639397470",
+      "42": "gid://shopify/ProductVariant/67989639430238",
+      "44": "gid://shopify/ProductVariant/67989639463006"
+    }
+  },
+  "light-weight-pant-4035-pista": {
+    "websiteHandle": "light-weight-pant-4035-pista",
+    "websiteName": "Bolster Light Weight Pant — Pista",
+    "shopifyHandle": "light-weight-pant-4035-pista",
+    "shopifyId": "gid://shopify/Product/15513456640094",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Pista",
+    "type": "Light Weight Pant",
+    "price": 1699,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989639528542",
+      "32": "gid://shopify/ProductVariant/67989639561310",
+      "34": "gid://shopify/ProductVariant/67989639594078",
+      "36": "gid://shopify/ProductVariant/67989639626846",
+      "38": "gid://shopify/ProductVariant/67989639659614",
+      "40": "gid://shopify/ProductVariant/67989639692382",
+      "42": "gid://shopify/ProductVariant/67989639725150",
+      "44": "gid://shopify/ProductVariant/67989639757918"
+    }
+  },
+  "heavy-pant-4036-black": {
+    "websiteHandle": "heavy-pant-4036-black",
+    "websiteName": "Bolster Heavy Pant — Black",
+    "shopifyHandle": "heavy-pant-4036-black",
+    "shopifyId": "gid://shopify/Product/15513456672862",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Black",
+    "type": "Heavy Pant",
+    "price": 1699,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989639823454",
+      "32": "gid://shopify/ProductVariant/67989639856222",
+      "34": "gid://shopify/ProductVariant/67989639888990",
+      "36": "gid://shopify/ProductVariant/67989639921758",
+      "38": "gid://shopify/ProductVariant/67989639954526",
+      "40": "gid://shopify/ProductVariant/67989639987294",
+      "42": "gid://shopify/ProductVariant/67989640020062",
+      "44": "gid://shopify/ProductVariant/67989640052830"
+    }
+  },
+  "heavy-pant-4036-olive": {
+    "websiteHandle": "heavy-pant-4036-olive",
+    "websiteName": "Bolster Heavy Pant — Olive",
+    "shopifyHandle": "heavy-pant-4036-olive",
+    "shopifyId": "gid://shopify/Product/15513456705630",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Olive",
+    "type": "Heavy Pant",
+    "price": 1699,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989640085598",
+      "32": "gid://shopify/ProductVariant/67989640118366",
+      "34": "gid://shopify/ProductVariant/67989640151134",
+      "36": "gid://shopify/ProductVariant/67989640183902",
+      "38": "gid://shopify/ProductVariant/67989640216670",
+      "40": "gid://shopify/ProductVariant/67989640249438",
+      "42": "gid://shopify/ProductVariant/67989640282206",
+      "44": "gid://shopify/ProductVariant/67989640314974"
+    }
+  },
+  "comfort-pant-4038-cream": {
+    "websiteHandle": "comfort-pant-4038-cream",
+    "websiteName": "Bolster Comfort Pant — Cream",
+    "shopifyHandle": "comfort-pant-4038-cream",
+    "shopifyId": "gid://shopify/Product/15513456738398",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Cream",
+    "type": "Comfort Pant",
+    "price": 1699,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989640347742",
+      "32": "gid://shopify/ProductVariant/67989640380510",
+      "34": "gid://shopify/ProductVariant/67989640413278",
+      "36": "gid://shopify/ProductVariant/67989640446046",
+      "38": "gid://shopify/ProductVariant/67989640478814",
+      "40": "gid://shopify/ProductVariant/67989640511582",
+      "42": "gid://shopify/ProductVariant/67989640544350",
+      "44": "gid://shopify/ProductVariant/67989640577118"
+    }
+  },
+  "comfort-pant-4038-black": {
+    "websiteHandle": "comfort-pant-4038-black",
+    "websiteName": "Bolster Comfort Pant — Black",
+    "shopifyHandle": "comfort-pant-4038-black",
+    "shopifyId": "gid://shopify/Product/15513456771166",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Black",
+    "type": "Comfort Pant",
+    "price": 1699,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989640609886",
+      "32": "gid://shopify/ProductVariant/67989640642654",
+      "34": "gid://shopify/ProductVariant/67989640675422",
+      "36": "gid://shopify/ProductVariant/67989640708190",
+      "38": "gid://shopify/ProductVariant/67989640740958",
+      "40": "gid://shopify/ProductVariant/67989640773726",
+      "42": "gid://shopify/ProductVariant/67989640806494",
+      "44": "gid://shopify/ProductVariant/67989640839262"
+    }
+  },
+  "comfort-pant-4038-beige": {
+    "websiteHandle": "comfort-pant-4038-beige",
+    "websiteName": "Bolster Comfort Pant — Beige",
+    "shopifyHandle": "comfort-pant-4038-beige",
+    "shopifyId": "gid://shopify/Product/15513456803934",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Beige",
+    "type": "Comfort Pant",
+    "price": 1699,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989640872030",
+      "32": "gid://shopify/ProductVariant/67989640904798",
+      "34": "gid://shopify/ProductVariant/67989640937566",
+      "36": "gid://shopify/ProductVariant/67989640970334",
+      "38": "gid://shopify/ProductVariant/67989641003102",
+      "40": "gid://shopify/ProductVariant/67989641035870",
+      "42": "gid://shopify/ProductVariant/67989641068638",
+      "44": "gid://shopify/ProductVariant/67989641101406"
+    }
+  },
+  "comfort-pant-4038-khaki": {
+    "websiteHandle": "comfort-pant-4038-khaki",
+    "websiteName": "Bolster Comfort Pant — Khaki",
+    "shopifyHandle": "comfort-pant-4038-khaki",
+    "shopifyId": "gid://shopify/Product/15513456836702",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Khaki",
+    "type": "Comfort Pant",
+    "price": 1699,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989641134174",
+      "32": "gid://shopify/ProductVariant/67989641166942",
+      "34": "gid://shopify/ProductVariant/67989641199710",
+      "36": "gid://shopify/ProductVariant/67989641232478",
+      "38": "gid://shopify/ProductVariant/67989641265246",
+      "40": "gid://shopify/ProductVariant/67989641298014",
+      "42": "gid://shopify/ProductVariant/67989641330782",
+      "44": "gid://shopify/ProductVariant/67989641363550"
+    }
+  },
+  "corduroy-shirt-0041-beige": {
+    "websiteHandle": "corduroy-shirt-0041-beige",
+    "websiteName": "Corduroy Shirt — Beige",
+    "shopifyHandle": "corduroy-shirt-0041-beige",
+    "shopifyId": "gid://shopify/Product/15513456902238",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Beige",
+    "type": "Corduroy Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989641429086",
+      "M": "gid://shopify/ProductVariant/67989641461854",
+      "L": "gid://shopify/ProductVariant/67989641494622",
+      "XL": "gid://shopify/ProductVariant/67989641527390",
+      "2XL": "gid://shopify/ProductVariant/67989641560158",
+      "3XL": "gid://shopify/ProductVariant/67989641592926"
+    }
+  },
+  "corduroy-shirt-141-1-navy": {
+    "websiteHandle": "corduroy-shirt-141-1-navy",
+    "websiteName": "Corduroy Shirt — Navy",
+    "shopifyHandle": "corduroy-shirt-141-1-navy",
+    "shopifyId": "gid://shopify/Product/15513457655902",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Navy",
+    "type": "Corduroy Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989645394014",
+      "M": "gid://shopify/ProductVariant/67989645426782",
+      "L": "gid://shopify/ProductVariant/67989645459550",
+      "XL": "gid://shopify/ProductVariant/67989645492318",
+      "2XL": "gid://shopify/ProductVariant/67989645525086",
+      "3XL": "gid://shopify/ProductVariant/67989645557854"
+    }
+  },
+  "corduroy-shirt-0039-olive": {
+    "websiteHandle": "corduroy-shirt-0039-olive",
+    "websiteName": "Corduroy Shirt 0039 — Olive",
+    "shopifyHandle": "corduroy-shirt-0039-olive",
+    "shopifyId": "gid://shopify/Product/15513457033310",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Olive",
+    "type": "Corduroy Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989641953374",
+      "M": "gid://shopify/ProductVariant/67989641986142",
+      "L": "gid://shopify/ProductVariant/67989642018910",
+      "XL": "gid://shopify/ProductVariant/67989642051678",
+      "2XL": "gid://shopify/ProductVariant/67989642084446",
+      "3XL": "gid://shopify/ProductVariant/67989642117214"
+    }
+  },
+  "denim-shirt-0038-black": {
+    "websiteHandle": "denim-shirt-0038-black",
+    "websiteName": "Denim Shirt 0038 — Black",
+    "shopifyHandle": "denim-shirt-0038-black",
+    "shopifyId": "gid://shopify/Product/15513457066078",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Black",
+    "type": "Denim Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989642149982",
+      "M": "gid://shopify/ProductVariant/67989642182750",
+      "L": "gid://shopify/ProductVariant/67989642215518",
+      "XL": "gid://shopify/ProductVariant/67989642248286",
+      "2XL": "gid://shopify/ProductVariant/67989642281054",
+      "3XL": "gid://shopify/ProductVariant/67989642313822"
+    }
+  },
+  "denim-shirt-0043-ice-berg": {
+    "websiteHandle": "denim-shirt-0043-ice-berg",
+    "websiteName": "Denim Shirt — Ice Berg",
+    "shopifyHandle": "denim-shirt-0043-ice-berg",
+    "shopifyId": "gid://shopify/Product/15513457098846",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Ice Berg",
+    "type": "Denim Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989642346590",
+      "M": "gid://shopify/ProductVariant/67989642379358",
+      "L": "gid://shopify/ProductVariant/67989642412126",
+      "XL": "gid://shopify/ProductVariant/67989642444894",
+      "2XL": "gid://shopify/ProductVariant/67989642477662",
+      "3XL": "gid://shopify/ProductVariant/67989642510430"
+    }
+  },
+  "denim-shirt-0044-black": {
+    "websiteHandle": "denim-shirt-0044-black",
+    "websiteName": "Denim Shirt 0044 — Black",
+    "shopifyHandle": "denim-shirt-0044-black",
+    "shopifyId": "gid://shopify/Product/15513457131614",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Black",
+    "type": "Denim Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989642543198",
+      "M": "gid://shopify/ProductVariant/67989642575966",
+      "L": "gid://shopify/ProductVariant/67989642608734",
+      "XL": "gid://shopify/ProductVariant/67989642641502",
+      "2XL": "gid://shopify/ProductVariant/67989642674270",
+      "3XL": "gid://shopify/ProductVariant/67989642707038"
+    }
+  },
+  "denim-shirt-0027-blue-ocean": {
+    "websiteHandle": "denim-shirt-0027-blue-ocean",
+    "websiteName": "Denim Shirt — Blue Ocean",
+    "shopifyHandle": "denim-shirt-0027-blue-ocean",
+    "shopifyId": "gid://shopify/Product/15513457164382",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Blue Ocean",
+    "type": "Denim Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989642739806",
+      "M": "gid://shopify/ProductVariant/67989642772574",
+      "L": "gid://shopify/ProductVariant/67989642805342",
+      "XL": "gid://shopify/ProductVariant/67989642838110",
+      "2XL": "gid://shopify/ProductVariant/67989642870878",
+      "3XL": "gid://shopify/ProductVariant/67989642903646"
+    }
+  },
+  "corduroy-shirt-141-fawn": {
+    "websiteHandle": "corduroy-shirt-141-fawn",
+    "websiteName": "Corduroy Shirt 141 — Fawn",
+    "shopifyHandle": "corduroy-shirt-141-fawn",
+    "shopifyId": "gid://shopify/Product/15513457557598",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Fawn",
+    "type": "Corduroy Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989644804190",
+      "M": "gid://shopify/ProductVariant/67989644836958",
+      "L": "gid://shopify/ProductVariant/67989644869726",
+      "XL": "gid://shopify/ProductVariant/67989644902494",
+      "2XL": "gid://shopify/ProductVariant/67989644935262",
+      "3XL": "gid://shopify/ProductVariant/67989644968030"
+    }
+  },
+  "denim-shirt-0023-icy-blue": {
+    "websiteHandle": "denim-shirt-0023-icy-blue",
+    "websiteName": "Denim Shirt — Icy Blue",
+    "shopifyHandle": "denim-shirt-0023-icy-blue",
+    "shopifyId": "gid://shopify/Product/15513457262686",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Icy Blue",
+    "type": "Denim Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989643165790",
+      "M": "gid://shopify/ProductVariant/67989643198558",
+      "L": "gid://shopify/ProductVariant/67989643231326",
+      "XL": "gid://shopify/ProductVariant/67989643264094",
+      "2XL": "gid://shopify/ProductVariant/67989643296862",
+      "3XL": "gid://shopify/ProductVariant/67989643329630"
+    }
+  },
+  "denim-shirt-0042-washed-blue": {
+    "websiteHandle": "denim-shirt-0042-washed-blue",
+    "websiteName": "Denim Shirt — Washed Blue",
+    "shopifyHandle": "denim-shirt-0042-washed-blue",
+    "shopifyId": "gid://shopify/Product/15513457295454",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Washed Blue",
+    "type": "Denim Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989643362398",
+      "M": "gid://shopify/ProductVariant/67989643395166",
+      "L": "gid://shopify/ProductVariant/67989643427934",
+      "XL": "gid://shopify/ProductVariant/67989643460702",
+      "2XL": "gid://shopify/ProductVariant/67989643493470",
+      "3XL": "gid://shopify/ProductVariant/67989643526238"
+    }
+  },
+  "corduroy-shirt-with-fleece-142-2-black": {
+    "websiteHandle": "corduroy-shirt-with-fleece-142-2-black",
+    "websiteName": "Corduroy Shirt With Fleece — Black",
+    "shopifyHandle": "corduroy-shirt-with-fleece-142-2-black",
+    "shopifyId": "gid://shopify/Product/15513457360990",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Black",
+    "type": "Corduroy Shirt With Fleece",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989643591774",
+      "M": "gid://shopify/ProductVariant/67989643624542",
+      "L": "gid://shopify/ProductVariant/67989643657310",
+      "XL": "gid://shopify/ProductVariant/67989643690078",
+      "2XL": "gid://shopify/ProductVariant/67989643722846",
+      "3XL": "gid://shopify/ProductVariant/67989643755614"
+    }
+  },
+  "corduroy-shirt-with-fleece-142-1-beige": {
+    "websiteHandle": "corduroy-shirt-with-fleece-142-1-beige",
+    "websiteName": "Corduroy Shirt With Fleece — Beige",
+    "shopifyHandle": "corduroy-shirt-with-fleece-142-1-beige",
+    "shopifyId": "gid://shopify/Product/15513457393758",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Beige",
+    "type": "Corduroy Shirt With Fleece",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989643821150",
+      "M": "gid://shopify/ProductVariant/67989643853918",
+      "L": "gid://shopify/ProductVariant/67989643886686",
+      "XL": "gid://shopify/ProductVariant/67989643919454",
+      "2XL": "gid://shopify/ProductVariant/67989643952222",
+      "3XL": "gid://shopify/ProductVariant/67989643984990"
+    }
+  },
+  "corduroy-shirt-141-2-wine": {
+    "websiteHandle": "corduroy-shirt-141-2-wine",
+    "websiteName": "Corduroy Shirt — Wine",
+    "shopifyHandle": "corduroy-shirt-141-2-wine",
+    "shopifyId": "gid://shopify/Product/15513457590366",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Wine",
+    "type": "Corduroy Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989645000798",
+      "M": "gid://shopify/ProductVariant/67989645033566",
+      "L": "gid://shopify/ProductVariant/67989645066334",
+      "XL": "gid://shopify/ProductVariant/67989645099102",
+      "2XL": "gid://shopify/ProductVariant/67989645131870",
+      "3XL": "gid://shopify/ProductVariant/67989645164638"
+    }
+  },
+  "corduroy-shirt-with-fleece-142-4-navy": {
+    "websiteHandle": "corduroy-shirt-with-fleece-142-4-navy",
+    "websiteName": "Corduroy Shirt With Fleece — Navy",
+    "shopifyHandle": "corduroy-shirt-with-fleece-142-4-navy",
+    "shopifyId": "gid://shopify/Product/15513457459294",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Navy",
+    "type": "Corduroy Shirt With Fleece",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989644214366",
+      "M": "gid://shopify/ProductVariant/67989644247134",
+      "L": "gid://shopify/ProductVariant/67989644279902",
+      "XL": "gid://shopify/ProductVariant/67989644312670",
+      "2XL": "gid://shopify/ProductVariant/67989644345438",
+      "3XL": "gid://shopify/ProductVariant/67989644378206"
+    }
+  },
+  "corduroy-shirt-with-fleece-142-6-wine": {
+    "websiteHandle": "corduroy-shirt-with-fleece-142-6-wine",
+    "websiteName": "Corduroy Shirt With Fleece — Wine",
+    "shopifyHandle": "corduroy-shirt-with-fleece-142-6-wine",
+    "shopifyId": "gid://shopify/Product/15513457492062",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Wine",
+    "type": "Corduroy Shirt With Fleece",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989644410974",
+      "M": "gid://shopify/ProductVariant/67989644443742",
+      "L": "gid://shopify/ProductVariant/67989644476510",
+      "XL": "gid://shopify/ProductVariant/67989644509278",
+      "2XL": "gid://shopify/ProductVariant/67989644542046",
+      "3XL": "gid://shopify/ProductVariant/67989644574814"
+    }
+  },
+  "corduroy-shirt-with-fleece-142-5-olive": {
+    "websiteHandle": "corduroy-shirt-with-fleece-142-5-olive",
+    "websiteName": "Corduroy Shirt With Fleece — Olive",
+    "shopifyHandle": "corduroy-shirt-with-fleece-142-5-olive",
+    "shopifyId": "gid://shopify/Product/15513457524830",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Olive",
+    "type": "Corduroy Shirt With Fleece",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989644607582",
+      "M": "gid://shopify/ProductVariant/67989644640350",
+      "L": "gid://shopify/ProductVariant/67989644673118",
+      "XL": "gid://shopify/ProductVariant/67989644705886",
+      "2XL": "gid://shopify/ProductVariant/67989644738654",
+      "3XL": "gid://shopify/ProductVariant/67989644771422"
+    }
+  },
+  "denim-shirt-0024-dark-blue": {
+    "websiteHandle": "denim-shirt-0024-dark-blue",
+    "websiteName": "Denim Shirt — Dark Blue",
+    "shopifyHandle": "denim-shirt-0024-dark-blue",
+    "shopifyId": "gid://shopify/Product/15513457197150",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Dark Blue",
+    "type": "Denim Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989642936414",
+      "M": "gid://shopify/ProductVariant/67989642969182",
+      "L": "gid://shopify/ProductVariant/67989643001950",
+      "XL": "gid://shopify/ProductVariant/67989643034718",
+      "2XL": "gid://shopify/ProductVariant/67989643067486",
+      "3XL": "gid://shopify/ProductVariant/67989643100254"
+    }
+  },
+  "corduroy-shirt-0040-fawn": {
+    "websiteHandle": "corduroy-shirt-0040-fawn",
+    "websiteName": "Corduroy Shirt 0040 — Fawn",
+    "shopifyHandle": "corduroy-shirt-0040-fawn",
+    "shopifyId": "gid://shopify/Product/15513456935006",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Fawn",
+    "type": "Corduroy Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989641625694",
+      "M": "gid://shopify/ProductVariant/67989641658462",
+      "L": "gid://shopify/ProductVariant/67989641691230",
+      "XL": "gid://shopify/ProductVariant/67989641723998",
+      "2XL": "gid://shopify/ProductVariant/67989641756766",
+      "3XL": "gid://shopify/ProductVariant/67989641789534"
+    }
+  },
+  "corduroy-shirt-141-black": {
+    "websiteHandle": "corduroy-shirt-141-black",
+    "websiteName": "Corduroy Shirt — Black",
+    "shopifyHandle": "corduroy-shirt-141-black",
+    "shopifyId": "gid://shopify/Product/15513457623134",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Black",
+    "type": "Corduroy Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989645197406",
+      "M": "gid://shopify/ProductVariant/67989645230174",
+      "L": "gid://shopify/ProductVariant/67989645262942",
+      "XL": "gid://shopify/ProductVariant/67989645295710",
+      "2XL": "gid://shopify/ProductVariant/67989645328478",
+      "3XL": "gid://shopify/ProductVariant/67989645361246"
+    }
+  },
+  "corduroy-shirt-141-3-brown": {
+    "websiteHandle": "corduroy-shirt-141-3-brown",
+    "websiteName": "Corduroy Shirt — Brown",
+    "shopifyHandle": "corduroy-shirt-141-3-brown",
+    "shopifyId": "gid://shopify/Product/15513457721438",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Brown",
+    "type": "Corduroy Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989645623390",
+      "M": "gid://shopify/ProductVariant/67989645656158",
+      "L": "gid://shopify/ProductVariant/67989645688926",
+      "XL": "gid://shopify/ProductVariant/67989645721694",
+      "2XL": "gid://shopify/ProductVariant/67989645754462",
+      "3XL": "gid://shopify/ProductVariant/67989645787230"
+    }
+  },
+  "corduroy-shirt-with-fleece-142-3-brown": {
+    "websiteHandle": "corduroy-shirt-with-fleece-142-3-brown",
+    "websiteName": "Corduroy Shirt With Fleece — Brown",
+    "shopifyHandle": "corduroy-shirt-with-fleece-142-3-brown",
+    "shopifyId": "gid://shopify/Product/15513457426526",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Brown",
+    "type": "Corduroy Shirt With Fleece",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989644017758",
+      "M": "gid://shopify/ProductVariant/67989644050526",
+      "L": "gid://shopify/ProductVariant/67989644083294",
+      "XL": "gid://shopify/ProductVariant/67989644116062",
+      "2XL": "gid://shopify/ProductVariant/67989644148830",
+      "3XL": "gid://shopify/ProductVariant/67989644181598"
+    }
+  },
+  "corduroy-shirt-141-4-olive": {
+    "websiteHandle": "corduroy-shirt-141-4-olive",
+    "websiteName": "Corduroy Shirt 141-4 — Olive",
+    "shopifyHandle": "corduroy-shirt-141-4-olive",
+    "shopifyId": "gid://shopify/Product/15513457754206",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Olive",
+    "type": "Corduroy Shirt",
+    "price": 1499,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989645852766",
+      "M": "gid://shopify/ProductVariant/67989645885534",
+      "L": "gid://shopify/ProductVariant/67989645918302",
+      "XL": "gid://shopify/ProductVariant/67989645951070",
+      "2XL": "gid://shopify/ProductVariant/67989645983838",
+      "3XL": "gid://shopify/ProductVariant/67989646016606"
+    }
+  },
+  "corduroy-jacket-173-brown": {
+    "websiteHandle": "corduroy-jacket-173-brown",
+    "websiteName": "Corduroy Jacket — Brown",
+    "shopifyHandle": "corduroy-jacket-173-brown",
+    "shopifyId": "gid://shopify/Product/15513457786974",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "color": "Brown",
+    "type": "Corduroy Jacket",
+    "price": 3299,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989646049374",
+      "M": "gid://shopify/ProductVariant/67989646082142",
+      "L": "gid://shopify/ProductVariant/67989646114910",
+      "XL": "gid://shopify/ProductVariant/67989646147678",
+      "2XL": "gid://shopify/ProductVariant/67989646180446",
+      "3XL": "gid://shopify/ProductVariant/67989646213214",
+      "4XL": "gid://shopify/ProductVariant/67989646245982"
+    }
+  },
+  "corduroy-jacket-171-black": {
+    "websiteHandle": "corduroy-jacket-171-black",
+    "websiteName": "Corduroy Jacket — Black",
+    "shopifyHandle": "corduroy-jacket-171-black",
+    "shopifyId": "gid://shopify/Product/15513457819742",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "color": "Black",
+    "type": "Corduroy Jacket",
+    "price": 3299,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989646278750",
+      "M": "gid://shopify/ProductVariant/67989646311518",
+      "L": "gid://shopify/ProductVariant/67989646344286",
+      "XL": "gid://shopify/ProductVariant/67989646377054",
+      "2XL": "gid://shopify/ProductVariant/67989646409822",
+      "3XL": "gid://shopify/ProductVariant/67989646442590",
+      "4XL": "gid://shopify/ProductVariant/67989646475358"
+    }
+  },
+  "corduroy-jacket-172-olive": {
+    "websiteHandle": "corduroy-jacket-172-olive",
+    "websiteName": "Corduroy Jacket — Olive",
+    "shopifyHandle": "corduroy-jacket-172-olive",
+    "shopifyId": "gid://shopify/Product/15513457852510",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "color": "Olive",
+    "type": "Corduroy Jacket",
+    "price": 3299,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989646508126",
+      "M": "gid://shopify/ProductVariant/67989646540894",
+      "L": "gid://shopify/ProductVariant/67989646573662",
+      "XL": "gid://shopify/ProductVariant/67989646606430",
+      "2XL": "gid://shopify/ProductVariant/67989646639198",
+      "3XL": "gid://shopify/ProductVariant/67989646671966",
+      "4XL": "gid://shopify/ProductVariant/67989646704734"
+    }
+  },
+  "denim-fur-jacket-167-dark-blue": {
+    "websiteHandle": "denim-fur-jacket-167-dark-blue",
+    "websiteName": "Denim Fur Jacket — Dark Blue",
+    "shopifyHandle": "denim-fur-jacket-167-dark-blue",
+    "shopifyId": "gid://shopify/Product/15513457885278",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "color": "Dark Blue",
+    "type": "Denim Fur Jacket",
+    "price": 3299,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989646737502",
+      "M": "gid://shopify/ProductVariant/67989646770270",
+      "L": "gid://shopify/ProductVariant/67989646803038",
+      "XL": "gid://shopify/ProductVariant/67989646835806",
+      "2XL": "gid://shopify/ProductVariant/67989646868574",
+      "3XL": "gid://shopify/ProductVariant/67989646901342",
+      "4XL": "gid://shopify/ProductVariant/67989646934110"
+    }
+  },
+  "denim-fur-jacket-163-blue-skin": {
+    "websiteHandle": "denim-fur-jacket-163-blue-skin",
+    "websiteName": "Denim Fur Jacket — Blue Skin",
+    "shopifyHandle": "denim-fur-jacket-163-blue-skin",
+    "shopifyId": "gid://shopify/Product/15513457918046",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "color": "Blue Skin",
+    "type": "Denim Fur Jacket",
+    "price": 3299,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989646966878",
+      "M": "gid://shopify/ProductVariant/67989646999646",
+      "L": "gid://shopify/ProductVariant/67989647032414",
+      "XL": "gid://shopify/ProductVariant/67989647065182",
+      "2XL": "gid://shopify/ProductVariant/67989647097950",
+      "3XL": "gid://shopify/ProductVariant/67989647130718",
+      "4XL": "gid://shopify/ProductVariant/67989647163486"
+    }
+  },
+  "denim-fleece-jacket-169-moon-light": {
+    "websiteHandle": "denim-fleece-jacket-169-moon-light",
+    "websiteName": "Denim Fleece Jacket — Moon Light",
+    "shopifyHandle": "denim-fleece-jacket-169-moon-light",
+    "shopifyId": "gid://shopify/Product/15513457950814",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "color": "Moon Light",
+    "type": "Denim Fleece Jacket",
+    "price": 3299,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989647196254",
+      "M": "gid://shopify/ProductVariant/67989647229022",
+      "L": "gid://shopify/ProductVariant/67989647261790",
+      "XL": "gid://shopify/ProductVariant/67989647294558",
+      "2XL": "gid://shopify/ProductVariant/67989647327326",
+      "3XL": "gid://shopify/ProductVariant/67989647360094",
+      "4XL": "gid://shopify/ProductVariant/67989647392862"
+    }
+  },
+  "denim-jacket-152-coal-grey": {
+    "websiteHandle": "denim-jacket-152-coal-grey",
+    "websiteName": "Denim Jacket — Coal Grey",
+    "shopifyHandle": "denim-jacket-152-coal-grey",
+    "shopifyId": "gid://shopify/Product/15513457983582",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "color": "Coal Grey",
+    "type": "Denim Jacket",
+    "price": 3299,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989647425630",
+      "M": "gid://shopify/ProductVariant/67989647458398",
+      "L": "gid://shopify/ProductVariant/67989647491166",
+      "XL": "gid://shopify/ProductVariant/67989647523934",
+      "2XL": "gid://shopify/ProductVariant/67989647556702",
+      "3XL": "gid://shopify/ProductVariant/67989647589470",
+      "4XL": "gid://shopify/ProductVariant/67989647622238"
+    }
+  },
+  "denim-jacket-164-tinted-blue": {
+    "websiteHandle": "denim-jacket-164-tinted-blue",
+    "websiteName": "Denim Jacket — Tinted Blue",
+    "shopifyHandle": "denim-jacket-164-tinted-blue",
+    "shopifyId": "gid://shopify/Product/15513458016350",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "color": "Tinted Blue",
+    "type": "Denim Jacket",
+    "price": 3299,
+    "shopifyVariantIds": {
+      "S": "gid://shopify/ProductVariant/67989647655006",
+      "M": "gid://shopify/ProductVariant/67989647687774",
+      "L": "gid://shopify/ProductVariant/67989647720542",
+      "XL": "gid://shopify/ProductVariant/67989647753310",
+      "2XL": "gid://shopify/ProductVariant/67989647786078",
+      "3XL": "gid://shopify/ProductVariant/67989647818846",
+      "4XL": "gid://shopify/ProductVariant/67989647851614"
+    }
+  },
+  "hulk-32002-dark-blue": {
+    "websiteHandle": "hulk-32002-dark-blue",
+    "websiteName": "Hulk Super Baggy Jean — Dark Blue",
+    "shopifyHandle": "hulk-32002-dark-blue",
+    "shopifyId": "gid://shopify/Product/15513458901086",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Dark Blue",
+    "type": "Hulk",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989654110302",
+      "32": "gid://shopify/ProductVariant/67989654143070",
+      "34": "gid://shopify/ProductVariant/67989654175838",
+      "36": "gid://shopify/ProductVariant/67989654208606",
+      "38": "gid://shopify/ProductVariant/67989654241374",
+      "40": "gid://shopify/ProductVariant/67989654274142",
+      "42": "gid://shopify/ProductVariant/67989654306910",
+      "44": "gid://shopify/ProductVariant/67989654339678"
+    }
+  },
+  "jazz-3178-ice-berg": {
+    "websiteHandle": "jazz-3178-ice-berg",
+    "websiteName": "Jazz Comfort Jean — Ice Berg",
+    "shopifyHandle": "jazz-3178-ice-berg",
+    "shopifyId": "gid://shopify/Product/15513458638942",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Ice Berg",
+    "type": "Jazz",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989652209758",
+      "32": "gid://shopify/ProductVariant/67989652242526",
+      "34": "gid://shopify/ProductVariant/67989652275294",
+      "36": "gid://shopify/ProductVariant/67989652308062",
+      "38": "gid://shopify/ProductVariant/67989652340830",
+      "40": "gid://shopify/ProductVariant/67989652373598",
+      "42": "gid://shopify/ProductVariant/67989652406366",
+      "44": "gid://shopify/ProductVariant/67989652439134"
+    }
+  },
+  "jazz-with-fleece-035-light-blue": {
+    "websiteHandle": "jazz-with-fleece-035-light-blue",
+    "websiteName": "Jazz With Fleece Comfort Jean — Light Blue",
+    "shopifyHandle": "jazz-with-fleece-035-light-blue",
+    "shopifyId": "gid://shopify/Product/15513459064926",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Light Blue",
+    "type": "Jazz With Fleece",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989655421022",
+      "32": "gid://shopify/ProductVariant/67989655453790",
+      "34": "gid://shopify/ProductVariant/67989655486558",
+      "36": "gid://shopify/ProductVariant/67989655519326",
+      "38": "gid://shopify/ProductVariant/67989655552094",
+      "40": "gid://shopify/ProductVariant/67989655584862",
+      "42": "gid://shopify/ProductVariant/67989655617630",
+      "44": "gid://shopify/ProductVariant/67989655650398"
+    }
+  },
+  "jazz-3180-dark-blue": {
+    "websiteHandle": "jazz-3180-dark-blue",
+    "websiteName": "Jazz Comfort Jean — Dark Blue",
+    "shopifyHandle": "jazz-3180-dark-blue",
+    "shopifyId": "gid://shopify/Product/15513458507870",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Dark Blue",
+    "type": "Jazz",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989651161182",
+      "32": "gid://shopify/ProductVariant/67989651193950",
+      "34": "gid://shopify/ProductVariant/67989651226718",
+      "36": "gid://shopify/ProductVariant/67989651259486",
+      "38": "gid://shopify/ProductVariant/67989651292254",
+      "40": "gid://shopify/ProductVariant/67989651325022",
+      "42": "gid://shopify/ProductVariant/67989651357790",
+      "44": "gid://shopify/ProductVariant/67989651390558"
+    }
+  },
+  "jazz-3200-tinted-indigo": {
+    "websiteHandle": "jazz-3200-tinted-indigo",
+    "websiteName": "Jazz Comfort Jean — Tinted Indigo",
+    "shopifyHandle": "jazz-3200-tinted-indigo",
+    "shopifyId": "gid://shopify/Product/15513458573406",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Tinted Indigo",
+    "type": "Jazz",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989651685470",
+      "32": "gid://shopify/ProductVariant/67989651718238",
+      "34": "gid://shopify/ProductVariant/67989651751006",
+      "36": "gid://shopify/ProductVariant/67989651783774",
+      "38": "gid://shopify/ProductVariant/67989651816542",
+      "40": "gid://shopify/ProductVariant/67989651849310",
+      "42": "gid://shopify/ProductVariant/67989651882078",
+      "44": "gid://shopify/ProductVariant/67989651914846"
+    }
+  },
+  "brawny-5551-tinted-indigo": {
+    "websiteHandle": "brawny-5551-tinted-indigo",
+    "websiteName": "Brawny Straight Jean — Tinted Indigo",
+    "shopifyHandle": "brawny-5551-tinted-indigo",
+    "shopifyId": "gid://shopify/Product/15513458376798",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Tinted Indigo",
+    "type": "Brawny",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989650309214",
+      "32": "gid://shopify/ProductVariant/67989650341982",
+      "34": "gid://shopify/ProductVariant/67989650374750",
+      "36": "gid://shopify/ProductVariant/67989650407518",
+      "38": "gid://shopify/ProductVariant/67989650440286",
+      "40": "gid://shopify/ProductVariant/67989650473054",
+      "42": "gid://shopify/ProductVariant/67989650505822",
+      "44": "gid://shopify/ProductVariant/67989650538590"
+    }
+  },
+  "jazz-3124-raw-wash": {
+    "websiteHandle": "jazz-3124-raw-wash",
+    "websiteName": "Jazz Comfort Jean — Raw Wash",
+    "shopifyHandle": "jazz-3124-raw-wash",
+    "shopifyId": "gid://shopify/Product/15513458540638",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Raw Wash",
+    "type": "Jazz",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989651423326",
+      "32": "gid://shopify/ProductVariant/67989651456094",
+      "34": "gid://shopify/ProductVariant/67989651488862",
+      "36": "gid://shopify/ProductVariant/67989651521630",
+      "38": "gid://shopify/ProductVariant/67989651554398",
+      "40": "gid://shopify/ProductVariant/67989651587166",
+      "42": "gid://shopify/ProductVariant/67989651619934",
+      "44": "gid://shopify/ProductVariant/67989651652702"
+    }
+  },
+  "jazz-with-fleece-18014-marvin-blue": {
+    "websiteHandle": "jazz-with-fleece-18014-marvin-blue",
+    "websiteName": "Jazz With Fleece Comfort Jean — Marvin Blue",
+    "shopifyHandle": "jazz-with-fleece-18014-marvin-blue",
+    "shopifyId": "gid://shopify/Product/15513459032158",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Marvin Blue",
+    "type": "Jazz With Fleece",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989655158878",
+      "32": "gid://shopify/ProductVariant/67989655191646",
+      "34": "gid://shopify/ProductVariant/67989655224414",
+      "36": "gid://shopify/ProductVariant/67989655257182",
+      "38": "gid://shopify/ProductVariant/67989655289950",
+      "40": "gid://shopify/ProductVariant/67989655322718",
+      "42": "gid://shopify/ProductVariant/67989655355486",
+      "44": "gid://shopify/ProductVariant/67989655388254"
+    }
+  },
+  "hulk-32003-mid-blue": {
+    "websiteHandle": "hulk-32003-mid-blue",
+    "websiteName": "Hulk Super Baggy Jean — Mid Blue",
+    "shopifyHandle": "hulk-32003-mid-blue",
+    "shopifyId": "gid://shopify/Product/15513458802782",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Mid Blue",
+    "type": "Hulk",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989653291102",
+      "32": "gid://shopify/ProductVariant/67989653323870",
+      "34": "gid://shopify/ProductVariant/67989653356638",
+      "36": "gid://shopify/ProductVariant/67989653389406",
+      "38": "gid://shopify/ProductVariant/67989653422174",
+      "40": "gid://shopify/ProductVariant/67989653454942",
+      "42": "gid://shopify/ProductVariant/67989653487710",
+      "44": "gid://shopify/ProductVariant/67989653520478"
+    }
+  },
+  "brawny-5463-grey": {
+    "websiteHandle": "brawny-5463-grey",
+    "websiteName": "Brawny Straight Jean — Grey",
+    "shopifyHandle": "brawny-5463-grey",
+    "shopifyId": "gid://shopify/Product/15513458245726",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Grey",
+    "type": "Brawny",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989649260638",
+      "32": "gid://shopify/ProductVariant/67989649293406",
+      "34": "gid://shopify/ProductVariant/67989649326174",
+      "36": "gid://shopify/ProductVariant/67989649358942",
+      "38": "gid://shopify/ProductVariant/67989649391710",
+      "40": "gid://shopify/ProductVariant/67989649424478",
+      "42": "gid://shopify/ProductVariant/67989649457246",
+      "44": "gid://shopify/ProductVariant/67989649490014"
+    }
+  },
+  "jazz-with-fleece-031-blue-ridge": {
+    "websiteHandle": "jazz-with-fleece-031-blue-ridge",
+    "websiteName": "Jazz With Fleece Comfort Jean — Blue Ridge",
+    "shopifyHandle": "jazz-with-fleece-031-blue-ridge",
+    "shopifyId": "gid://shopify/Product/15513458999390",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Blue Ridge",
+    "type": "Jazz With Fleece",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989654896734",
+      "32": "gid://shopify/ProductVariant/67989654929502",
+      "34": "gid://shopify/ProductVariant/67989654962270",
+      "36": "gid://shopify/ProductVariant/67989654995038",
+      "38": "gid://shopify/ProductVariant/67989655027806",
+      "40": "gid://shopify/ProductVariant/67989655060574",
+      "42": "gid://shopify/ProductVariant/67989655093342",
+      "44": "gid://shopify/ProductVariant/67989655126110"
+    }
+  },
+  "rock-159-dark-indigo": {
+    "websiteHandle": "rock-159-dark-indigo",
+    "websiteName": "Rock Baggy Jean — Dark Indigo",
+    "shopifyHandle": "rock-159-dark-indigo",
+    "shopifyId": "gid://shopify/Product/15513458737246",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Dark Indigo",
+    "type": "Rock",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989652996190",
+      "32": "gid://shopify/ProductVariant/67989653028958",
+      "34": "gid://shopify/ProductVariant/67989653061726",
+      "36": "gid://shopify/ProductVariant/67989653094494",
+      "38": "gid://shopify/ProductVariant/67989653127262",
+      "40": "gid://shopify/ProductVariant/67989653160030",
+      "42": "gid://shopify/ProductVariant/67989653192798",
+      "44": "gid://shopify/ProductVariant/67989653225566"
+    }
+  },
+  "brawny-5549-dark-navy": {
+    "websiteHandle": "brawny-5549-dark-navy",
+    "websiteName": "Brawny Straight Jean — Dark Navy",
+    "shopifyHandle": "brawny-5549-dark-navy",
+    "shopifyId": "gid://shopify/Product/15513458442334",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Dark Navy",
+    "type": "Brawny",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989650604126",
+      "32": "gid://shopify/ProductVariant/67989650636894",
+      "34": "gid://shopify/ProductVariant/67989650669662",
+      "36": "gid://shopify/ProductVariant/67989650702430",
+      "38": "gid://shopify/ProductVariant/67989650735198",
+      "40": "gid://shopify/ProductVariant/67989650767966",
+      "42": "gid://shopify/ProductVariant/67989650800734",
+      "44": "gid://shopify/ProductVariant/67989650833502"
+    }
+  },
+  "jazz-3190-black": {
+    "websiteHandle": "jazz-3190-black",
+    "websiteName": "Jazz Comfort Jean — Black",
+    "shopifyHandle": "jazz-3190-black",
+    "shopifyId": "gid://shopify/Product/15513458606174",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Black",
+    "type": "Jazz",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989651947614",
+      "32": "gid://shopify/ProductVariant/67989651980382",
+      "34": "gid://shopify/ProductVariant/67989652013150",
+      "36": "gid://shopify/ProductVariant/67989652045918",
+      "38": "gid://shopify/ProductVariant/67989652078686",
+      "40": "gid://shopify/ProductVariant/67989652111454",
+      "42": "gid://shopify/ProductVariant/67989652144222",
+      "44": "gid://shopify/ProductVariant/67989652176990"
+    }
+  },
+  "brawny-5547-dark-indigo": {
+    "websiteHandle": "brawny-5547-dark-indigo",
+    "websiteName": "Brawny Straight Jean — Dark Indigo",
+    "shopifyHandle": "brawny-5547-dark-indigo",
+    "shopifyId": "gid://shopify/Product/15513458311262",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Dark Indigo",
+    "type": "Brawny",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989649784926",
+      "32": "gid://shopify/ProductVariant/67989649817694",
+      "34": "gid://shopify/ProductVariant/67989649850462",
+      "36": "gid://shopify/ProductVariant/67989649883230",
+      "38": "gid://shopify/ProductVariant/67989649915998",
+      "40": "gid://shopify/ProductVariant/67989649948766",
+      "42": "gid://shopify/ProductVariant/67989649981534",
+      "44": "gid://shopify/ProductVariant/67989650014302"
+    }
+  },
+  "rock-166-raw-wash": {
+    "websiteHandle": "rock-166-raw-wash",
+    "websiteName": "Rock Baggy Jean — Raw Wash",
+    "shopifyHandle": "rock-166-raw-wash",
+    "shopifyId": "gid://shopify/Product/15513458671710",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Raw Wash",
+    "type": "Rock",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989652471902",
+      "32": "gid://shopify/ProductVariant/67989652504670",
+      "34": "gid://shopify/ProductVariant/67989652537438",
+      "36": "gid://shopify/ProductVariant/67989652570206",
+      "38": "gid://shopify/ProductVariant/67989652602974",
+      "40": "gid://shopify/ProductVariant/67989652635742",
+      "42": "gid://shopify/ProductVariant/67989652668510",
+      "44": "gid://shopify/ProductVariant/67989652701278"
+    }
+  },
+  "jazz-3214-mid-blue": {
+    "websiteHandle": "jazz-3214-mid-blue",
+    "websiteName": "Jazz Comfort Jean — Mid Blue",
+    "shopifyHandle": "jazz-3214-mid-blue",
+    "shopifyId": "gid://shopify/Product/15513458475102",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Mid Blue",
+    "type": "Jazz",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989650899038",
+      "32": "gid://shopify/ProductVariant/67989650931806",
+      "34": "gid://shopify/ProductVariant/67989650964574",
+      "36": "gid://shopify/ProductVariant/67989650997342",
+      "38": "gid://shopify/ProductVariant/67989651030110",
+      "40": "gid://shopify/ProductVariant/67989651062878",
+      "42": "gid://shopify/ProductVariant/67989651095646",
+      "44": "gid://shopify/ProductVariant/67989651128414"
+    }
+  },
+  "brawny-5462-navy": {
+    "websiteHandle": "brawny-5462-navy",
+    "websiteName": "Brawny Straight Jean — Navy",
+    "shopifyHandle": "brawny-5462-navy",
+    "shopifyId": "gid://shopify/Product/15513458180190",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Navy",
+    "type": "Brawny",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989648736350",
+      "32": "gid://shopify/ProductVariant/67989648769118",
+      "34": "gid://shopify/ProductVariant/67989648801886",
+      "36": "gid://shopify/ProductVariant/67989648834654",
+      "38": "gid://shopify/ProductVariant/67989648867422",
+      "40": "gid://shopify/ProductVariant/67989648900190",
+      "42": "gid://shopify/ProductVariant/67989648932958",
+      "44": "gid://shopify/ProductVariant/67989648965726"
+    }
+  },
+  "joggers-2001-black": {
+    "websiteHandle": "joggers-2001-black",
+    "websiteName": "Denim Jogger — Black",
+    "shopifyHandle": "joggers-2001-black",
+    "shopifyId": "gid://shopify/Product/15513458081886",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Black",
+    "type": "Joggers",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989647917150",
+      "32": "gid://shopify/ProductVariant/67989647949918",
+      "34": "gid://shopify/ProductVariant/67989647982686",
+      "36": "gid://shopify/ProductVariant/67989648015454",
+      "38": "gid://shopify/ProductVariant/67989648048222",
+      "40": "gid://shopify/ProductVariant/67989648080990",
+      "42": "gid://shopify/ProductVariant/67989648113758",
+      "44": "gid://shopify/ProductVariant/67989648146526"
+    }
+  },
+  "jazz-with-fleece-028-grease-black": {
+    "websiteHandle": "jazz-with-fleece-028-grease-black",
+    "websiteName": "Jazz With Fleece Comfort Jean — Grease Black",
+    "shopifyHandle": "jazz-with-fleece-028-grease-black",
+    "shopifyId": "gid://shopify/Product/15513458966622",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Grease Black",
+    "type": "Jazz With Fleece",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989654634590",
+      "32": "gid://shopify/ProductVariant/67989654667358",
+      "34": "gid://shopify/ProductVariant/67989654700126",
+      "36": "gid://shopify/ProductVariant/67989654732894",
+      "38": "gid://shopify/ProductVariant/67989654765662",
+      "40": "gid://shopify/ProductVariant/67989654798430",
+      "42": "gid://shopify/ProductVariant/67989654831198",
+      "44": "gid://shopify/ProductVariant/67989654863966"
+    }
+  },
+  "rock-163-dark-navy": {
+    "websiteHandle": "rock-163-dark-navy",
+    "websiteName": "Rock Baggy Jean — Dark Navy",
+    "shopifyHandle": "rock-163-dark-navy",
+    "shopifyId": "gid://shopify/Product/15513458704478",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Dark Navy",
+    "type": "Rock",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989652734046",
+      "32": "gid://shopify/ProductVariant/67989652766814",
+      "34": "gid://shopify/ProductVariant/67989652799582",
+      "36": "gid://shopify/ProductVariant/67989652832350",
+      "38": "gid://shopify/ProductVariant/67989652865118",
+      "40": "gid://shopify/ProductVariant/67989652897886",
+      "42": "gid://shopify/ProductVariant/67989652930654",
+      "44": "gid://shopify/ProductVariant/67989652963422"
+    }
+  },
+  "joggers-2002-indigo": {
+    "websiteHandle": "joggers-2002-indigo",
+    "websiteName": "Denim Jogger — Indigo",
+    "shopifyHandle": "joggers-2002-indigo",
+    "shopifyId": "gid://shopify/Product/15513458147422",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Indigo",
+    "type": "Joggers",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989648474206",
+      "32": "gid://shopify/ProductVariant/67989648506974",
+      "34": "gid://shopify/ProductVariant/67989648539742",
+      "36": "gid://shopify/ProductVariant/67989648572510",
+      "38": "gid://shopify/ProductVariant/67989648605278",
+      "40": "gid://shopify/ProductVariant/67989648638046",
+      "42": "gid://shopify/ProductVariant/67989648670814",
+      "44": "gid://shopify/ProductVariant/67989648703582"
+    }
+  },
+  "jazz-with-fleece-033-mid-blue": {
+    "websiteHandle": "jazz-with-fleece-033-mid-blue",
+    "websiteName": "Jazz With Fleece Comfort Jean — Mid Blue",
+    "shopifyHandle": "jazz-with-fleece-033-mid-blue",
+    "shopifyId": "gid://shopify/Product/15513458933854",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Mid Blue",
+    "type": "Jazz With Fleece",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989654372446",
+      "32": "gid://shopify/ProductVariant/67989654405214",
+      "34": "gid://shopify/ProductVariant/67989654437982",
+      "36": "gid://shopify/ProductVariant/67989654470750",
+      "38": "gid://shopify/ProductVariant/67989654503518",
+      "40": "gid://shopify/ProductVariant/67989654536286",
+      "42": "gid://shopify/ProductVariant/67989654569054",
+      "44": "gid://shopify/ProductVariant/67989654601822"
+    }
+  },
+  "joggers-2003-tinted-indigo": {
+    "websiteHandle": "joggers-2003-tinted-indigo",
+    "websiteName": "Denim Jogger — Tinted Indigo",
+    "shopifyHandle": "joggers-2003-tinted-indigo",
+    "shopifyId": "gid://shopify/Product/15513458114654",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Tinted Indigo",
+    "type": "Joggers",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989648212062",
+      "32": "gid://shopify/ProductVariant/67989648244830",
+      "34": "gid://shopify/ProductVariant/67989648277598",
+      "36": "gid://shopify/ProductVariant/67989648310366",
+      "38": "gid://shopify/ProductVariant/67989648343134",
+      "40": "gid://shopify/ProductVariant/67989648375902",
+      "42": "gid://shopify/ProductVariant/67989648408670",
+      "44": "gid://shopify/ProductVariant/67989648441438"
+    }
+  },
+  "hulk-32004-ice-berg": {
+    "websiteHandle": "hulk-32004-ice-berg",
+    "websiteName": "Hulk Super Baggy Jean — Ice Berg",
+    "shopifyHandle": "hulk-32004-ice-berg",
+    "shopifyId": "gid://shopify/Product/15513458868318",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Ice Berg",
+    "type": "Hulk",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989653848158",
+      "32": "gid://shopify/ProductVariant/67989653880926",
+      "34": "gid://shopify/ProductVariant/67989653913694",
+      "36": "gid://shopify/ProductVariant/67989653946462",
+      "38": "gid://shopify/ProductVariant/67989653979230",
+      "40": "gid://shopify/ProductVariant/67989654011998",
+      "42": "gid://shopify/ProductVariant/67989654044766",
+      "44": "gid://shopify/ProductVariant/67989654077534"
+    }
+  },
+  "brawny-5484-black": {
+    "websiteHandle": "brawny-5484-black",
+    "websiteName": "Brawny Straight Jean 5484 — Black",
+    "shopifyHandle": "brawny-5484-black",
+    "shopifyId": "gid://shopify/Product/15513458344030",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Black",
+    "type": "Brawny",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989650047070",
+      "32": "gid://shopify/ProductVariant/67989650079838",
+      "34": "gid://shopify/ProductVariant/67989650112606",
+      "36": "gid://shopify/ProductVariant/67989650145374",
+      "38": "gid://shopify/ProductVariant/67989650178142",
+      "40": "gid://shopify/ProductVariant/67989650210910",
+      "42": "gid://shopify/ProductVariant/67989650243678",
+      "44": "gid://shopify/ProductVariant/67989650276446"
+    }
+  },
+  "brawny-5464-off-white": {
+    "websiteHandle": "brawny-5464-off-white",
+    "websiteName": "Brawny Straight Jean — Off-White",
+    "shopifyHandle": "brawny-5464-off-white",
+    "shopifyId": "gid://shopify/Product/15513458278494",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Off-White",
+    "type": "Brawny",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989649522782",
+      "32": "gid://shopify/ProductVariant/67989649555550",
+      "34": "gid://shopify/ProductVariant/67989649588318",
+      "36": "gid://shopify/ProductVariant/67989649621086",
+      "38": "gid://shopify/ProductVariant/67989649653854",
+      "40": "gid://shopify/ProductVariant/67989649686622",
+      "42": "gid://shopify/ProductVariant/67989649719390",
+      "44": "gid://shopify/ProductVariant/67989649752158"
+    }
+  },
+  "hulk-32001-coal": {
+    "websiteHandle": "hulk-32001-coal",
+    "websiteName": "Hulk Super Baggy Jean — Coal",
+    "shopifyHandle": "hulk-32001-coal",
+    "shopifyId": "gid://shopify/Product/15513458835550",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Coal",
+    "type": "Hulk",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989653586014",
+      "32": "gid://shopify/ProductVariant/67989653618782",
+      "34": "gid://shopify/ProductVariant/67989653651550",
+      "36": "gid://shopify/ProductVariant/67989653684318",
+      "38": "gid://shopify/ProductVariant/67989653717086",
+      "40": "gid://shopify/ProductVariant/67989653749854",
+      "42": "gid://shopify/ProductVariant/67989653782622",
+      "44": "gid://shopify/ProductVariant/67989653815390"
+    }
+  },
+  "brawny-5461-black": {
+    "websiteHandle": "brawny-5461-black",
+    "websiteName": "Brawny Straight Jean 5461 — Black",
+    "shopifyHandle": "brawny-5461-black",
+    "shopifyId": "gid://shopify/Product/15513458212958",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "color": "Black",
+    "type": "Brawny",
+    "price": 2199,
+    "shopifyVariantIds": {
+      "30": "gid://shopify/ProductVariant/67989648998494",
+      "32": "gid://shopify/ProductVariant/67989649031262",
+      "34": "gid://shopify/ProductVariant/67989649064030",
+      "36": "gid://shopify/ProductVariant/67989649096798",
+      "38": "gid://shopify/ProductVariant/67989649129566",
+      "40": "gid://shopify/ProductVariant/67989649162334",
+      "42": "gid://shopify/ProductVariant/67989649195102",
+      "44": "gid://shopify/ProductVariant/67989649227870"
+    }
+  }
+}
